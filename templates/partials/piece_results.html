@@ -1,0 +1,4 @@
+{% load i18n %}
+<div id="piece-results"><p class="result-count">{% translate "Resultados" %} <strong>{{ page.paginator.count }}</strong></p><div class="grid piece-grid">{% for piece in pieces %}{% include 'partials/piece_card.html' %}{% empty %}<div class="empty">{% if request.GET.q or request.GET.stage or request.GET.tag %}<h3>{% translate "No hay piezas con esos filtros." %}</h3><p>{% translate "Prueba otra búsqueda o vuelve a ver tu cuaderno completo." %}</p><a class="secondary" href="{% url 'pieces' %}">{% translate "Limpiar filtros" %}</a>{% else %}<h3>{% translate "Aquí todavía no hay piezas." %}</h3><p>{% translate "Empieza con esa pieza que tienes entre manos." %}</p><a class="primary" href="{% url 'piece_new' %}">{% translate "Crear una pieza" %}</a>{% endif %}</div>{% endfor %}</div>{% include 'partials/pagination.html' %}</div>
+
+{% if refresh_tag_filter %}{% include 'partials/tag_filter.html' with tag_oob=True %}{% endif %}

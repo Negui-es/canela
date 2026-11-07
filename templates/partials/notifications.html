@@ -1,0 +1,18 @@
+{% load i18n %}
+{% if messages %}
+<div class="notifications" aria-label="{% translate 'Notificaciones' %}">
+  {% for message in messages %}
+  <div class="notification {% if 'error' in message.tags %}notification-error{% endif %}"
+       role="{% if 'error' in message.tags %}alert{% else %}status{% endif %}"
+       data-notification data-autoclose="{% if 'error' in message.tags or 'warning' in message.tags %}false{% else %}true{% endif %}">
+    <span class="notification-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        {% if 'error' in message.tags %}<circle cx="12" cy="12" r="9"/><path d="M12 7v6m0 4h.01"/>{% else %}<path d="m7 12 3 3 7-7"/><circle cx="12" cy="12" r="9"/>{% endif %}
+      </svg>
+    </span>
+    <p>{{ message }}</p>
+    <button class="notification-dismiss" type="button" aria-label="{% translate 'Cerrar notificación' %}" data-dismiss-notification><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="m6 6 8 8m0-8-8 8"/></svg></button>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

@@ -1,0 +1,11 @@
+{% load i18n %}
+<nav aria-label="{% translate 'Principal' %}" class="space-navigation">
+<div class="nav-label">{% translate 'MI ESPACIO' %}</div>
+<a href="{% url 'dashboard' %}" class="{% if section == 'dashboard' %}active{% endif %}" {% if section == 'dashboard' %}aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='home' %}<span class="nav-text">{% translate 'Inicio' %}</span></a>
+<a href="{% url 'pieces' %}" class="{% if section == 'pieces' %}active{% endif %}" {% if section == 'pieces' %}aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='pieces' %}<span class="nav-text">{% translate 'Mis piezas' %}</span><b>{{ piece_count }}</b></a>
+<a href="{% url 'glazes' %}" class="{% if section == 'glazes' or section == 'molds' %}active{% endif %}" {% if section == 'glazes' or section == 'molds' %}aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='materials' %}<span class="nav-text">{% translate 'Materiales' %}</span></a>
+<a href="{% url 'galleries' %}" class="{% if section == 'galleries' %}active{% endif %}" {% if section == 'galleries' %}aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='galleries' %}<span class="nav-text">{% translate 'Galerías' %}</span></a>
+
+<a href="{% url 'workshops' %}" class="{% if section == 'workshops' or section == 'circles' %}active{% endif %}" {% if section == 'workshops' or section == 'circles' %}aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='groups' %}<span class="nav-text">{% translate 'Talleres' %}</span></a>
+<a href="{% url 'inspiration' %}" class="{% if section == 'inspiration' %}active{% endif %}" {% if section == 'inspiration' %}aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='inspiration' %}<span class="nav-text">{% translate 'Inspiración' %}</span></a>
+{% if nav_admin_workshop_tree %}<section class="workshop-navigation"><ul class="workshop-tree">{% for node in nav_admin_workshop_tree %}{% include 'partials/workshop_navigation_node.html' %}{% endfor %}</ul></section>{% endif %}</nav>

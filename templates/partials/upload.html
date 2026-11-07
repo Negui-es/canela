@@ -1,0 +1,23 @@
+{% load i18n %}
+<div class="upload-widget" data-uploader>
+  {% if not hide_label %}<div class="upload-field-label">{{ field.label }}</div>{% endif %}
+  <div class="upload-native">{{ field }}</div>
+  <div class="upload-enhanced">
+    <div class="upload-dropzone" data-dropzone>
+      <span class="upload-symbol" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="5" width="24" height="22" rx="5"/><circle cx="11" cy="12" r="2"/><path d="m5 23 7-7 5 5 4-4 6 6"/><path d="M25 1v8M21 5h8"/></svg></span>
+      <strong class="desktop-upload-copy">{% translate "Arrastra tus fotos aquí" %}</strong>
+      <strong class="mobile-upload-copy">{{ mobile_title|default:_("Fotos para recordar cada detalle") }}</strong>
+      <p class="desktop-upload-copy">{% translate "o selecciónalas desde tu ordenador" %}</p>
+      <div class="upload-buttons">
+        <button type="button" class="upload-camera" data-camera><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m8 5 1-2h6l1 2h3a2 2 0 0 1 2 2v12H3V7a2 2 0 0 1 2-2z"/><circle cx="12" cy="12" r="4"/></svg>{% translate "Sacar foto" %}</button>
+        <button type="button" class="upload-choose" data-choose><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.5"/><path d="m3 18 6-6 4 4 3-3 5 5"/></svg><span class="desktop-upload-copy">{% translate "Elegir fotos" %}</span><span class="mobile-upload-copy">{% translate "Desde galería" %}</span></button>
+      </div>
+    </div>
+    <input type="file" accept="image/jpeg,image/png,image/webp" capture="environment" class="camera-input" data-camera-input tabindex="-1" aria-hidden="true">
+    <div class="upload-meta"><span>{% translate "JPG, PNG o WebP · Máx. 5 MB por foto" %}</span><span data-photo-count aria-live="polite">0 / 4</span></div>
+    <p class="upload-error" data-upload-error role="alert" hidden></p>
+    <div class="upload-previews" data-upload-previews></div>
+  </div>
+  {% for error in field.errors %}<div class="field-error" role="alert">{{ error }}</div>{% endfor %}
+  {% if form.is_bound and form.errors %}<p class="help">{% translate "Si habías seleccionado fotos, vuelve a añadirlas antes de guardar." %}</p>{% endif %}
+</div>

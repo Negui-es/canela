@@ -1,0 +1,19 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading editor-heading"><div><a class="back-link" href="{% url kind material.pk %}">{% translate '← Volver al material' %}</a><h1>{{ title }}</h1></div></section>
+<section class="panel deletion-card" aria-labelledby="delete-title">
+  <h2 id="delete-title">{% blocktranslate with value0=material.name %}¿Eliminar «{{ value0 }}»?{% endblocktranslate %}</h2>
+  {% if blocked %}
+  <p class="deletion-impact" role="status">{% translate 'Este material está vinculado a piezas u otros registros que deben conservarse. No se puede eliminar mientras existan esos vínculos.' %}</p>
+  <div class="action-row deletion-actions"><a class="secondary" href="{% url kind material.pk %}">{% translate 'Volver al material' %}</a></div>
+  {% else %}
+  <span class="eyebrow">{% translate 'ELIMINACIÓN DEFINITIVA' %}</span>
+  <p class="detail-text">{% if kind == 'mold' %}{% translate 'Se eliminarán la ficha del molde y sus fotografías. No podrás recuperarlos desde Canela.' %}{% else %}{% translate 'Se eliminarán la ficha del material, sus recetas, sus pruebas y sus fotografías. No podrás recuperarlos desde Canela.' %}{% endif %}</p>
+  {% if material.group_id %}<p class="detail-text">{% translate 'También dejará de estar disponible para los miembros del taller.' %}</p>{% endif %}
+  <form method="post">{% csrf_token %}
+    {% if confirmation_error %}<p class="field-error" role="alert">{% translate 'Confirma que quieres eliminar este material para continuar.' %}</p>{% endif %}
+    <label class="delete-confirm"><input type="checkbox" name="confirm_delete" value="yes" required><span>{% translate 'Entiendo que esta acción es definitiva y quiero eliminar este material.' %}</span></label>
+    <div class="action-row deletion-actions"><a class="secondary" href="{% url kind material.pk %}">{% translate 'Conservar material' %}</a><button class="danger-button" type="submit">{% translate 'Eliminar definitivamente' %}</button></div>
+  </form>
+  {% endif %}
+</section>
+{% endblock %}

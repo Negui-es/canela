@@ -1,0 +1,4 @@
+{% if piece.tags.all %}<div class="piece-tags">
+{% if compact %}{% for tag in piece.tags.all|slice:':4' %}<span class="tag-pill">{{ tag.name }}</span>{% endfor %}
+{% else %}{% for tag in piece.tags.all %}<a class="tag-pill" href="{% url 'pieces' %}?scope=shared&amp;tag={{ tag.name|urlencode }}">{{ tag.name }}</a>{% endfor %}{% endif %}
+</div>{% endif %}

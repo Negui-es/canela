@@ -1,0 +1,24 @@
+.material-section { margin-top: 20px; }
+.material-section .editor-section-heading h2 { display: flex; align-items: center; gap: 9px; }
+.material-section-icon { display: inline-flex; color: #a5683e; }
+.material-section-icon svg { width: 22px; height: 22px; }
+.material-section .text-button { display: inline-block; margin-top: 12px; }
+.gallery-picker { min-width: 0; margin-top: 16px; }
+.sharing-card #piece-galleries { min-width: 0; margin: 0; padding: 0; border: 0; }
+.sharing-card #piece-galleries legend { padding: 0; margin-bottom: 8px; font-size: 16px; font-weight: 600; color: #493428; }
+.gallery-picker select[multiple]:not(.select-native) { width: 100%; min-height: 160px; }
+.gallery-selection { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.gallery-selection li { display: flex; align-items: center; gap: 8px; max-width: 100%; padding: 3px 4px 3px 12px; border: 1px solid #ddc8b1; border-radius: 12px; background: #f5eadb; color: #68442c; font-size: 13px; line-height: 1.5; }
+.gallery-selection li span { min-width: 0; overflow-wrap: anywhere; }
+.gallery-selection button { flex-shrink: 0; display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 8px; background: transparent; color: inherit; font-size: 23px; }
+.gallery-selection button:hover { background: #e9d8c3; }
+.gallery-selection button:focus-visible { outline: 2px solid #a5683e; outline-offset: 1px; }
+.gallery-selection-status { margin: 10px 0 12px; color: #806b59; font-size: 12px; line-height: 1.5; }
+.gallery-add { justify-content: center; border-style: dashed; }
+.gallery-menu[hidden] { display: none; }
+.gallery-menu .select-options { max-height: 260px; }
+@media(max-width:600px) {
+  .gallery-selection li { font-size: 14px; }
+  .gallery-selection button { width: 44px; height: 44px; }
+  .gallery-menu .select-search { font-size: 16px; }
+}

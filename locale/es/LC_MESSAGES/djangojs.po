@@ -1,0 +1,218 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Canela\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, python-format
+msgid "%(count)s esmalte seleccionado"
+msgid_plural "%(count)s esmaltes seleccionados"
+msgstr[0] "%(count)s esmalte seleccionado"
+msgstr[1] "%(count)s esmaltes seleccionados"
+
+#, python-format
+msgid "%(count)s foto seleccionada"
+msgid_plural "%(count)s fotos seleccionadas"
+msgstr[0] "%(count)s foto seleccionada"
+msgstr[1] "%(count)s fotos seleccionadas"
+
+#, python-format
+msgid "%(value0)s · Foto %(value1)s"
+msgstr "%(value0)s · Foto %(value1)s"
+
+msgid "Acercar"
+msgstr "Acercar"
+
+msgid "Alejar"
+msgstr "Alejar"
+
+msgid "Cada foto debe ocupar menos de 5 MB."
+msgstr "Cada foto debe ocupar menos de 5 MB."
+
+msgid "Cambios pendientes de guardar"
+msgstr "Cambios pendientes de guardar"
+
+msgid "Cerrar visor"
+msgstr "Cerrar visor"
+
+#, python-format
+msgid "Compartida con %(count)s grupo"
+msgid_plural "Compartida con %(count)s grupos"
+msgstr[0] "Compartida con %(count)s grupo"
+msgstr[1] "Compartida con %(count)s grupos"
+
+msgid "Enlace copiado"
+msgstr "Enlace copiado"
+
+#, python-format
+msgid "Foto %(value0)s"
+msgstr "Foto %(value0)s"
+
+msgid "Foto anterior"
+msgstr "Foto anterior"
+
+msgid "Foto siguiente"
+msgstr "Foto siguiente"
+
+msgid "Fotografía"
+msgstr "Fotografía"
+
+msgid "Ingredientes y pruebas"
+msgstr "Ingredientes y pruebas"
+
+msgid ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"esmalte."
+msgstr ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"esmalte."
+
+msgid ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"esmalte."
+msgstr ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"esmalte."
+
+#, python-format
+msgid "Mover foto %(value0)s antes"
+msgstr "Mover foto %(value0)s antes"
+
+#, python-format
+msgid "Mover foto %(value0)s después"
+msgstr "Mover foto %(value0)s después"
+
+msgid "No se puede cargar esta foto."
+msgstr "No se puede cargar esta foto."
+
+msgid "Pruebas de aplicación"
+msgstr "Pruebas de aplicación"
+
+msgid "Puedes subir hasta 4 fotos cada vez."
+msgstr "Puedes subir hasta 4 fotos cada vez."
+
+#, python-format
+msgid "Quitar %(name)s"
+msgstr "Quitar %(name)s"
+
+msgid "Restablecer zoom"
+msgstr "Restablecer zoom"
+
+msgid "Selecciona y copia el enlace."
+msgstr "Selecciona y copia el enlace."
+
+msgid "Sin esmaltes asignados. Puedes añadirlos más adelante."
+msgstr "Sin esmaltes asignados. Puedes añadirlos más adelante."
+
+msgid "Usa imágenes JPG, PNG o WebP."
+msgstr "Usa imágenes JPG, PNG o WebP."
+
+msgid "Visor de fotografías"
+msgstr "Visor de fotografías"
+
+msgid ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"material."
+msgstr ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"material."
+
+msgid ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"material."
+msgstr ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"material."
+
+msgid "Sin materiales asignados. Puedes añadirlos más adelante."
+msgstr "Sin materiales asignados. Puedes añadirlos más adelante."
+
+msgid "%(count)s material seleccionado"
+msgid_plural "%(count)s materiales seleccionados"
+msgstr[0] "%(count)s material seleccionado"
+msgstr[1] "%(count)s materiales seleccionados"
+
+msgid "Por ejemplo, engobe azul"
+msgstr "Por ejemplo, engobe azul"
+
+msgid "Por ejemplo, gres blanco con chamota"
+msgstr "Por ejemplo, gres blanco con chamota"
+
+msgid "Por ejemplo, blanco avena"
+msgstr "Por ejemplo, blanco avena"
+
+msgid "Selecciona una opción"
+msgstr "Selecciona una opción"
+
+msgid "Buscar opciones"
+msgstr "Buscar opciones"
+
+msgid "No hay opciones con ese nombre."
+msgstr "No hay opciones con ese nombre."
+
+msgid "Revisa estos campos antes de guardar"
+msgstr "Revisa estos campos antes de guardar"
+
+msgid "Las fotos nuevas se añaden a las guardadas."
+msgstr "Las fotos nuevas se añaden a las guardadas."
+
+msgid ""
+"Añade los ingredientes de tu receta. Los porcentajes deben sumar 100 %."
+msgstr ""
+"Añade los ingredientes de tu receta. Los porcentajes deben sumar 100 %."
+
+msgid "Añadir ingrediente"
+msgstr "Añadir ingrediente"
+
+msgid "Ingrediente"
+msgstr "Ingrediente"
+
+msgid "Porcentaje"
+msgstr "Porcentaje"
+
+msgid "Quitar ingrediente"
+msgstr "Quitar ingrediente"
+
+msgid "Se retirará a %(name)s de este grupo. Sus piezas se conservan."
+msgstr "Se retirará a %(name)s de este grupo. Sus piezas se conservan."
+
+msgid "Confirmar retirada"
+msgstr "Confirmar retirada"
+
+msgid ""
+"Este nombre acompaña a tus piezas compartidas. Si lo dejas vacío, se muestra"
+" tu usuario."
+msgstr ""
+"Este nombre acompaña a tus piezas compartidas. Si lo dejas vacío, se muestra"
+" tu usuario."
+
+msgid "Mostrar"
+msgstr "Mostrar"
+
+msgid "Ocultar"
+msgstr "Ocultar"
+
+msgid "Mostrar contraseña"
+msgstr "Mostrar contraseña"
+
+msgid "Ocultar contraseña"
+msgstr "Ocultar contraseña"
+
+msgid "Cambios sin guardar"
+msgstr "Cambios sin guardar"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Los porcentajes deben sumar 100 %."
+msgstr "Los porcentajes deben sumar 100 %."
+
+msgid "No se pudo actualizar la búsqueda. Vuelve a intentarlo."
+msgstr "No se pudo actualizar la búsqueda. Vuelve a intentarlo."
+
+msgid "Resultados"
+msgstr "Resultados"

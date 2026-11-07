@@ -1,0 +1,3165 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Canela\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#, python-format
+msgid "%(counter)s capa"
+msgid_plural "%(counter)s capas"
+msgstr[0] "%(counter)s couche"
+msgstr[1] "%(counter)s couches"
+
+#, python-format
+msgid "%(counter)s foto"
+msgid_plural "%(counter)s fotos"
+msgstr[0] "%(counter)s photo"
+msgstr[1] "%(counter)s photos"
+
+#, python-format
+msgid "%(counter)s miembro"
+msgid_plural "%(counter)s miembros"
+msgstr[0] "%(counter)s membre"
+msgstr[1] "%(counter)s membres"
+
+#, python-format
+msgid "%(counter)s pieza"
+msgid_plural "%(counter)s piezas"
+msgstr[0] "%(counter)s pièce"
+msgstr[1] "%(counter)s pièces"
+
+#, python-format
+msgid "%(counter)s prueba"
+msgid_plural "%(counter)s pruebas"
+msgstr[0] "%(counter)s essai"
+msgstr[1] "%(counter)s essais"
+
+#, python-format
+msgid "%(person)s te invita a Canela."
+msgstr "%(person)s vous invite sur Canela."
+
+#, python-format
+msgid "%(person)s te invita al grupo «%(group)s»."
+msgstr "%(person)s vous invite dans le groupe « %(group)s »."
+
+#, python-format
+msgid "%(value0)s fotos disponibles"
+msgstr "%(value0)s photos disponibles"
+
+#, python-format
+msgid "%(value0)s g"
+msgstr "%(value0)s g"
+
+#, python-format
+msgid "%(value0)s °C · %(value1)s"
+msgstr "%(value0)s °C · %(value1)s"
+
+#, python-format
+msgid "%(value0)s · %(value1)s · Canela"
+msgstr "%(value0)s · %(value1)s · Canela"
+
+#, python-format
+msgid "%(value0)s · Canela"
+msgstr "%(value0)s · Canela"
+
+#, python-format
+msgid "%(value0)s · Desde %(value1)s"
+msgstr "%(value0)s · Depuis le %(value1)s"
+
+#, python-format
+msgid "%(value0)s · Foto %(value1)s"
+msgstr "%(value0)s · Photo %(value1)s"
+
+msgid "AQUÍ EMPIEZA CANELA"
+msgstr "CANELA COMMENCE ICI"
+
+msgid "Abre tu propio taller."
+msgstr "Créez votre atelier."
+
+msgid "Abrir colección ↗"
+msgstr "Ouvrir la collection ↗"
+
+msgid "Abrir ficha ↗"
+msgstr "Ouvrir la fiche ↗"
+
+msgid "Acabado"
+msgstr "Finition"
+
+msgid "Acceso privado"
+msgstr "Accès privé"
+
+msgid "Aceptar invitación"
+msgstr "Accepter l’invitation"
+
+msgid "Activa JavaScript para calcular"
+msgstr "Activez JavaScript pour calculer"
+
+msgid "Ajustes de la galería"
+msgstr "Paramètres de la galerie"
+
+msgid "Antes de despedirnos de esta pieza, revisa lo que se eliminará."
+msgstr "Avant de supprimer cette pièce, vérifiez ce qui sera effacé."
+
+msgid "Aplicación / atmósfera"
+msgstr "Application / atmosphère"
+
+msgid "Aplicación de esmalte eliminada."
+msgstr "Application d’émail supprimée."
+
+msgid "Aplicación de esmalte guardada."
+msgstr "Application d’émail enregistrée."
+
+msgid "Aplicación y orden"
+msgstr "Application et ordre"
+
+msgid "Aquí aparecerán las piezas que hayas vinculado y que puedas consultar."
+msgstr "Les pièces associées auxquelles vous avez accès apparaîtront ici."
+
+msgid "Aquí todavía no hay piezas."
+msgstr "Aucune pièce pour le moment."
+
+msgid "Arrastra tus fotos aquí"
+msgstr "Glissez vos photos ici"
+
+msgid "Avance actualizado."
+msgstr "Entrée du suivi modifiée."
+
+msgid "Avance añadido."
+msgstr "Entrée du suivi ajoutée."
+
+msgid "Avance eliminado."
+msgstr "Entrée du suivi supprimée."
+
+msgid ""
+"Añade los ingredientes de tu primera receta. El total se validará al "
+"guardar."
+msgstr ""
+"Ajoutez les ingrédients de votre première recette. Le total sera vérifié à "
+"l’enregistrement."
+
+msgid "Añade uno a tu biblioteca ↗"
+msgstr "En ajouter un à la bibliothèque ↗"
+
+msgid "Añadir a alguien"
+msgstr "Ajouter une personne"
+
+msgid "Añadir a la galería"
+msgstr "Ajouter à la galerie"
+
+msgid "Añadir avance"
+msgstr "Ajouter au suivi"
+
+msgid "Añadir esmalte"
+msgstr "Ajouter un émail"
+
+msgid "Añadir fotografías"
+msgstr "Ajouter des photos"
+
+msgid "Añadir fotos"
+msgstr "Ajouter des photos"
+
+msgid "Añadir la primera pieza"
+msgstr "Ajouter la première pièce"
+
+msgid "Añadir mi primer esmalte"
+msgstr "Ajouter mon premier émail"
+
+msgid "Añadir mi primer molde"
+msgstr "Ajouter mon premier moule"
+
+msgid "Añadir una pieza"
+msgstr "Ajouter une pièce"
+
+msgid "Añadir usuario existente"
+msgstr "Ajouter un utilisateur existant"
+
+msgid "Aún no has añadido notas."
+msgstr "Aucune note pour le moment."
+
+msgid ""
+"Aún no tienes grupos. Puedes crearlos en «Grupos» y compartir la pieza más "
+"adelante."
+msgstr ""
+"Vous n’avez pas encore de groupe. Créez-en un dans « Groupes » et partagez "
+"la pièce plus tard."
+
+msgid "BIBLIOTECA DE ESMALTES"
+msgstr "BIBLIOTHÈQUE D’ÉMAUX"
+
+msgid "BIENVENIDO A TU TALLER"
+msgstr "BIENVENUE DANS VOTRE ATELIER"
+
+msgid "Barro"
+msgstr "Terre"
+
+msgid "Barro / pasta"
+msgstr "Terre / pâte"
+
+msgid "Barro por elegir"
+msgstr "Terre non choisie"
+
+msgid "Barro por registrar"
+msgstr "Terre non renseignée"
+
+msgid "Bizcochada"
+msgstr "Biscuitée"
+
+msgid "Brillante"
+msgstr "Brillant"
+
+msgid "Buscando…"
+msgstr "Recherche…"
+
+msgid "Buscar"
+msgstr "Rechercher"
+
+msgid "Buscar esmaltes disponibles"
+msgstr "Rechercher les émaux disponibles"
+
+msgid "Buscar esmaltes…"
+msgstr "Rechercher un émail…"
+
+msgid "Buscar por nombre…"
+msgstr "Rechercher par nom…"
+
+#, python-format
+msgid "CANELA · %(value0)s"
+msgstr "CANELA · %(value0)s"
+
+msgid "COMPARTIDA CON GRUPOS"
+msgstr "PARTAGÉE AVEC DES GROUPES"
+
+msgid "COMPARTIR"
+msgstr "PARTAGE"
+
+msgid "CREAR EN COMPAÑÍA"
+msgstr "CRÉER ENSEMBLE"
+
+msgid "Cada foto debe ocupar menos de 5 MB."
+msgstr "Chaque photo doit faire moins de 5 Mo."
+
+msgid ""
+"Cada persona tendrá su propio cuaderno privado. El enlace de invitación "
+"permite crear una cuenta, caduca en 7 días y se utiliza una sola vez."
+msgstr ""
+"Chaque personne dispose d’un carnet privé. Le lien permet de créer un "
+"compte, expire après 7 jours et ne peut être utilisé qu’une fois."
+
+msgid "Cambiar contraseña"
+msgstr "Changer le mot de passe"
+
+msgid "Cancelar"
+msgstr "Annuler"
+
+msgid "Canela · Administración"
+msgstr "Canela · Administration"
+
+msgid "Canela · Mi taller"
+msgstr "Canela · Mon atelier"
+
+msgid "Canela · Tu cuaderno de taller"
+msgstr "Canela · Votre carnet d’atelier"
+
+msgid "Canela, inicio"
+msgstr "Canela, accueil"
+
+msgid "Cantidad"
+msgstr "Quantité"
+
+msgid "Cantidad (g)"
+msgstr "Quantité (g)"
+
+msgid "Capas"
+msgstr "Couches"
+
+msgid "Cerrar notificación"
+msgstr "Fermer la notification"
+
+msgid "Cerrar sesión"
+msgstr "Se déconnecter"
+
+msgid "Cerámica en tonos canela"
+msgstr "Céramiques aux tons cannelle"
+
+msgid "Colada"
+msgstr "Coulage"
+
+msgid "Color, textura, aplicación y observaciones…"
+msgstr "Couleur, texture, application et observations…"
+
+msgid "Comercial"
+msgstr "Du commerce"
+
+msgid "Compartida con:"
+msgstr "Partagée avec :"
+
+msgid "Compartido con grupos"
+msgstr "Partagé avec des groupes"
+
+msgid "Compartir con grupos"
+msgstr "Partager avec des groupes"
+
+msgid "Composición de piezas de cerámica en tonos canela"
+msgstr "Composition de pièces en céramique aux tons cannelle"
+
+msgid "Confirma la eliminación para continuar."
+msgstr "Confirmez la suppression pour continuer."
+
+msgid "Confirma que quieres eliminar esta pieza para continuar."
+msgstr "Confirmez la suppression de cette pièce pour continuer."
+
+msgid "Confirmar eliminación"
+msgstr "Confirmer la suppression"
+
+msgid "Consejos de uso"
+msgstr "Conseils d’utilisation"
+
+msgid "Conservar pieza"
+msgstr "Conserver la pièce"
+
+msgid "Copiar enlace"
+msgstr "Copier le lien"
+
+msgid "Correo electrónico"
+msgstr "Adresse e-mail"
+
+msgid ""
+"Crea tu cuenta para empezar. Después podrás invitar a tu pareja desde «Mi "
+"cuenta»."
+msgstr ""
+"Créez votre compte pour commencer. Vous pourrez ensuite inviter votre "
+"partenaire depuis « Mon compte »."
+
+msgid "Crea un grupo para compartir piezas, moldes y esmaltes con tu pareja."
+msgstr ""
+"Créez un groupe pour partager pièces, moules et émaux avec votre partenaire."
+
+msgid "Crea una colección privada y prepara con calma tu escaparate."
+msgstr "Créez une collection privée et préparez votre vitrine à votre rythme."
+
+msgid "Crear enlace de invitación"
+msgstr "Créer un lien d’invitation"
+
+msgid "Crear esmalte"
+msgstr "Créer un émail"
+
+msgid "Crear mi cuenta"
+msgstr "Créer mon compte"
+
+msgid "Crear mi primera pieza"
+msgstr "Créer ma première pièce"
+
+msgid "Crear mi taller →"
+msgstr "Créer mon atelier →"
+
+msgid "Crear molde"
+msgstr "Créer un moule"
+
+msgid "Crear pieza"
+msgstr "Créer une pièce"
+
+msgid "Crear un grupo no comparte automáticamente ninguna pieza."
+msgstr "Créer un groupe ne partage aucune pièce automatiquement."
+
+msgid "Crear una invitación"
+msgstr "Créer une invitation"
+
+msgid "Crear una pieza"
+msgstr "Créer une pièce"
+
+msgid "Cualquiera podrá verla sin iniciar sesión."
+msgstr "Tout le monde peut la voir sans se connecter."
+
+msgid "Cuenta algo sobre esta pieza, sin tus notas de trabajo."
+msgstr "Présentez cette pièce sans inclure vos notes d’atelier."
+
+msgid "De un poco de barro,"
+msgstr "D’un peu de terre,"
+
+msgid "Dejará de estar disponible para los grupos con los que la compartes."
+msgstr ""
+"Elle ne sera plus accessible aux groupes avec lesquels vous la partagez."
+
+msgid "Demasiados intentos. Espera 15 minutos antes de volver a entrar."
+msgstr "Trop de tentatives. Patientez 15 minutes avant de réessayer."
+
+msgid "Descripción"
+msgstr "Description"
+
+msgid "Descripción pública"
+msgstr "Description publique"
+
+msgid "Desde galería"
+msgstr "Depuis la galerie"
+
+msgid ""
+"Desde la ficha podrás detallar cantidades, capas y zonas de aplicación."
+msgstr ""
+"Vous pourrez préciser les quantités, couches et zones d’application depuis "
+"la fiche."
+
+msgid ""
+"Después podrás elegir sus fotos y preparar el texto que quieres mostrar."
+msgstr ""
+"Vous pourrez ensuite choisir ses photos et préparer le texte à afficher."
+
+msgid "Destino"
+msgstr "Destination"
+
+msgid "Detalles de aplicación"
+msgstr "Détails de l’application"
+
+msgid "Deteriorado"
+msgstr "Abîmé"
+
+msgid "Dimensiones"
+msgstr "Dimensions"
+
+msgid "Dimensiones que quieres mostrar"
+msgstr "Dimensions à afficher"
+
+msgid "Dimensiones y número de partes"
+msgstr "Dimensions et nombre de parties"
+
+msgid "Disponibilidad"
+msgstr "Disponibilité"
+
+msgid "Disponible"
+msgstr "Disponible"
+
+#, python-format
+msgid "EL TALLER DE %(value0)s"
+msgstr "L’ATELIER DE %(value0)s"
+
+msgid "ELIMINACIÓN DEFINITIVA"
+msgstr "SUPPRESSION DÉFINITIVE"
+
+msgid "Editar aplicación"
+msgstr "Modifier l’application"
+
+msgid "Editar avance"
+msgstr "Modifier le suivi"
+
+msgid "Editar esmalte"
+msgstr "Modifier l’émail"
+
+msgid "Editar ficha"
+msgstr "Modifier la fiche"
+
+msgid "Editar molde"
+msgstr "Modifier le moule"
+
+msgid "Editar pieza"
+msgstr "Modifier la pièce"
+
+msgid "Editar presentación"
+msgstr "Modifier la présentation"
+
+msgid "Editar presentación →"
+msgstr "Modifier la présentation →"
+
+msgid "El acceso depende también de la visibilidad de la galería."
+msgstr "L’accès dépend aussi de la visibilité de la galerie."
+
+msgid "El nombre que quieres mostrar"
+msgstr "Le nom à afficher"
+
+msgid ""
+"El taller es privado. Las altas de nuevas cuentas están cerradas por el "
+"momento."
+msgstr ""
+"L’atelier est privé. Les nouvelles inscriptions sont actuellement fermées."
+
+msgid "El taller es privado. Para crear una cuenta necesitas una invitación."
+msgstr ""
+"L’atelier est privé. Une invitation est nécessaire pour créer un compte."
+
+msgid "Elegir fotos"
+msgstr "Choisir des photos"
+
+msgid "Elige una pieza"
+msgstr "Choisir une pièce"
+
+msgid ""
+"Elige una pieza y prepara su presentación, sin publicar su ficha privada."
+msgstr ""
+"Choisissez une pièce et préparez sa présentation sans publier sa fiche "
+"privée."
+
+msgid "Eliminar aplicación"
+msgstr "Supprimer l’application"
+
+msgid "Eliminar aplicación de esmalte"
+msgstr "Supprimer l’application d’émail"
+
+msgid "Eliminar avance"
+msgstr "Supprimer l’entrée du suivi"
+
+msgid "Eliminar definitivamente"
+msgstr "Supprimer définitivement"
+
+msgid "Eliminar esta pieza"
+msgstr "Supprimer cette pièce"
+
+msgid "Eliminar foto"
+msgstr "Supprimer la photo"
+
+msgid "Eliminar fotografía"
+msgstr "Supprimer la photographie"
+
+msgid "Eliminar pieza"
+msgstr "Supprimer la pièce"
+
+msgid "Eliminar pieza →"
+msgstr "Supprimer la pièce →"
+
+msgid "Empieza con esa pieza que tienes entre manos."
+msgstr "Commencez par la pièce en cours."
+
+msgid "En crudo"
+msgstr "Crue"
+
+msgid "En proceso"
+msgstr "En cours"
+
+msgid "En uso"
+msgstr "En utilisation"
+
+msgid "Enlace de invitación"
+msgstr "Lien d’invitation"
+
+msgid "Enlace de la colección"
+msgstr "Lien de la collection"
+
+msgid "Entiendo que esta acción es definitiva y quiero eliminar esta pieza."
+msgstr ""
+"Je comprends que cette action est définitive et souhaite supprimer cette "
+"pièce."
+
+msgid "Entra y sigue dando forma a tus ideas."
+msgstr "Connectez-vous et continuez à donner forme à vos idées."
+
+msgid "Entrar en mi taller →"
+msgstr "Entrer dans mon atelier →"
+
+msgid "Entrar ↗"
+msgstr "Entrer ↗"
+
+#, python-format
+msgid "Entrarás como %(value0)s."
+msgstr "Vous rejoindrez en tant que %(value0)s."
+
+msgid "Escayola"
+msgstr "Plâtre"
+
+msgid "Escayola, silicona…"
+msgstr "Plâtre, silicone…"
+
+msgid "Esmaltada"
+msgstr "Émaillée"
+
+msgid "Esmalte"
+msgstr "Émail"
+
+msgid "Esmalte no disponible"
+msgstr "Émail indisponible"
+
+msgid "Esmaltes"
+msgstr "Émaux"
+
+msgid "Esmaltes aplicados"
+msgstr "Émaux appliqués"
+
+msgid "Esmaltes compartidos"
+msgstr "Émaux partagés"
+
+msgid "Esmaltes utilizados"
+msgstr "Émaux utilisés"
+
+msgid ""
+"Esta colección es pública. Las fichas privadas de sus piezas no lo son."
+msgstr ""
+"Cette collection est publique. Les fiches privées de ses pièces restent "
+"privées."
+
+msgid "Esta colección está tomando forma."
+msgstr "Cette collection prend forme."
+
+msgid ""
+"Esta galería es pública. Puedes retirar su publicación en «Visibilidad»."
+msgstr ""
+"Cette galerie est publique. Vous pouvez la rendre privée dans « Visibilité "
+"»."
+
+msgid "Esta invitación ya no está disponible"
+msgstr "Cette invitation n’est plus disponible"
+
+msgid ""
+"Esta pieza aún no tiene fotografías. Puedes añadirlas desde su ficha y "
+"volver a preparar la presentación."
+msgstr ""
+"Cette pièce n’a pas encore de photos. Ajoutez-en depuis sa fiche, puis "
+"revenez préparer la présentation."
+
+msgid ""
+"Esta pieza ya está en la galería. Puedes editar su presentación desde la "
+"colección."
+msgstr ""
+"Cette pièce est déjà dans la galerie. Vous pouvez modifier sa présentation "
+"depuis la collection."
+
+msgid ""
+"Esta primera cuenta administrará la instalación. Tus piezas empezarán siendo"
+" privadas."
+msgstr ""
+"Ce premier compte administrera l’installation. Vos pièces seront privées par"
+" défaut."
+
+msgid "Esta página no está aquí."
+msgstr "Cette page est introuvable."
+
+msgid ""
+"Esta vez, el problema está de nuestro lado. No hemos podido completar la "
+"acción. Vuelve a intentarlo en unos instantes."
+msgstr ""
+"Cette fois, le problème vient de notre côté. Nous n’avons pas pu terminer "
+"l’action. Réessayez dans quelques instants."
+
+msgid "Estado"
+msgstr "État"
+
+msgid "Estampación"
+msgstr "Estampage"
+
+msgid "Etapa"
+msgstr "Étape"
+
+msgid "Fabricante y código del producto"
+msgstr "Fabricant et référence du produit"
+
+msgid "Fecha"
+msgstr "Date"
+
+msgid "Fecha de inicio"
+msgstr "Date de début"
+
+msgid ""
+"Feldespato; 40\n"
+"Sílice; 25\n"
+"Caolín; 20\n"
+"Carbonato cálcico; 15"
+msgstr ""
+"Feldspath; 40\n"
+"Silice; 25\n"
+"Kaolin; 20\n"
+"Carbonate de calcium; 15"
+
+#, python-format
+msgid "Foto %(value0)s"
+msgstr "Photo %(value0)s"
+
+#, python-format
+msgid "Foto anterior de %(value0)s"
+msgstr "Photo précédente de %(value0)s"
+
+#, python-format
+msgid "Foto de %(value0)s"
+msgstr "Photo de %(value0)s"
+
+msgid "Foto de este avance"
+msgstr "Photo de cette entrée du suivi"
+
+#, python-format
+msgid "Foto del %(date)s · %(id)s"
+msgstr "Photo du %(date)s · %(id)s"
+
+msgid "Foto que se eliminará"
+msgstr "Photo à supprimer"
+
+#, python-format
+msgid "Foto siguiente de %(value0)s"
+msgstr "Photo suivante de %(value0)s"
+
+#, python-format
+msgid "Fotografía %(value0)s de %(value1)s"
+msgstr "Photo %(value0)s de %(value1)s"
+
+#, python-format
+msgid "Fotografía de %(value0)s"
+msgstr "Photographie de %(value0)s"
+
+msgid "Fotografía eliminada."
+msgstr "Photographie supprimée."
+
+msgid "Fotografía tu molde"
+msgstr "Photographiez votre moule"
+
+msgid "Fotografías"
+msgstr "Photographies"
+
+msgid "Fotografías añadidas."
+msgstr "Photographies ajoutées."
+
+#, python-format
+msgid "Fotografías de %(value0)s"
+msgstr "Photographies de %(value0)s"
+
+msgid "Fotografías de referencia"
+msgstr "Photographies de référence"
+
+msgid "Fotografías del esmalte"
+msgstr "Photographies de l’émail"
+
+msgid "Fotos de esta etapa"
+msgstr "Photos de cette étape"
+
+msgid "Fotos de este avance"
+msgstr "Photos de cette entrée du suivi"
+
+msgid "Fotos del molde"
+msgstr "Photos du moule"
+
+msgid "Fotos del resultado"
+msgstr "Photos du résultat"
+
+msgid "Fotos guardadas"
+msgstr "Photos enregistrées"
+
+msgid "Fotos iniciales"
+msgstr "Photos initiales"
+
+msgid "Fotos para recordar cada detalle"
+msgstr "Des photos pour garder chaque détail"
+
+msgid "GRUPO PRIVADO"
+msgstr "GROUPE PRIVÉ"
+
+msgid "Galería guardada."
+msgstr "Galerie enregistrée."
+
+msgid "Galerías"
+msgstr "Galeries"
+
+msgid "Gestionar colección"
+msgstr "Gérer la collection"
+
+msgid "Gestionar fotos"
+msgstr "Gérer les photos"
+
+msgid "Gestionar fotos de la pieza"
+msgstr "Gérer les photos de la pièce"
+
+msgid "Gestionar fotos de la prueba"
+msgstr "Gérer les photos de l’essai"
+
+msgid "Grupos"
+msgstr "Groupes"
+
+msgid "Grupos seleccionados"
+msgstr "Groupes sélectionnés"
+
+msgid "Guarda aquí las capas, cantidades y el orden de aplicación."
+msgstr "Notez ici les couches, quantités et l’ordre d’application."
+
+msgid "Guarda tus esmaltes y empieza a reunir tus pruebas y resultados."
+msgstr "Enregistrez vos émaux et rassemblez vos essais et résultats."
+
+msgid "Guarda tus moldes para encontrarlos cuando los necesites."
+msgstr "Enregistrez vos moules pour les retrouver quand vous en avez besoin."
+
+msgid "Guarda una prueba con su barro, temperatura, capas y fotografías."
+msgstr ""
+"Enregistrez un essai avec sa terre, sa température, ses couches et ses "
+"photos."
+
+msgid "Guarda una referencia visual"
+msgstr "Gardez une référence visuelle"
+
+msgid "Guardado en tu cuaderno."
+msgstr "Enregistré dans votre carnet."
+
+msgid "Guardar"
+msgstr "Enregistrer"
+
+msgid "Guardar cambios"
+msgstr "Enregistrer les modifications"
+
+msgid "Guardar galería →"
+msgstr "Enregistrer la galerie →"
+
+msgid "Guardar orden y portada"
+msgstr "Enregistrer l’ordre et la couverture"
+
+msgid "Guardar perfil"
+msgstr "Enregistrer le profil"
+
+msgid "Guardar presentación"
+msgstr "Enregistrer la présentation"
+
+msgid "Guardar una prueba"
+msgstr "Enregistrer un essai"
+
+msgid "HECHO CON TIEMPO"
+msgstr "FAÇONNÉ AVEC PATIENCE"
+
+msgid "Hasta en el taller hay imprevistos."
+msgstr "Même à l’atelier, il y a des imprévus."
+
+msgid "Hecho con tiempo. Compartido con Canela."
+msgstr "Façonné avec patience. Partagé avec Canela."
+
+msgid "Información de la pieza"
+msgstr "Informations sur la pièce"
+
+msgid "Información del esmalte"
+msgstr "Informations sur l’émail"
+
+msgid "Información del molde"
+msgstr "Informations sur le moule"
+
+msgid "Ingrediente"
+msgstr "Ingrédient"
+
+msgid "Ingredientes y porcentajes"
+msgstr "Ingrédients et pourcentages"
+
+msgid "Ingredientes y pruebas"
+msgstr "Ingrédients et essais"
+
+msgid "Invita a tu pareja"
+msgstr "Inviter votre partenaire"
+
+msgid "Invitación"
+msgstr "Invitation"
+
+msgid ""
+"Invitación creada. Copia el enlace y compártelo con la persona que quieras "
+"invitar. Caduca en 7 días y solo se puede usar una vez."
+msgstr ""
+"Invitation créée. Copiez le lien et partagez-le avec la personne à inviter. "
+"Il expire après 7 jours et ne peut être utilisé qu’une fois."
+
+msgid "Invitación ya utilizada."
+msgstr "Invitation déjà utilisée."
+
+msgid "JPG, PNG o WebP · Máx. 5 MB por foto"
+msgstr "JPG, PNG ou WebP · 5 Mo max. par photo"
+
+msgid "La historia de esta pieza"
+msgstr "L’histoire de cette pièce"
+
+msgid "La primera cuenta se crea desde el propio servidor."
+msgstr "Le premier compte doit être créé sur le serveur lui-même."
+
+msgid ""
+"La primera foto es la portada. Usa las flechas para ordenar o arrastra las "
+"fotos en el ordenador."
+msgstr ""
+"La première photo est la couverture. Utilisez les flèches pour réorganiser "
+"les photos, ou glissez-les sur ordinateur."
+
+msgid ""
+"La receta debe tener entre 1 y 50 ingredientes y sumar exactamente 100 %."
+msgstr ""
+"La recette doit contenir entre 1 et 50 ingrédients et totaliser exactement "
+"100 %."
+
+msgid ""
+"La solicitud no se ha podido completar. Vuelve a intentarlo desde el inicio."
+msgstr "La demande n’a pas pu être traitée. Réessayez depuis l’accueil."
+
+msgid ""
+"Las altas de nuevas cuentas están cerradas por el momento. Las cuentas "
+"existentes pueden seguir utilizando su taller."
+msgstr ""
+"Les nouvelles inscriptions sont actuellement fermées. Les comptes existants "
+"peuvent continuer à utiliser leur atelier."
+
+msgid "Las altas están cerradas"
+msgstr "Les inscriptions sont fermées"
+
+msgid "Las personas del taller"
+msgstr "Les membres de l’atelier"
+
+msgid "Las piezas que ya están en esta colección se editan desde la galería."
+msgstr ""
+"Modifiez les pièces déjà présentes dans cette collection depuis la galerie."
+
+msgid ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"esmalte."
+msgstr ""
+"Les essais avec terre, couches et température s’ajoutent depuis la fiche de "
+"l’émail."
+
+msgid "Las versiones anteriores conservan su composición."
+msgstr "Les versions précédentes conservent leur composition."
+
+msgid "Limpiar filtros"
+msgstr "Effacer les filtres"
+
+msgid "Lo bonito también se comparte."
+msgstr "Les belles choses se partagent."
+
+msgid "Los detalles"
+msgstr "Les détails"
+
+msgid "Los esmaltes y el molde de tu inventario se conservan."
+msgstr "Les émaux et le moule de votre inventaire sont conservés."
+
+msgid ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"esmalte."
+msgstr "Gérez les ingrédients, mélanges et essais depuis la fiche de l’émail."
+
+msgid "Los miembros podrán consultar la ficha. Solo tú podrás editarla."
+msgstr "Les membres peuvent consulter la fiche. Vous seul pouvez la modifier."
+
+msgid "Madera"
+msgstr "Bois"
+
+msgid "Marca / referencia"
+msgstr "Marque / référence"
+
+msgid "Marca los esmaltes que hayas utilizado."
+msgstr "Sélectionnez les émaux utilisés."
+
+msgid "Mate"
+msgstr "Mat"
+
+msgid "Mate, satinado, brillante…"
+msgstr "Mat, satiné, brillant…"
+
+msgid "Material"
+msgstr "Matériau"
+
+msgid "Materiales que quieres mostrar"
+msgstr "Matériaux à afficher"
+
+msgid "Materiales, medidas y disponibilidad"
+msgstr "Matériaux, dimensions et disponibilité"
+
+msgid "Medidas y construcción"
+msgstr "Dimensions et fabrication"
+
+msgid "Mi biblioteca"
+msgstr "Ma bibliothèque"
+
+msgid "Mi biblioteca y compartidos"
+msgstr "Ma bibliothèque et les éléments partagés"
+
+msgid "Mi cuenta"
+msgstr "Mon compte"
+
+msgid "Mi espacio"
+msgstr "Mon espace"
+
+msgid "Mi taller"
+msgstr "Mon atelier"
+
+msgid "Miembro añadido. Solo podrá consultar lo que compartas con este grupo."
+msgstr ""
+"Membre ajouté. Cette personne ne pourra consulter que les éléments partagés "
+"avec ce groupe."
+
+msgid "Mis esmaltes"
+msgstr "Mes émaux"
+
+msgid "Mis galerías"
+msgstr "Mes galeries"
+
+msgid "Mis grupos"
+msgstr "Mes groupes"
+
+msgid "Mis moldes"
+msgstr "Mes moules"
+
+msgid "Mis piezas"
+msgstr "Mes pièces"
+
+msgid "Mis piezas y compartidas"
+msgstr "Mes pièces et les pièces partagées"
+
+msgid "Molde"
+msgstr "Moule"
+
+msgid "Molde abierto"
+msgstr "Moule ouvert"
+
+msgid "Moldes"
+msgstr "Moules"
+
+msgid "Moldes compartidos"
+msgstr "Moules partagés"
+
+#, python-format
+msgid "Mover foto %(value0)s antes"
+msgstr "Avancer la photo %(value0)s"
+
+#, python-format
+msgid "Mover foto %(value0)s después"
+msgstr "Reculer la photo %(value0)s"
+
+msgid "Más detalles"
+msgstr "Plus de détails"
+
+msgid "Más información"
+msgstr "Plus d’informations"
+
+msgid "No existe ninguna cuenta con ese nombre de usuario."
+msgstr "Aucun compte ne correspond à ce nom d’utilisateur."
+
+msgid "No hay coincidencias."
+msgstr "Aucun résultat."
+
+msgid "No hay esmaltes con ese nombre."
+msgstr "Aucun émail ne correspond à ce nom."
+
+msgid "No hay más piezas para añadir."
+msgstr "Il n’y a plus de pièces à ajouter."
+
+msgid "No hay piezas con esos filtros."
+msgstr "Aucune pièce ne correspond à ces filtres."
+
+msgid "No hemos podido abrir esta página."
+msgstr "Nous n’avons pas pu ouvrir cette page."
+
+msgid "No podemos continuar por aquí."
+msgstr "Nous ne pouvons pas continuer ici."
+
+msgid "No se ha podido leer una de las imágenes."
+msgstr "Une des images n’a pas pu être lue."
+
+msgid "No se pudo guardar el orden. Recarga la página e inténtalo de nuevo."
+msgstr "L’ordre n’a pas pu être enregistré. Rechargez la page et réessayez."
+
+msgid "No todo sale a la primera."
+msgstr "Tout ne réussit pas du premier coup."
+
+msgid "Nombre"
+msgstr "Nom"
+
+msgid "Nombre, barro o técnica…"
+msgstr "Nom, terre ou technique…"
+
+msgid "Notas de esta versión"
+msgstr "Notes de cette version"
+
+msgid "Notas de taller"
+msgstr "Notes d’atelier"
+
+msgid "Notificaciones"
+msgstr "Notifications"
+
+msgid "Nueva galería"
+msgstr "Nouvelle galerie"
+
+msgid "Nueva pieza"
+msgstr "Nouvelle pièce"
+
+msgid ""
+"Nueva versión guardada. Las piezas y muestras anteriores conservan la receta"
+" que usaron."
+msgstr ""
+"Nouvelle version enregistrée. Les pièces et échantillons précédents "
+"conservent leur recette."
+
+msgid "Nuevo esmalte"
+msgstr "Nouvel émail"
+
+msgid "Nuevo grupo"
+msgstr "Nouveau groupe"
+
+msgid "Nuevo molde"
+msgstr "Nouveau moule"
+
+msgid "Número de partes"
+msgstr "Nombre de parties"
+
+msgid "Opcional"
+msgstr "Facultatif"
+
+msgid "Orden y portada guardados."
+msgstr "Ordre et couverture enregistrés."
+
+msgid "PRIVADA"
+msgstr "PRIVÉE"
+
+msgid "Paginación"
+msgstr "Pagination"
+
+msgid ""
+"Para compartir una pieza, selecciónalo en «Editar ficha → Compartir con "
+"grupos»."
+msgstr ""
+"Pour partager une pièce, sélectionnez ce groupe dans « Modifier la fiche → "
+"Partager avec des groupes »."
+
+msgid "Partes"
+msgstr "Parties"
+
+msgid "Perfil actualizado."
+msgstr "Profil mis à jour."
+
+msgid "Peso"
+msgstr "Poids"
+
+msgid "Peso (g)"
+msgstr "Poids (g)"
+
+msgid "Pieza añadida a la galería."
+msgstr "Pièce ajoutée à la galerie."
+
+msgid "Pieza eliminada."
+msgstr "Pièce supprimée."
+
+msgid "Pieza guardada."
+msgstr "Pièce enregistrée."
+
+msgid "Pieza retirada de la galería. Su registro personal sigue intacto."
+msgstr "Pièce retirée de la galerie. Sa fiche personnelle est conservée."
+
+msgid "Piezas"
+msgstr "Pièces"
+
+msgid "Piezas compartidas"
+msgstr "Pièces partagées"
+
+msgid "Piezas recientes"
+msgstr "Pièces récentes"
+
+msgid "Piezas relacionadas"
+msgstr "Pièces associées"
+
+msgid "Por ahora no se pueden crear cuentas nuevas."
+msgstr "La création de comptes est actuellement fermée."
+
+msgid ""
+"Por ahora no se pueden crear cuentas nuevas. Si ya tienes una cuenta, inicia"
+" sesión."
+msgstr ""
+"La création de comptes est actuellement fermée. Connectez-vous si vous avez "
+"déjà un compte."
+
+msgid "Por ejemplo, 1.220–1.260 °C"
+msgstr "Par exemple, 1 220–1 260 °C"
+
+msgid "Por ejemplo, blanco avena"
+msgstr "Par exemple, blanc avoine"
+
+msgid "Por ejemplo, cuenco de desayuno"
+msgstr "Par exemple, bol du petit déjeuner"
+
+msgid "Por ejemplo, cuenco mediano"
+msgstr "Par exemple, bol moyen"
+
+msgid "Por ejemplo, estantería A · balda 2"
+msgstr "Par exemple, étagère A · niveau 2"
+
+msgid "Por ejemplo, pequeños rituales"
+msgstr "Par exemple, petits rituels"
+
+msgid "Por ejemplo, Ø 18 × 7 cm"
+msgstr "Par exemple, Ø 18 × 7 cm"
+
+msgid "Por encargo"
+msgstr "Sur commande"
+
+msgid "Porcentaje"
+msgstr "Pourcentage"
+
+msgid "Portada"
+msgstr "Couverture"
+
+msgid "Preparar"
+msgstr "Préparer"
+
+msgid "Preparar presentación →"
+msgstr "Préparer la présentation →"
+
+msgid "Presentación"
+msgstr "Présentation"
+
+msgid "Presentación actualizada."
+msgstr "Présentation mise à jour."
+
+msgid "Presentación pública"
+msgstr "Présentation publique"
+
+msgid "Presentación y visibilidad →"
+msgstr "Présentation et visibilité →"
+
+msgid "Presión"
+msgstr "Pressage"
+
+msgid "Presión, colada…"
+msgstr "Pressage, coulage…"
+
+msgid "Principal"
+msgstr "Principal"
+
+msgid "Privada"
+msgstr "Privée"
+
+msgid "Privada por defecto"
+msgstr "Privée par défaut"
+
+msgid "Privado"
+msgstr "Privé"
+
+msgid "Privado por defecto"
+msgstr "Privé par défaut"
+
+msgid "Procesos abiertos"
+msgstr "Créations en cours"
+
+#, python-format
+msgid "Prueba a %(value0)s grados"
+msgstr "Essai à %(value0)s degrés"
+
+msgid "Prueba otra búsqueda o consulta toda tu biblioteca."
+msgstr "Essayez une autre recherche ou consultez toute votre bibliothèque."
+
+msgid "Prueba otra búsqueda o vuelve a ver tu cuaderno completo."
+msgstr "Essayez une autre recherche ou consultez tout votre carnet."
+
+msgid "Pruebas de aplicación"
+msgstr "Essais d’application"
+
+msgid "Pruebas y resultados"
+msgstr "Essais et résultats"
+
+msgid "Puede haber caducado o haberse utilizado. Pide una nueva invitación."
+msgstr ""
+"Elle a peut-être expiré ou déjà été utilisée. Demandez une nouvelle "
+"invitation."
+
+msgid ""
+"Puede que el enlace haya cambiado o que esta página ya no esté disponible."
+msgstr "Le lien a peut-être changé ou cette page n’est plus disponible."
+
+msgid ""
+"Puede que tu sesión haya caducado o que no tengas acceso. Vuelve al inicio "
+"para continuar."
+msgstr ""
+"Votre session a peut-être expiré ou vous n’avez pas accès à cette page. "
+"Revenez à l’accueil pour continuer."
+
+msgid "Puedes invitar a alguien desde un grupo que administres."
+msgstr "Vous pouvez inviter quelqu’un depuis un groupe que vous administrez."
+
+msgid "Puedes subir hasta 4 fotos cada vez."
+msgstr "Vous pouvez ajouter jusqu’à 4 photos à la fois."
+
+msgid "Pública"
+msgstr "Publique"
+
+msgid "Quiero eliminarlo. Esta acción no se puede deshacer."
+msgstr "Je souhaite supprimer cet élément. Cette action est irréversible."
+
+msgid "Quitar selección"
+msgstr "Effacer la sélection"
+
+msgid "Quién puede verla"
+msgstr "Qui peut la voir"
+
+msgid "Qué bien tenerte por aquí."
+msgstr "Ravis de vous accueillir."
+
+msgid "Qué has hecho o descubierto"
+msgstr "Ce que vous avez fait ou découvert"
+
+msgid "Qué tienes en mente, qué quieres probar…"
+msgstr "Vos idées, vos envies d’essais…"
+
+msgid "Qué une a las piezas de esta colección…"
+msgstr "Ce qui relie les pièces de cette collection…"
+
+msgid "Rango de temperatura"
+msgstr "Plage de température"
+
+msgid "Receta propia"
+msgstr "Recette personnelle"
+
+msgid "Receta y calculadora de mezcla"
+msgstr "Recette et calculateur de mélange"
+
+msgid ""
+"Registra en las notas tus tiempos de colada, consejos de desmoldeo y pastas "
+"que mejor funcionan. Añade fotos desde «Editar ficha»."
+msgstr ""
+"Notez les temps de coulage, conseils de démoulage et terres adaptées. "
+"Ajoutez des photos depuis « Modifier la fiche »."
+
+msgid "Registra tus piezas, fotos y pruebas de esmaltes."
+msgstr "Gardez une trace de vos pièces, photos et essais d’émaux."
+
+msgid "Resina"
+msgstr "Résine"
+
+msgid "Resultado y observaciones"
+msgstr "Résultat et observations"
+
+msgid "Retira definitivamente su ficha y sus fotografías de tu taller."
+msgstr "Supprimez définitivement sa fiche et ses photos de votre atelier."
+
+msgid "Retirado"
+msgstr "Retiré"
+
+msgid "Retirar"
+msgstr "Retirer"
+
+msgid "Retirar de esta galería"
+msgstr "Retirer de cette galerie"
+
+msgid "Retirar de la galería"
+msgstr "Retirer de la galerie"
+
+msgid "Retirar del grupo"
+msgstr "Retirer du groupe"
+
+msgid "Sacar foto"
+msgstr "Prendre une photo"
+
+msgid "Saltar al contenido"
+msgstr "Aller au contenu"
+
+msgid "Satinado"
+msgstr "Satiné"
+
+msgid ""
+"Se eliminará el avance, pero sus fotos se conservarán en la pieza. La etapa "
+"se actualizará según el último avance restante; sin avances volverá a «En "
+"proceso»."
+msgstr ""
+"Cette entrée sera supprimée, mais ses photos resteront associées à la pièce."
+" L’étape suivra la dernière entrée restante, ou reviendra à « En cours » "
+"s’il n’en reste aucune."
+
+msgid ""
+"Se eliminará esta foto de la ficha y de las galerías donde esté "
+"seleccionada. Esta acción es definitiva."
+msgstr ""
+"Cette photo sera supprimée de la fiche et des galeries où elle est "
+"sélectionnée. Cette action est irréversible."
+
+msgid ""
+"Se eliminará únicamente este registro de aplicación. El esmalte y su receta "
+"se conservan en la biblioteca."
+msgstr ""
+"Seul cet enregistrement d’application sera supprimé. L’émail et sa recette "
+"restent dans la bibliothèque."
+
+msgid ""
+"Se eliminarán su ficha, sus fotografías, sus avances y los registros de "
+"esmaltes aplicados. No podrás recuperarlos desde Canela."
+msgstr ""
+"Sa fiche, ses photos, son suivi et les applications d’émaux seront "
+"supprimés. Vous ne pourrez pas les récupérer depuis Canela."
+
+msgid "Se retirará de esta colección. Su ficha personal se conserva."
+msgstr ""
+"Elle sera retirée de cette collection. Sa fiche personnelle est conservée."
+
+msgid "Secando"
+msgstr "En séchage"
+
+msgid "Selecciona al menos un grupo."
+msgstr "Sélectionnez au moins un groupe."
+
+msgid "Selecciona al menos una fotografía."
+msgstr "Sélectionnez au moins une photo."
+
+msgid "Selecciona primero una pieza."
+msgstr "Sélectionnez d’abord une pièce."
+
+msgid "Selecciona uno o varios de tu biblioteca o de tus grupos."
+msgstr ""
+"Sélectionnez-en un ou plusieurs dans votre bibliothèque ou vos groupes."
+
+msgid "Seleccionar fotografías"
+msgstr "Sélectionner les photos"
+
+msgid "Seleccionar todas"
+msgstr "Tout sélectionner"
+
+msgid "Si habías seleccionado fotos, vuelve a añadirlas antes de guardar."
+msgstr ""
+"Si vous aviez sélectionné des photos, ajoutez-les à nouveau avant "
+"d’enregistrer."
+
+msgid "Siguiente →"
+msgstr "Suivant →"
+
+msgid "Silicona"
+msgstr "Silicone"
+
+msgid "Sin cantidades registradas"
+msgstr "Aucune quantité enregistrée"
+
+msgid "Sin descripción pública."
+msgstr "Aucune description publique."
+
+msgid "Sin foto todavía"
+msgstr "Pas encore de photo"
+
+msgid "Sin fotografía seleccionada"
+msgstr "Aucune photo sélectionnée"
+
+msgid "Sin fotos seleccionadas"
+msgstr "Aucune photo sélectionnée"
+
+msgid "Sin grupos seleccionados"
+msgstr "Aucun groupe sélectionné"
+
+msgid "Sin molde visible"
+msgstr "Aucun moule visible"
+
+msgid "Sin registrar"
+msgstr "Non renseigné"
+
+msgid "Sin seleccionar grupos, la ficha permanece privada."
+msgstr "Sans groupe sélectionné, la fiche reste privée."
+
+msgid "Sin ubicación"
+msgstr "Aucun emplacement"
+
+msgid "Sobre mí"
+msgstr "À propos de moi"
+
+msgid "Solo el propietario puede ver esta ficha."
+msgstr "Seul le propriétaire peut consulter cette fiche."
+
+msgid "Solo es visible en tu cuenta y para la administración."
+msgstr "Visible uniquement dans votre compte et par l’administration."
+
+msgid ""
+"Solo estas fotos serán visibles en la galería. Las notas, etapas y recetas "
+"de la pieza permanecen privadas."
+msgstr ""
+"Seules ces photos seront visibles dans la galerie. Les notes, étapes et "
+"recettes restent privées."
+
+msgid "Solo exposición"
+msgstr "Exposition uniquement"
+
+msgid "Solo exposición, disponible, vendida…"
+msgstr "Exposition uniquement, disponible, vendue…"
+
+msgid "Solo las personas de los grupos que selecciones."
+msgstr "Uniquement les membres des groupes sélectionnés."
+
+msgid "Solo los miembros de los grupos seleccionados pueden verla."
+msgstr "Seuls les membres des groupes sélectionnés peuvent la voir."
+
+msgid "Solo para ti"
+msgstr "Rien que pour vous"
+
+msgid ""
+"Solo se publicarán las presentaciones y fotos que añadas a esta colección. "
+"Tus notas, recetas y avances no se publican."
+msgstr ""
+"Seules les présentations et photos ajoutées à cette collection seront "
+"publiées. Vos notes, recettes et suivis restent privés."
+
+msgid "Solo se publicarán los textos y las fotos que selecciones."
+msgstr "Seuls les textes et photos sélectionnés seront publiés."
+
+msgid "Solo tú puedes ver esta galería."
+msgstr "Vous seul pouvez voir cette galerie."
+
+msgid "Solo yo"
+msgstr "Moi uniquement"
+
+msgid "Su historia está por empezar."
+msgstr "Son histoire ne fait que commencer."
+
+msgid "Taller"
+msgstr "Atelier"
+
+#, python-format
+msgid ""
+"También se retirará de %(counter)s galería, incluidas sus fotografías y su "
+"presentación."
+msgid_plural ""
+"También se retirará de %(counter)s galerías, incluidas sus fotografías y su "
+"presentación."
+msgstr[0] ""
+"Elle sera aussi retirée de %(counter)s galerie, avec ses photos et sa "
+"présentation."
+msgstr[1] ""
+"Elle sera aussi retirée de %(counter)s galeries, avec ses photos et sa "
+"présentation."
+
+msgid "Temperatura"
+msgstr "Température"
+
+msgid "Temperatura (°C)"
+msgstr "Température (°C)"
+
+msgid "Temperatura por registrar"
+msgstr "Température non renseignée"
+
+msgid "Terminada"
+msgstr "Terminée"
+
+msgid "Texturado"
+msgstr "Texturé"
+
+msgid "Tiempos de colada, desmoldeo, cuidados…"
+msgstr "Temps de coulage, démoulage, entretien…"
+
+msgid "Tienes un sitio en Canela."
+msgstr "Vous avez votre place dans Canela."
+
+msgid "Tipo"
+msgstr "Type"
+
+msgid "Tipo de barro o pasta"
+msgstr "Terre ou pâte"
+
+msgid "Tipo de esmalte"
+msgstr "Type d’émail"
+
+msgid "Todas"
+msgstr "Toutes"
+
+msgid "Todavía no hay esmaltes compartidos."
+msgstr "Aucun émail partagé pour le moment."
+
+msgid "Todavía no hay moldes compartidos."
+msgstr "Aucun moule partagé pour le moment."
+
+msgid "Todavía no tienes esmaltes disponibles."
+msgstr "Vous n’avez pas encore d’émaux disponibles."
+
+msgid "Todo un mundo"
+msgstr "Tout un univers"
+
+msgid "Todos"
+msgstr "Tous"
+
+msgid "Transparente"
+msgstr "Transparent"
+
+msgid "Tu biblioteca está por estrenar."
+msgstr "Votre bibliothèque attend ses premières découvertes."
+
+msgid "Tu colección empieza aquí."
+msgstr "Votre collection commence ici."
+
+msgid "Tu cuaderno de taller, a tu ritmo."
+msgstr "Votre carnet d’atelier, à votre rythme."
+
+msgid "Tu nombre"
+msgstr "Votre nom"
+
+msgid "Tu perfil"
+msgstr "Votre profil"
+
+msgid "Tu taller está listo. Empieza con tu primera pieza."
+msgstr "Votre atelier est prêt. Commencez par votre première pièce."
+
+msgid "Tu taller, a tu ritmo."
+msgstr "Votre atelier, à votre rythme."
+
+msgid "Tus ingredientes y proporciones"
+msgstr "Vos ingrédients et proportions"
+
+msgid "Técnica"
+msgstr "Technique"
+
+msgid "Técnica, medidas y molde"
+msgstr "Technique, dimensions et moule"
+
+msgid "Título público"
+msgstr "Titre public"
+
+msgid "Ubicación"
+msgstr "Emplacement"
+
+msgid ""
+"Un ingrediente por línea: nombre; porcentaje. El total debe sumar 100. Se "
+"guardará una nueva versión."
+msgstr ""
+"Un ingrédient par ligne : nom; pourcentage. Le total doit être de 100. Une "
+"nouvelle version sera enregistrée."
+
+msgid "Un poco de barro."
+msgstr "Un peu de terre."
+
+msgid "Un producto de fabricante"
+msgstr "Un produit du commerce"
+
+msgid "Un rincón para crear juntos."
+msgstr "Un coin pour créer ensemble."
+
+msgid "Una nueva versión de la receta"
+msgstr "Une nouvelle version de la recette"
+
+msgid "Usa fotos JPG, PNG o WebP de hasta 30 megapíxeles."
+msgstr "Utilisez des photos JPG, PNG ou WebP de 30 mégapixels maximum."
+
+msgid ""
+"Usa «Nombre; porcentaje», con hasta tres decimales y valores entre 0 y 100."
+msgstr ""
+"Utilisez « Nom; pourcentage », avec trois décimales maximum et des valeurs "
+"entre 0 et 100."
+
+msgid "Usuario"
+msgstr "Utilisateur"
+
+msgid "Usuario que quieres añadir"
+msgstr "Utilisateur à ajouter"
+
+msgid "Vendida"
+msgstr "Vendue"
+
+msgid "Ver"
+msgstr "Voir"
+
+msgid "Ver historia ↗"
+msgstr "Voir l’historique ↗"
+
+msgid "Ver todas las piezas ↗"
+msgstr "Voir toutes les pièces ↗"
+
+#, python-format
+msgid "Versión %(value0)s · %(value1)s"
+msgstr "Version %(value0)s · %(value1)s"
+
+msgid "Visibilidad"
+msgstr "Visibilité"
+
+msgid "Visibilidad y presentación"
+msgstr "Visibilité et présentation"
+
+msgid "Vista previa · El acceso está restringido."
+msgstr "Aperçu · Accès restreint."
+
+msgid "Vista previa ↗"
+msgstr "Aperçu ↗"
+
+msgid "Volver a la colección"
+msgstr "Retour à la collection"
+
+msgid "Volver a la ficha"
+msgstr "Retour à la fiche"
+
+msgid "Volver a mi taller"
+msgstr "Retour à mon atelier"
+
+msgid "Volver al inicio"
+msgstr "Retour à l’accueil"
+
+msgid "Volver al inicio →"
+msgstr "Retour à l’accueil →"
+
+#, python-format
+msgid "Válida hasta %(value0)s"
+msgstr "Valable jusqu’au %(value0)s"
+
+msgid "Ya existe una cuenta con este correo electrónico."
+msgstr "Un compte utilise déjà cette adresse e-mail."
+
+msgid "Ya hay una configuración en curso. Vuelve a intentarlo."
+msgstr "Une configuration est déjà en cours. Réessayez."
+
+msgid "Zona de la pieza"
+msgstr "Zone de la pièce"
+
+msgid "algo muy tuyo."
+msgstr "quelque chose qui vous ressemble."
+
+msgid "gramos"
+msgstr "grammes"
+
+msgid "o asígnalos más adelante."
+msgstr "ou attribuez-les plus tard."
+
+msgid "o selecciónalas desde tu ordenador"
+msgstr "ou sélectionnez-les depuis votre ordinateur"
+
+msgid "obligatorio"
+msgstr "obligatoire"
+
+msgid "por descubrir."
+msgstr "à découvrir."
+
+msgid "· Administrador"
+msgstr "· Administrateur"
+
+#, python-format
+msgid "· Prueba del %(value0)s"
+msgstr "· Essai du %(value0)s"
+
+#, python-format
+msgid "· Receta v%(value0)s"
+msgstr "· Recette v%(value0)s"
+
+#, python-format
+msgid "¿Eliminar «%(value0)s»?"
+msgstr "Supprimer « %(value0)s » ?"
+
+msgid "¿Quieres continuar?"
+msgstr "Voulez-vous continuer ?"
+
+msgid "← Anterior"
+msgstr "← Précédent"
+
+msgid "← Mis galerías"
+msgstr "← Mes galeries"
+
+msgid "← Mis piezas"
+msgstr "← Mes pièces"
+
+msgid "← Volver"
+msgstr "← Retour"
+
+msgid "← Volver a la ficha"
+msgstr "← Retour à la fiche"
+
+msgid "← Volver a la pieza"
+msgstr "← Retour à la pièce"
+
+msgid "♧ Compartida"
+msgstr "♧ Partagée"
+
+msgid "＋ Añadir"
+msgstr "＋ Ajouter"
+
+msgid "＋ Añadir avance"
+msgstr "＋ Ajouter une étape"
+
+msgid "＋ Añadir pieza"
+msgstr "＋ Ajouter une pièce"
+
+msgid "＋ Nueva galería"
+msgstr "＋ Nouvelle galerie"
+
+msgid "＋ Nueva pieza"
+msgstr "＋ Nouvelle pièce"
+
+msgid "＋ Nueva prueba"
+msgstr "＋ Nouvel essai"
+
+msgid "＋ Nueva versión"
+msgstr "＋ Nouvelle version"
+
+msgid "＋ Nuevo grupo"
+msgstr "＋ Nouveau groupe"
+
+msgctxt "URL"
+msgid "setup/"
+msgstr "configuration/"
+
+msgctxt "URL"
+msgid "login/"
+msgstr "connexion/"
+
+msgctxt "URL"
+msgid "logout/"
+msgstr "deconnexion/"
+
+msgctxt "URL"
+msgid "cuenta/"
+msgstr "compte/"
+
+msgctxt "URL"
+msgid "cuenta/password/"
+msgstr "compte/mot-de-passe/"
+
+msgctxt "URL"
+msgid "invitaciones/nueva/"
+msgstr "invitations/nouvelle/"
+
+msgctxt "URL"
+msgid "invitacion/<uuid:token>/"
+msgstr "invitation/<uuid:token>/"
+
+msgctxt "URL"
+msgid "piezas/"
+msgstr "pieces/"
+
+msgctxt "URL"
+msgid "piezas/nueva/"
+msgstr "pieces/nouvelle/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/"
+msgstr "pieces/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/editar/"
+msgstr "pieces/<uuid:pk>/modifier/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/eliminar/"
+msgstr "pieces/<uuid:pk>/supprimer/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/avance/"
+msgstr "pieces/<uuid:pk>/suivi/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/avance/<int:event_id>/editar/"
+msgstr "pieces/<uuid:pk>/suivi/<int:event_id>/modifier/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/avance/<int:record_id>/eliminar/"
+msgstr "pieces/<uuid:pk>/suivi/<int:record_id>/supprimer/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/esmalte/"
+msgstr "pieces/<uuid:pk>/email/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/esmalte/<int:use_id>/"
+msgstr "pieces/<uuid:pk>/email/<int:use_id>/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/esmalte/<int:record_id>/eliminar/"
+msgstr "pieces/<uuid:pk>/email/<int:record_id>/supprimer/"
+
+msgctxt "URL"
+msgid "fotos/<uuid:pk>/eliminar/"
+msgstr "photos/<uuid:pk>/supprimer/"
+
+msgctxt "URL"
+msgid "fotos/coleccion/<str:kind>/<uuid:pk>/"
+msgstr "photos/collection/<str:kind>/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "moldes/"
+msgstr "moules/"
+
+msgctxt "URL"
+msgid "esmaltes/"
+msgstr "emaux/"
+
+msgctxt "URL"
+msgid "moldes/nuevo/"
+msgstr "moules/nouveau/"
+
+msgctxt "URL"
+msgid "esmaltes/nuevo/"
+msgstr "emaux/nouveau/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/"
+msgstr "moules/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/"
+msgstr "emaux/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/editar/"
+msgstr "moules/<uuid:pk>/modifier/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/editar/"
+msgstr "emaux/<uuid:pk>/modifier/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/receta/"
+msgstr "emaux/<uuid:pk>/recette/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/muestra/"
+msgstr "emaux/<uuid:pk>/echantillon/"
+
+msgctxt "URL"
+msgid "galerias/"
+msgstr "galeries/"
+
+msgctxt "URL"
+msgid "galerias/nueva/"
+msgstr "galeries/nouvelle/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/editar/"
+msgstr "galeries/<uuid:pk>/modifier/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/"
+msgstr "galeries/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/añadir/"
+msgstr "galeries/<uuid:pk>/ajouter/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/pieza/<uuid:entry_id>/editar/"
+msgstr "galeries/<uuid:pk>/piece/<uuid:entry_id>/modifier/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/retirar/<uuid:entry_id>/"
+msgstr "galeries/<uuid:pk>/retirer/<uuid:entry_id>/"
+
+msgctxt "URL"
+msgid "g/<uuid:pk>/"
+msgstr "g/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "grupos/"
+msgstr "groupes/"
+
+msgctxt "URL"
+msgid "grupos/nuevo/"
+msgstr "groupes/nouveau/"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/"
+msgstr "groupes/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/miembros/<int:user_id>/retirar/"
+msgstr "groupes/<uuid:pk>/membres/<int:user_id>/retirer/"
+
+msgid "Sin conexión · Canela"
+msgstr "Hors connexion · Canela"
+
+msgid "El taller necesita conexión."
+msgstr "L’atelier a besoin d’une connexion."
+
+msgid ""
+"No podemos conectar con Canela. Comprueba tu conexión o vuelve a intentarlo "
+"más tarde."
+msgstr ""
+"Impossible de se connecter à Canela. Vérifiez votre connexion ou réessayez "
+"plus tard."
+
+msgid "Volver a intentar"
+msgstr "Réessayer"
+
+msgid "Instalar Canela"
+msgstr "Installer Canela"
+
+msgid "Ten tu taller a mano desde la pantalla de inicio."
+msgstr "Retrouvez votre atelier sur votre écran d’accueil."
+
+msgid "Instalar aplicación"
+msgstr "Installer l’application"
+
+msgid ""
+"En Safari, abre Compartir y elige «Añadir a pantalla de inicio». Activa "
+"«Abrir como app» si aparece y pulsa «Añadir»."
+msgstr ""
+"Dans Safari, ouvrez Partager puis « Sur l’écran d’accueil ». Activez « "
+"Ouvrir comme app web » si l’option apparaît, puis touchez « Ajouter »."
+
+msgid ""
+"Abre el menú del navegador y elige «Instalar aplicación» o «Añadir a "
+"pantalla de inicio»."
+msgstr ""
+"Ouvrez le menu du navigateur et choisissez « Installer l’application » ou « "
+"Ajouter à l’écran d’accueil »."
+
+msgid "Necesitas conexión para consultar y guardar tus piezas."
+msgstr ""
+"Une connexion est nécessaire pour consulter et enregistrer vos pièces."
+
+msgid "Más"
+msgstr "Plus"
+
+msgid "Cerrar menú"
+msgstr "Fermer le menu"
+
+msgid "Filtros"
+msgstr "Filtres"
+
+msgid "Filtros activos"
+msgstr "Filtres actifs"
+
+msgid "Aplicar filtros"
+msgstr "Appliquer les filtres"
+
+msgid "Resultados"
+msgstr "Résultats"
+
+msgid "Materiales"
+msgstr "Matériaux"
+
+msgid "Tipo de material"
+msgstr "Type de matériau"
+
+msgid "Engobe"
+msgstr "Engobe"
+
+msgid "Mis materiales"
+msgstr "Mes matériaux"
+
+msgid "Nuevo material"
+msgstr "Nouveau matériau"
+
+msgid "Crear material"
+msgstr "Créer un matériau"
+
+msgid "Editar material"
+msgstr "Modifier le matériau"
+
+msgid "Información del material"
+msgstr "Informations sur le matériau"
+
+msgid "Procedencia"
+msgstr "Origine"
+
+msgid "BIBLIOTECA DE MATERIALES"
+msgstr "BIBLIOTHÈQUE DE MATÉRIAUX"
+
+msgid "Materiales utilizados"
+msgstr "Matériaux utilisés"
+
+msgid "Buscar materiales…"
+msgstr "Rechercher des matériaux…"
+
+msgid "Buscar materiales disponibles"
+msgstr "Rechercher les matériaux disponibles"
+
+msgid "No hay materiales con ese nombre."
+msgstr "Aucun matériau ne porte ce nom."
+
+msgid "Marca los materiales que hayas utilizado."
+msgstr "Sélectionnez les matériaux utilisés."
+
+msgid "Todavía no tienes materiales disponibles."
+msgstr "Vous ne disposez pas encore de matériaux."
+
+msgid "Material no disponible"
+msgstr "Matériau indisponible"
+
+msgid "Materiales compartidos"
+msgstr "Matériaux partagés"
+
+msgid "Todavía no hay materiales compartidos."
+msgstr "Aucun matériau partagé pour le moment."
+
+msgid "Reúne tus esmaltes, engobes y barros con sus pruebas y resultados."
+msgstr ""
+"Rassemblez vos émaux, engobes et terres avec leurs essais et résultats."
+
+msgid "Añadir mi primer material"
+msgstr "Ajouter mon premier matériau"
+
+msgid "Registra tus piezas, fotos y pruebas de materiales."
+msgstr "Consignez vos pièces, photos et essais de matériaux."
+
+msgid ""
+"Selecciona los esmaltes, engobes y barros de tu biblioteca o de tus grupos."
+msgstr ""
+"Sélectionnez les émaux, engobes et terres de votre bibliothèque ou de vos "
+"groupes."
+
+msgid ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"material."
+msgstr ""
+"Ajoutez les essais avec terre, couches et température depuis la fiche du "
+"matériau."
+
+msgid ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"material."
+msgstr ""
+"Gérez les ingrédients, mélanges et essais depuis la fiche du matériau."
+
+msgid "Fotografías del material"
+msgstr "Photos du matériau"
+
+msgid "Uso de material guardado."
+msgstr "Utilisation du matériau enregistrée."
+
+msgid "Detalles de uso"
+msgstr "Détails d’utilisation"
+
+msgid "Añadir material"
+msgstr "Ajouter un matériau"
+
+msgid "Uso de material eliminado."
+msgstr "Utilisation du matériau supprimée."
+
+msgid ""
+"Se eliminará únicamente este registro de aplicación. El material y su receta"
+" se conservan en la biblioteca."
+msgstr ""
+"Seul cet enregistrement sera supprimé. Le matériau et sa recette restent "
+"dans la bibliothèque."
+
+msgid "Eliminar uso de material"
+msgstr "Supprimer l’utilisation du matériau"
+
+msgid "Los materiales y el molde de tu inventario se conservan."
+msgstr "Les matériaux et le moule de votre inventaire sont conservés."
+
+msgid ""
+"Se eliminarán su ficha, sus fotografías, sus avances y los registros de "
+"materiales utilizados. No podrás recuperarlos desde Canela."
+msgstr ""
+"Sa fiche, ses photos, ses étapes et ses utilisations de matériaux seront "
+"supprimées. Vous ne pourrez pas les récupérer depuis Canela."
+
+msgid ""
+"Crea un grupo para compartir piezas, moldes y materiales con tu pareja."
+msgstr ""
+"Créez un groupe pour partager pièces, moules et matériaux avec votre "
+"partenaire."
+
+msgid "Absorción de agua"
+msgstr "Absorption d’eau"
+
+msgid "Absorción de agua (%)"
+msgstr "Absorption d’eau (%)"
+
+msgid "Actualizar campos"
+msgstr "Actualiser les champs"
+
+msgid "Aplicación del engobe"
+msgstr "Application de l’engobe"
+
+msgid "Características de la pasta"
+msgstr "Caractéristiques de la pâte"
+
+msgid "Chamota"
+msgstr "Chamotte"
+
+msgid "Chamota (%)"
+msgstr "Chamotte (%)"
+
+msgid "Color tras cocción"
+msgstr "Couleur après cuisson"
+
+msgid "Comportamiento en el taller y observaciones…"
+msgstr "Comportement à l’atelier et observations…"
+
+msgid "Conformado / atmósfera de cocción"
+msgstr "Façonnage / atmosphère de cuisson"
+
+msgid "Contracción total"
+msgstr "Retrait total"
+
+msgid "Contracción total (%)"
+msgstr "Retrait total (%)"
+
+msgid "Estado de la pieza al aplicar"
+msgstr "État de la pièce à l’application"
+
+msgid "Grano de la chamota (mm)"
+msgstr "Granulométrie de la chamotte (mm)"
+
+msgid "Gres"
+msgstr "Grès"
+
+msgid "Gres, loza, porcelana, refractario…"
+msgstr "Grès, faïence, porcelaine, réfractaire…"
+
+msgid "Húmedo, dureza de cuero, seco o bizcochado"
+msgstr "Humide, consistance cuir, sec ou biscuité"
+
+msgid "Indica la temperatura de referencia de estas mediciones."
+msgstr "Indiquez la température de référence de ces mesures."
+
+msgid "Loza"
+msgstr "Faïence"
+
+msgid "Método de aplicación"
+msgstr "Méthode d’application"
+
+msgid "Opaco"
+msgstr "Opaque"
+
+msgid "Pastas compatibles"
+msgstr "Pâtes compatibles"
+
+msgid "Pastas con las que has comprobado que funciona"
+msgstr "Pâtes avec lesquelles vous avez vérifié la compatibilité"
+
+msgid "Pincel, inmersión, vertido o pulverización"
+msgstr "Pinceau, trempage, versement ou pulvérisation"
+
+msgid "Por ejemplo, 0–0,5 mm"
+msgstr "Par exemple, 0–0,5 mm"
+
+msgid "Por ejemplo, blanco, terracota o azul cobalto"
+msgstr "Par exemple, blanc, terre cuite ou bleu cobalt"
+
+msgid "Por ejemplo, engobe azul"
+msgstr "Par exemple, engobe bleu"
+
+msgid "Por ejemplo, gres blanco con chamota"
+msgstr "Par exemple, grès blanc chamotté"
+
+msgid "Porcelana"
+msgstr "Porcelaine"
+
+msgid "Prueba el engobe sobre distintas pastas y estados de secado."
+msgstr ""
+"Testez l’engobe sur différentes pâtes et à différents stades de séchage."
+
+msgid ""
+"Prueba el esmalte sobre una pasta y registra sus capas, cocción y resultado."
+msgstr ""
+"Testez l’émail sur une pâte et notez les couches, la cuisson et le résultat."
+
+msgid "Recetas y pruebas en su ficha"
+msgstr "Recettes et essais dans sa fiche"
+
+msgid "Refractario"
+msgstr "Réfractaire"
+
+msgid "Registra pruebas de cocción, contracción y absorción de esta pasta."
+msgstr ""
+"Consignez les essais de cuisson, de retrait et d’absorption de cette pâte."
+
+msgid "Superficie del esmalte"
+msgstr "Surface de l’émail"
+
+msgid ""
+"Temperatura a la que corresponden la contracción y la absorción indicadas."
+msgstr ""
+"Température à laquelle correspondent le retrait et l’absorption indiqués."
+
+msgid "Temperatura de referencia"
+msgstr "Température de référence"
+
+msgid "Temperatura de referencia (°C)"
+msgstr "Température de référence (°C)"
+
+msgid "Tipo de pasta"
+msgstr "Type de pâte"
+
+msgid "Torno, modelado, placas o colada"
+msgstr "Tournage, modelage, plaques ou coulage"
+
+msgid "Translúcido"
+msgstr "Translucide"
+
+msgid "Transparencia"
+msgstr "Transparence"
+
+msgid "Técnicas de conformado"
+msgstr "Techniques de façonnage"
+
+msgid "Uso / técnica / orden"
+msgstr "Usage / technique / ordre"
+
+msgid "¿Qué material vas a guardar?"
+msgstr "Quel matériau souhaitez-vous enregistrer?"
+
+msgid "Administrador"
+msgstr "Administrateur"
+
+msgid "Añadir a este grupo"
+msgstr "Ajouter à ce groupe"
+
+msgid "Compartido por"
+msgstr "Partagé par"
+
+msgid "Crea un taller y organiza sus clases en subgrupos."
+msgstr "Créez un atelier et organisez ses cours en sous-groupes."
+
+msgid "Dentro de"
+msgstr "Dans"
+
+msgid ""
+"Disponible para sus miembros y subgrupos. Lo gestionan los administradores y"
+" se conserva aunque su creador deje el grupo."
+msgstr ""
+"Disponible pour ses membres et sous-groupes. Les administrateurs le gèrent "
+"et il reste lorsque son créateur quitte le groupe."
+
+msgid "Editar grupo"
+msgstr "Modifier le groupe"
+
+msgid "El grupo necesita un administrador"
+msgstr "Le groupe a besoin d’un administrateur"
+
+msgid ""
+"Esta persona verá este grupo y los contenidos generales de sus grupos "
+"superiores, sin acceder a otras clases."
+msgstr ""
+"Cette personne verra ce groupe et les contenus généraux des groupes "
+"supérieurs, sans accéder aux autres cours."
+
+msgid "Grupo actualizado."
+msgstr "Groupe mis à jour."
+
+msgid "Grupo independiente"
+msgstr "Groupe indépendant"
+
+msgid "Guardar en"
+msgstr "Enregistrer dans"
+
+msgid "Hacer administrador"
+msgstr "Nommer administrateur"
+
+msgid ""
+"Las piezas personales solo aparecen cuando se comparten con este grupo o con"
+" uno de sus grupos superiores."
+msgstr ""
+"Les pièces personnelles apparaissent uniquement si elles sont partagées avec"
+" ce groupe ou un groupe supérieur."
+
+msgid ""
+"Los administradores de los grupos superiores también pueden gestionar este "
+"grupo."
+msgstr ""
+"Les administrateurs des groupes supérieurs peuvent aussi gérer ce groupe."
+
+msgid ""
+"Los materiales del grupo estarán disponibles en todos sus subgrupos. Sus "
+"administradores podrán gestionarlos."
+msgstr ""
+"Les matériaux du groupe seront disponibles dans tous ses sous-groupes. Ses "
+"administrateurs pourront les gérer."
+
+msgid "Material del grupo"
+msgstr "Matériau du groupe"
+
+msgid "Materiales de este grupo y de sus grupos superiores."
+msgstr "Matériaux de ce groupe et des groupes supérieurs."
+
+msgid "Materiales disponibles"
+msgstr "Matériaux disponibles"
+
+msgid "Mi biblioteca personal"
+msgstr "Ma bibliothèque personnelle"
+
+msgid "Miembro"
+msgstr "Membre"
+
+msgid ""
+"Miembro añadido a este grupo. Puede consultar también lo publicado en sus "
+"grupos superiores."
+msgstr ""
+"Membre ajouté à ce groupe. Il peut aussi consulter les publications des "
+"groupes supérieurs."
+
+msgid "Miembros de este grupo"
+msgstr "Membres de ce groupe"
+
+msgid ""
+"Nombra a otro administrador antes de retirar al último o cambiar su rol."
+msgstr ""
+"Nommez un autre administrateur avant de retirer le dernier ou de modifier "
+"son rôle."
+
+msgid "Nuevo subgrupo"
+msgstr "Nouveau sous-groupe"
+
+msgid "Puedes consultar lo publicado en los grupos superiores:"
+msgstr "Vous pouvez consulter les publications des groupes supérieurs :"
+
+msgid "Quitar administración"
+msgstr "Retirer le rôle d’administrateur"
+
+msgid "Rol actualizado."
+msgstr "Rôle mis à jour."
+
+msgid "Rol no válido"
+msgstr "Rôle non valide"
+
+msgid "Subgrupos"
+msgstr "Sous-groupes"
+
+msgid "También disponible para este grupo"
+msgstr "Aussi disponible pour ce groupe"
+
+msgid "Todavía no hay materiales disponibles."
+msgstr "Aucun matériau disponible pour le moment."
+
+msgid "Todavía no hay miembros directos."
+msgstr "Aucun membre direct pour le moment."
+
+msgid "Tus grupos y los contenidos generales de sus grupos superiores."
+msgstr "Vos groupes et les contenus généraux des groupes supérieurs."
+
+msgid "Un grupo no puede estar dentro de sí mismo ni de uno de sus subgrupos."
+msgstr ""
+"Un groupe ne peut pas être placé dans lui-même ou dans un de ses sous-"
+"groupes."
+
+msgid "← Grupos"
+msgstr "← Groupes"
+
+msgid "＋ Crear material del grupo"
+msgstr "＋ Créer un matériau du groupe"
+
+msgid "＋ Nuevo subgrupo"
+msgstr "＋ Nouveau sous-groupe"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/editar/"
+msgstr "groupes/<uuid:pk>/modifier/"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/miembros/<int:user_id>/rol/"
+msgstr "groupes/<uuid:pk>/membres/<int:user_id>/role/"
+
+msgid "Solo la administración del grupo superior puede cambiar su ubicación."
+msgstr ""
+"Seuls les administrateurs du groupe supérieur peuvent modifier son "
+"emplacement."
+
+msgid ""
+"Al cambiar el grupo superior, cambiará quién puede consultar y administrar "
+"sus contenidos."
+msgstr ""
+"Changer le groupe supérieur modifie les personnes pouvant consulter et gérer"
+" ses contenus."
+
+msgid "Etiqueta"
+msgstr "Étiquette"
+
+msgid "Etiquetas"
+msgstr "Étiquettes"
+
+msgid "Etiquetas disponibles"
+msgstr "Étiquettes disponibles"
+
+msgid "Todas las etiquetas"
+msgstr "Toutes les étiquettes"
+
+msgid "Separa las etiquetas con comas. Por ejemplo: plato, vajilla, regalo."
+msgstr ""
+"Séparez les étiquettes par des virgules. Par exemple : assiette, vaisselle, "
+"cadeau."
+
+msgid "plato, vajilla, regalo"
+msgstr "assiette, vaisselle, cadeau"
+
+msgid "Puedes añadir hasta 20 etiquetas por pieza."
+msgstr "Vous pouvez ajouter jusqu’à 20 étiquettes par pièce."
+
+msgid "Cada etiqueta puede tener hasta 40 caracteres."
+msgstr "Chaque étiquette peut comporter jusqu’à 40 caractères."
+
+msgid "Nombre, barro, técnica o etiqueta…"
+msgstr "Nom, terre, technique ou étiquette…"
+
+msgctxt "URL"
+msgid "talleres/<uuid:workshop_id>/"
+msgstr "ateliers/<uuid:workshop_id>/"
+
+msgctxt "URL"
+msgid "talleres/<uuid:workshop_id>/galerias/"
+msgstr "ateliers/<uuid:workshop_id>/galeries/"
+
+msgctxt "URL"
+msgid "talleres/<uuid:workshop_id>/materiales/"
+msgstr "ateliers/<uuid:workshop_id>/materiaux/"
+
+msgid "Abrir galería →"
+msgstr "Ouvrir la galerie →"
+
+msgid "Abrir taller"
+msgstr "Ouvrir l’atelier"
+
+msgid "Añadir a galerías"
+msgstr "Ajouter aux galeries"
+
+msgid "Buscar materiales"
+msgstr "Rechercher des matériaux"
+
+msgid "Cambiar de taller"
+msgstr "Changer d’atelier"
+
+msgid ""
+"Compartes el nombre y las fotografías actuales. Los materiales vinculados "
+"conservan sus permisos."
+msgstr ""
+"Vous partagez le nom et les photos actuelles. Les matériaux associés "
+"conservent leurs autorisations."
+
+msgid "Compartir también con talleres"
+msgstr "Partager aussi avec des ateliers"
+
+msgid "Crea primero una galería personal o en uno de tus talleres."
+msgstr "Créez d’abord une galerie personnelle ou dans un de vos ateliers."
+
+msgid "Crea una colección para reunir las piezas de sus miembros."
+msgstr "Créez une collection pour réunir les pièces des membres."
+
+msgid "Crear un taller"
+msgstr "Créer un atelier"
+
+msgid "Elige un taller"
+msgstr "Choisir un atelier"
+
+msgid "En un taller, sus miembros pueden añadir sus propias piezas."
+msgstr "Les membres d’un atelier peuvent ajouter leurs propres pièces."
+
+msgid "Este taller aún no tiene galerías."
+msgstr "Cet atelier n’a pas encore de galeries."
+
+msgid "Galería compartida"
+msgstr "Galerie partagée"
+
+msgid "Galerías del taller"
+msgstr "Galeries de l’atelier"
+
+msgid "Gestionar taller"
+msgstr "Gérer l’atelier"
+
+msgid "Gestionar talleres"
+msgstr "Gérer les ateliers"
+
+msgid "Inicio"
+msgstr "Accueil"
+
+msgid ""
+"Las galerías de un taller son visibles para sus miembros. Publicarla en "
+"Internet es una decisión aparte."
+msgstr ""
+"Les galeries d’un atelier sont visibles par ses membres. La publication sur "
+"Internet est un choix distinct."
+
+msgid "Los miembros del taller o de los talleres seleccionados."
+msgstr "Les membres de l’atelier ou des ateliers sélectionnés."
+
+msgid ""
+"Los miembros del taller pueden ver la galería y añadir sus propias piezas."
+msgstr ""
+"Les membres de l’atelier peuvent voir la galerie et ajouter leurs propres "
+"pièces."
+
+msgid "MI ESPACIO"
+msgstr "MON ESPACE"
+
+msgid "Material privado"
+msgstr "Matériau privé"
+
+msgid "Materiales del taller"
+msgstr "Matériaux de l’atelier"
+
+msgid "Mis galerías personales"
+msgstr "Mes galeries personnelles"
+
+msgid "Mis piezas, materiales y galerías"
+msgstr "Mes pièces, matériaux et galeries"
+
+msgid "Personal"
+msgstr "Personnel"
+
+msgid ""
+"Selecciona los esmaltes, engobes y barros de tu biblioteca o de tus "
+"talleres."
+msgstr ""
+"Sélectionnez les émaux, engobes et argiles de votre bibliothèque ou de vos "
+"ateliers."
+
+msgid "Sin materiales registrados"
+msgstr "Aucun matériau enregistré"
+
+msgid "TALLER"
+msgstr "ATELIER"
+
+msgid "TALLER ACTIVO"
+msgstr "ATELIER ACTIF"
+
+msgid "TALLERES"
+msgstr "ATELIERS"
+
+msgid "Taller activo"
+msgstr "Atelier actif"
+
+msgid "Talleres"
+msgstr "Ateliers"
+
+msgid "Todavía no hay materiales compartidos en este taller."
+msgstr "Aucun matériau n’a encore été partagé dans cet atelier."
+
+msgid "Ver material →"
+msgstr "Voir le matériau →"
+
+msgid "Ver todas →"
+msgstr "Tout voir →"
+
+msgid "Versión de desarrollo · Datos de prueba independientes"
+msgstr "Version de développement · Données de test indépendantes"
+
+msgid "＋ Nuevo material"
+msgstr "＋ Nouveau matériau"
+
+msgid "En galerías"
+msgstr "Dans des galeries"
+
+msgid "Compartir material"
+msgstr "Partager le matériau"
+
+msgid "Una galería de taller debe ser visible para sus miembros o pública."
+msgstr "Une galerie d’atelier doit être visible par ses membres ou publique."
+
+msgid "Administrar taller"
+msgstr "Administrer l’atelier"
+
+msgid "Origen"
+msgstr "Origine"
+
+msgid "Todos mis materiales"
+msgstr "Tous mes matériaux"
+
+msgid "Menú"
+msgstr "Menu"
+
+msgid "Biblioteca"
+msgstr "Bibliothèque"
+
+msgid "Materiales y moldes, en una misma biblioteca."
+msgstr "Matériaux et moules, dans une même bibliothèque."
+
+msgid "Contenido de la biblioteca"
+msgstr "Contenu de la bibliothèque"
+
+msgid "Las galerías de los talleres donde creas y compartes."
+msgstr "Les galeries des ateliers où vous créez et partagez."
+
+msgid "Todavía no perteneces a ningún taller."
+msgstr "Vous ne faites pas encore partie d’un atelier."
+
+msgid "Los materiales de tus talleres están disponibles en Materiales."
+msgstr "Les matériaux de vos ateliers sont disponibles dans Matériaux."
+
+msgctxt "URL"
+msgid "talleres/"
+msgstr "ateliers/"
+
+msgid "Sin barro seleccionado"
+msgstr "Aucune argile sélectionnée"
+
+msgid ""
+"Selecciona un material de tipo barro de tu biblioteca o de tus talleres."
+msgstr "Choisissez une argile dans votre bibliothèque ou vos ateliers."
+
+msgid "Barro anotado anteriormente:"
+msgstr "Argile précédemment notée :"
+
+msgid "Crear un material de tipo barro"
+msgstr "Créer un matériau de type argile"
+
+msgid "Otros barros utilizados"
+msgstr "Autres argiles utilisées"
+
+msgid "Todavía no tienes materiales disponibles de este tipo."
+msgstr "Vous ne disposez pas encore de matériaux de ce type."
+
+msgid "Añadir galería"
+msgstr "Ajouter une galerie"
+
+msgid "Buscar galerías…"
+msgstr "Rechercher des galeries…"
+
+msgid "No hay galerías con ese nombre o ya están añadidas."
+msgstr "Aucune galerie correspondante, ou elles sont déjà ajoutées."
+
+msgid "Quitar"
+msgstr "Retirer"
+
+msgid "Sin galerías seleccionadas"
+msgstr "Aucune galerie sélectionnée"
+
+msgid "Galerías seleccionadas"
+msgstr "Galeries sélectionnées"
+
+msgid "Seleccionar galerías"
+msgstr "Sélectionner des galeries"
+
+msgid "Nuevo barro"
+msgstr "Nouvelle argile"
+
+msgid "Nuevo engobe"
+msgstr "Nouvel engobe"
+
+msgid "Engobes"
+msgstr "Engobes"
+
+msgid "Barro, esmaltes, engobes y moldes."
+msgstr "Argiles, émaux, engobes et moules."
+
+msgid "Todavía no tienes moldes."
+msgstr "Vous n’avez pas encore de moules."
+
+msgid "Todavía no hay materiales de este tipo."
+msgstr "Il n’y a pas encore de matériaux de ce type."
+
+msgid "Eliminar material"
+msgstr "Supprimer le matériau"
+
+msgid "Material eliminado."
+msgstr "Matériau supprimé."
+
+msgid "← Volver al material"
+msgstr "← Retour au matériau"
+
+msgid "Volver al material"
+msgstr "Retour au matériau"
+
+msgid ""
+"Este material está vinculado a piezas u otros registros que deben "
+"conservarse. No se puede eliminar mientras existan esos vínculos."
+msgstr ""
+"Ce matériau est lié à des pièces ou à d’autres données à conserver. Il ne "
+"peut pas être supprimé tant que ces liens existent."
+
+msgid ""
+"Se eliminarán la ficha del material, sus recetas, sus pruebas y sus "
+"fotografías. No podrás recuperarlos desde Canela."
+msgstr ""
+"La fiche du matériau, ses recettes, ses essais et ses photos seront "
+"supprimés. Vous ne pourrez pas les récupérer depuis Canela."
+
+msgid "También dejará de estar disponible en los talleres donde se comparte."
+msgstr ""
+"Il ne sera plus disponible non plus dans les ateliers où il est partagé."
+
+msgid "Confirma que quieres eliminar este material para continuar."
+msgstr "Confirmez la suppression de ce matériau pour continuer."
+
+msgid ""
+"Entiendo que esta acción es definitiva y quiero eliminar este material."
+msgstr ""
+"Je comprends que cette action est définitive et je souhaite supprimer ce "
+"matériau."
+
+msgid "Conservar material"
+msgstr "Conserver le matériau"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/eliminar/"
+msgstr "emaux/<uuid:pk>/supprimer/"
+
+msgid ""
+"Los materiales no se comparten con grupos. Guárdalos como personales o en un"
+" taller que administres."
+msgstr ""
+"Les matériaux ne peuvent pas être partagés avec des groupes. Enregistrez-les"
+" comme personnels ou dans un atelier que vous administrez."
+
+msgid "También dejará de estar disponible para los miembros del taller."
+msgstr "Il ne sera plus disponible pour les membres de l’atelier."
+
+msgid "Eliminar molde"
+msgstr "Supprimer le moule"
+
+msgid "Molde eliminado."
+msgstr "Moule supprimé."
+
+msgid ""
+"Se eliminarán la ficha del molde y sus fotografías. No podrás recuperarlos "
+"desde Canela."
+msgstr ""
+"La fiche du moule et ses photos seront supprimées. Vous ne pourrez pas les "
+"récupérer depuis Canela."
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/eliminar/"
+msgstr "moules/<uuid:pk>/supprimer/"
+
+msgid "Reactivar"
+msgstr "Réactiver"
+
+msgid "Material retirado."
+msgstr "Matériau retiré."
+
+msgid "Material reactivado."
+msgstr "Matériau réactivé."
+
+msgid "Ver disponibles"
+msgstr "Voir les disponibles"
+
+msgid "Ver retirados"
+msgstr "Voir les retirés"
+
+msgid ""
+"Retirado: se conserva en las piezas anteriores y no está disponible para "
+"piezas nuevas."
+msgstr ""
+"Retiré : conservé dans les pièces antérieures et indisponible pour les "
+"nouvelles pièces."
+
+msgid "Retirados: solo tus materiales y los de los talleres que administras."
+msgstr ""
+"Retirés : uniquement vos matériaux et ceux des ateliers que vous "
+"administrez."
+
+msgid "No hay materiales retirados."
+msgstr "Aucun matériau retiré."
+
+msgid "Acción no válida."
+msgstr "Action non valide."
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/retirar/"
+msgstr "emaux/<uuid:pk>/retirer/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/retirar/"
+msgstr "moules/<uuid:pk>/retirer/"
+
+msgid "Agotado"
+msgstr "Épuisé"
+
+msgid "No disponible"
+msgstr "Indisponible"
+
+msgid "Cambiar disponibilidad"
+msgstr "Modifier la disponibilité"
+
+msgid "Disponibilidad actualizada."
+msgstr "Disponibilité mise à jour."
+
+msgid ""
+"No disponible para piezas nuevas. Se conserva en las piezas anteriores."
+msgstr ""
+"Indisponible pour les nouvelles pièces. Conservé dans les pièces "
+"antérieures."
+
+msgid "Ver no disponibles"
+msgstr "Voir les indisponibles"
+
+msgid "No hay materiales no disponibles."
+msgstr "Aucun matériau indisponible."
+
+msgid ""
+"No disponibles: solo tus materiales y los de los talleres que administras."
+msgstr ""
+"Indisponibles : uniquement vos matériaux et ceux des ateliers que vous "
+"administrez."
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/disponibilidad/"
+msgstr "emaux/<uuid:pk>/disponibilite/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/disponibilidad/"
+msgstr "moules/<uuid:pk>/disponibilite/"
+
+msgid "Estado del molde"
+msgstr "État du moule"
+
+msgid "Buen estado"
+msgstr "Bon état"
+
+msgid "Tus galerías personales y las de tus talleres, en un mismo lugar."
+msgstr "Vos galeries personnelles et celles de vos ateliers, au même endroit."
+
+msgid "Personales"
+msgstr "Personnelles"
+
+msgid "De tus talleres"
+msgstr "De vos ateliers"
+
+msgid "Compartidas contigo"
+msgstr "Partagées avec vous"
+
+msgid "Tus talleres, sus miembros y su organización."
+msgstr "Vos ateliers, leurs membres et leur organisation."
+
+msgid "Miembros del taller"
+msgstr "Membres de l’atelier"
+
+msgid "Abrir galería"
+msgstr "Ouvrir la galerie"
+
+msgid "Inspiración"
+msgstr "Inspiration"
+
+msgid "Publicar en Inspiración"
+msgstr "Publier dans Inspiration"
+
+msgid "Retirar de Inspiración"
+msgstr "Retirer d’Inspiration"
+
+msgid "Publicada en Inspiración"
+msgstr "Publiée dans Inspiration"
+
+msgid "Sin publicar en Inspiración"
+msgstr "Non publiée dans Inspiration"
+
+msgid "Guardar y añadir a la galería"
+msgstr "Enregistrer et ajouter à la galerie"
+
+msgid "Lo que quieres contar"
+msgstr "Ce que vous souhaitez raconter"
+
+msgid "Dónde aparece"
+msgstr "Où elle apparaît"
+
+msgid "Vista previa"
+msgstr "Aperçu"
+
+msgid "Volver"
+msgstr "Retour"
+
+msgid "Entrar"
+msgstr "Se connecter"
+
+msgid "Fotografías y portada"
+msgstr "Photos et couverture"
+
+msgid "Portada de la presentación"
+msgstr "Couverture de la présentation"
+
+msgid "Primera foto seleccionada"
+msgstr "Première photo sélectionnée"
+
+msgid "Selecciona también la foto elegida como portada."
+msgstr "Sélectionnez aussi la photo choisie pour la couverture."
+
+msgid "Selecciona una foto para ver la portada."
+msgstr "Sélectionnez une photo pour voir la couverture."
+
+msgid "Selecciona al menos una foto para publicar en Inspiración."
+msgstr "Sélectionnez au moins une photo pour publier dans Inspiration."
+
+msgid "Una pieza publicada en Inspiración necesita al menos una foto."
+msgstr "Une pièce publiée dans Inspiration nécessite au moins une photo."
+
+msgid "Retira la publicación antes de quitar todas las fotos."
+msgstr "Retirez la publication avant de supprimer toutes les photos."
+
+msgid ""
+"Revisa la presentación y selecciona al menos una foto antes de publicar."
+msgstr ""
+"Vérifiez la présentation et sélectionnez au moins une photo avant de "
+"publier."
+
+msgid "Pieza publicada en Inspiración."
+msgstr "Pièce publiée dans Inspiration."
+
+msgid "Pieza retirada de Inspiración. Sus galerías se conservan."
+msgstr "Pièce retirée d’Inspiration. Ses galeries sont conservées."
+
+msgid "Presentación guardada."
+msgstr "Présentation enregistrée."
+
+msgid "Revisa tu presentación"
+msgstr "Vérifiez votre présentation"
+
+msgid "UNA PRESENTACIÓN, TODOS LOS ESPACIOS"
+msgstr "UNE PRÉSENTATION, TOUS LES ESPACES"
+
+msgid "Elige cómo mostrar tu pieza en las galerías y en Inspiración."
+msgstr ""
+"Choisissez comment présenter votre pièce dans les galeries et dans "
+"Inspiration."
+
+msgid ""
+"Tus notas, historial y recetas privadas quedan fuera de esta presentación."
+msgstr ""
+"Vos notes, historique et recettes privés restent en dehors de cette "
+"présentation."
+
+msgid ""
+"Solo estos textos y las fotos seleccionadas se mostrarán en las galerías y "
+"en Inspiración."
+msgstr ""
+"Seuls ces textes et les photos sélectionnées apparaissent dans les galeries "
+"et dans Inspiration."
+
+msgid "Solo se mostrarán las fotos seleccionadas."
+msgstr "Seules les photos sélectionnées seront affichées."
+
+msgid "Añade fotos a tu pieza para poder publicarla en Inspiración."
+msgstr "Ajoutez des photos à votre pièce pour la publier dans Inspiration."
+
+msgid ""
+"Guardar actualiza todas sus galerías y, si está publicada, Inspiración. Cada"
+" galería mantiene su propia visibilidad."
+msgstr ""
+"L’enregistrement met à jour toutes ses galeries et, si elle est publiée, "
+"Inspiration. Chaque galerie conserve sa visibilité."
+
+msgid "La ficha original sigue siendo privada."
+msgstr "La fiche originale reste privée."
+
+msgid "Puedes retirarla de Inspiración sin quitarla de sus galerías."
+msgstr ""
+"Vous pouvez la retirer d’Inspiration en la conservant dans ses galeries."
+
+msgid ""
+"Las galerías muestran la presentación pública de esta pieza. Prepara sus "
+"textos y selecciona sus fotos desde «Presentación pública»."
+msgstr ""
+"Les galeries affichent la présentation publique de cette pièce. Préparez ses"
+" textes et sélectionnez ses photos dans « Présentation publique »."
+
+msgid ""
+"Esta pieza tenía presentaciones diferentes en varias galerías. Hemos "
+"conservado únicamente los textos y fotos comunes para no ampliar su "
+"visibilidad. Aquí puedes consultar los originales antes de guardar la "
+"presentación unificada."
+msgstr ""
+"Cette pièce avait des présentations différentes dans plusieurs galeries. "
+"Seuls les textes et photos communs ont été conservés pour ne pas élargir "
+"leur visibilité. Consultez les originaux ici avant d’enregistrer la "
+"présentation unifiée."
+
+msgid "HECHO CON TIEMPO. COMPARTIDO PARA INSPIRAR."
+msgstr "FAIT AVEC PATIENCE. PARTAGÉ POUR INSPIRER."
+
+msgid ""
+"Descubre las piezas de la comunidad, de la más reciente a la más antigua."
+msgstr ""
+"Découvrez les pièces de la communauté, des plus récentes aux plus anciennes."
+
+msgid "Publicar una de mis piezas"
+msgstr "Publier une de mes pièces"
+
+msgid "Un espacio para lo que inspira"
+msgstr "Un espace pour ce qui inspire"
+
+msgid "Las primeras piezas aparecerán aquí cuando sus autores las publiquen."
+msgstr ""
+"Les premières pièces apparaîtront ici lorsque leurs auteurs les publieront."
+
+msgid "Ver pieza"
+msgstr "Voir la pièce"
+
+msgid "Ver más piezas"
+msgstr "Voir plus de pièces"
+
+msgid "Ya has visto todas las piezas."
+msgstr "Vous avez vu toutes les pièces."
+
+msgid ""
+"No se han podido cargar más piezas. Pulsa «Ver más piezas» para intentarlo "
+"de nuevo."
+msgstr ""
+"Impossible de charger plus de pièces. Sélectionnez « Voir plus de pièces » "
+"pour réessayer."
+
+msgid "No se pudo cargar esta página. Vuelve a abrir Inspiración."
+msgstr "Impossible de charger cette page. Ouvrez à nouveau Inspiration."
+
+msgid "Foto %(number)s"
+msgstr "Photo %(number)s"
+
+msgid ""
+"Se eliminará esta foto de la ficha, de su presentación y de las galerías. Si"
+" era la última foto publicada, la pieza se retirará de Inspiración. Esta "
+"acción es definitiva."
+msgstr ""
+"Cette photo sera supprimée de la fiche, de la présentation et des galeries. "
+"Si c’était la dernière photo publiée, la pièce sera retirée d’Inspiration. "
+"Cette action est définitive."
+
+msgctxt "URL"
+msgid "inspiracion/"
+msgstr "inspiration/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/presentacion/"
+msgstr "pieces/<uuid:pk>/presentation/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/publicacion/"
+msgstr "pieces/<uuid:pk>/publication/"
+
+msgid "En %(count)s galería"
+msgid_plural "En %(count)s galerías"
+msgstr[0] "Dans %(count)s galerie"
+msgstr[1] "Dans %(count)s galeries"
+
+msgid "Cerrar"
+msgstr "Fermer"
+
+msgid "Foto anterior"
+msgstr "Photo précédente"
+
+msgid "Foto siguiente"
+msgstr "Photo suivante"
+
+msgid "Revisa estos campos antes de guardar"
+msgstr "Vérifiez ces champs avant d’enregistrer"
+
+msgid "Las fotos nuevas se añaden a las guardadas."
+msgstr "Les nouvelles photos s’ajoutent aux photos enregistrées."
+
+msgid ""
+"Añade los ingredientes de tu receta. Los porcentajes deben sumar 100 %."
+msgstr ""
+"Ajoutez les ingrédients de votre recette. Les pourcentages doivent totaliser"
+" 100 %."
+
+msgid "Añadir ingrediente"
+msgstr "Ajouter un ingrédient"
+
+msgid "Quitar ingrediente"
+msgstr "Retirer l’ingrédient"
+
+msgid "Se retirará a %(name)s de este grupo. Sus piezas se conservan."
+msgstr "%(name)s sera retiré de ce groupe. Ses pièces seront conservées."
+
+msgid "Confirmar retirada"
+msgstr "Confirmer le retrait"
+
+msgid ""
+"Este nombre acompaña a tus piezas compartidas. Si lo dejas vacío, se muestra"
+" tu usuario."
+msgstr ""
+"Ce nom accompagne vos pièces partagées. Laissez-le vide pour afficher votre "
+"identifiant."
+
+msgid "Mostrar"
+msgstr "Afficher"
+
+msgid "Ocultar"
+msgstr "Masquer"
+
+msgid "Mostrar contraseña"
+msgstr "Afficher le mot de passe"
+
+msgid "Ocultar contraseña"
+msgstr "Masquer le mot de passe"
+
+msgid "Cambios sin guardar"
+msgstr "Modifications non enregistrées"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Los porcentajes deben sumar 100 %."
+msgstr "Les pourcentages doivent totaliser 100 %."
+
+msgid "No se pudo actualizar la búsqueda. Vuelve a intentarlo."
+msgstr "La recherche n’a pas pu être mise à jour. Réessayez."
+
+msgid "Indica una cantidad entre 0 y 1.000.000 g."
+msgstr "Indiquez une quantité entre 0 et 1 000 000 g."
+
+msgid "En Inspiración"
+msgstr "Dans Inspiration"
+
+msgid ""
+"Aún no tienes talleres. Puedes crearlos en «Talleres» y compartir más "
+"adelante."
+msgstr ""
+"Vous n’avez pas encore d’ateliers. Créez-en dans « Ateliers » et partagez "
+"plus tard."
+
+msgid "Invitar a otra persona"
+msgstr "Inviter une autre personne"
+
+msgid "Nuevo taller"
+msgstr "Nouvel atelier"
+
+msgid "＋ Nuevo taller"
+msgstr "＋ Nouvel atelier"
+
+msgid "Taller independiente"
+msgstr "Atelier indépendant"
+
+msgid "Organiza tus talleres y sus subgrupos."
+msgstr "Organisez vos ateliers et leurs sous-groupes."
+
+msgid ""
+"Crea tu cuenta para empezar. Después podrás invitar a otras personas desde "
+"«Mi cuenta»."
+msgstr ""
+"Créez votre compte pour commencer. Vous pourrez ensuite inviter d’autres "
+"personnes depuis « Mon compte »."

@@ -1,0 +1,12 @@
+.install-app{margin-top:25px;border-top:1px solid var(--line,#e9dfd2);padding-top:9px;color:var(--ink,#372d25);text-align:left}
+.install-app[hidden],.install-app [hidden]{display:none!important}
+.install-app summary{display:flex;align-items:center;gap:10px;cursor:pointer;min-height:48px;font-size:13px;font-weight:600;list-style:none;border-radius:6px}
+.install-app summary::-webkit-details-marker{display:none}
+.install-app summary:focus-visible{outline:3px solid #a5683e;outline-offset:3px}
+.install-app summary svg{width:20px;height:20px;color:#89552f;flex:none}
+.install-chevron{margin-left:auto}.install-app[open] .install-chevron{transform:rotate(180deg)}
+.install-app-content{padding:3px 0 12px 30px;max-width:540px}
+.install-app-content p{font-size:13px;line-height:1.7;color:var(--muted,#776b60);margin:0 0 14px}
+.install-app-content small{display:block;font-size:11px;line-height:1.6;color:var(--muted,#776b60)}
+.install-app-content button{min-height:44px;margin-bottom:14px}
+@media(display-mode:standalone){.install-app{display:none}}

@@ -1,0 +1,16 @@
+.venv
+node_modules
+.git
+.env
+.env.*
+!.env.example
+.private
+.local-secret
+.setup.lock
+data
+media
+backups
+staticfiles
+mock
+**/__pycache__
+**/*.pyc

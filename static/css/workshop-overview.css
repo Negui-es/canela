@@ -1,0 +1,28 @@
+.workshop-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;margin:26px 0 30px;background:#dfcbb4;border:1px solid #dfcbb4;border-radius:17px;overflow:hidden;isolation:isolate}
+.overview-item{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-width:0;min-height:135px;padding:20px 22px;background:#f6eee3;color:#76563e;text-decoration:none;transition:background .16s}
+.overview-heading{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:22px}
+.overview-heading>span{font-size:12px;font-weight:550;line-height:1.4;min-width:0}
+.overview-heading>svg{width:21px;height:21px;flex:none;opacity:.78}
+.overview-value{position:relative;z-index:1;display:flex;align-items:flex-end;justify-content:space-between;gap:10px;margin-top:10px}
+.overview-value strong{font-family:Georgia,'Times New Roman',serif;font-size:46px;font-weight:400;line-height:1;letter-spacing:-1.8px;font-variant-numeric:lining-nums tabular-nums;overflow-wrap:anywhere}
+.overview-arrow{display:grid;place-items:center;width:26px;height:26px;flex:none;border:1px solid #dac4ae;border-radius:50%;font-size:14px;color:#9d785b}
+.overview-primary{background:#8b542f;color:#fff3df}
+.overview-primary::before,.overview-primary::after{content:'';position:absolute;width:135px;height:135px;right:-45px;bottom:-85px;border:1px solid #e4c5a04a;border-radius:50%;pointer-events:none}
+.overview-primary::after{width:170px;height:170px;right:-62px;bottom:-102px}
+.overview-primary .overview-heading>span{color:#f4dfc3}
+.overview-primary .overview-arrow{color:#f4dfc3;border-color:#cba47c80}
+.overview-glazes{background:#efe1d1}.overview-molds{background:#f8f1e7}
+.overview-item:hover{background:#ead9c4}.overview-primary:hover{background:#784523}
+.overview-item:focus-visible{outline:3px solid #493428;outline-offset:-5px;border-radius:5px}
+.overview-primary:focus-visible{outline-color:#fff3df}
+@media(max-width:850px){
+  .workshop-overview{grid-template-columns:repeat(2,minmax(0,1fr));margin:20px 0 24px;border-radius:15px}
+  .overview-item{padding:12px 15px;min-height:91px}
+  .overview-heading{gap:9px;min-height:23px;align-items:flex-start}
+  .overview-heading>span{font-size:11px;line-height:1.4}
+  .overview-heading>svg{width:19px;height:19px}
+  .overview-value{margin-top:4px;gap:8px}
+  .overview-value strong{font-size:35px;letter-spacing:-1.1px}
+  .overview-arrow{width:23px;height:23px;font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){.overview-item{transition:none}}

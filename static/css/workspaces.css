@@ -1,0 +1,95 @@
+.space-navigation> .nav-label{margin-top:12px}
+.workshop-navigation{border-top:1px solid #e6d8c6;margin-top:20px;padding-top:18px}
+.workshop-navigation .nav-label{margin:4px 14px 12px}
+.workshop-navigation .workshop-name{font-size:14px;letter-spacing:.4px;text-transform:none;color:#6c4b34}
+.workshop-navigation .workshop-name:not(:first-child){margin-top:23px}
+.workshop-tree{list-style:none;margin:0;padding:0}
+.workshop-tree-node+.workshop-tree-node{margin-top:22px}
+.workshop-tree-children{margin:14px 0 0 12px;padding-left:7px;border-left:1px solid #decdb9}
+.workshop-tree .workshop-name{white-space:normal;overflow-wrap:anywhere;margin-top:0}
+.mobile-workshop-tree{list-style:none;margin:0;padding:0}
+.mobile-workshop-children{margin:4px 0 12px 17px;padding-left:8px;border-left:1px solid #decdb9}
+.mobile-menu .mobile-workshop-admin{min-height:44px;font-size:12px;color:#6d5745;padding-top:5px;padding-bottom:5px}
+.mobile-menu .mobile-workshop-admin>svg{width:18px;height:18px}
+.mobile-workshop-node a>span:not(:last-child){min-width:0;overflow-wrap:anywhere}
+.mobile-menu .mobile-menu-section{font-size:11px;letter-spacing:1px;color:#6d5745;margin:18px 12px 8px}
+.workshop-navigation form{margin:0 10px 10px;display:grid;gap:5px}
+.workshop-navigation select{width:100%;max-width:100%}
+.workshop-navigation [data-workshop-go]{font-size:12px;padding:5px 8px;min-height:30px}
+.workshop-navigation .workshop-settings{font-size:12px;color:#6d5745}
+.space-navigation>a>svg,.workshop-navigation a>svg{width:21px;height:21px;flex:none}
+.workshop-materials{margin-top:28px}
+.workshop-material{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.workshop-material p{font-size:13px;color:#706052;margin:5px 0}
+.workshop-search{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin:20px 0}
+.workshop-search label{display:grid;gap:6px;flex:1;min-width:140px}
+.preview-banner{padding:9px 20px;background:#f4e5cb;color:#6c4b34;font-size:12px;border-bottom:1px solid #e6d8c6}
+.mobile-workspace-context{display:none}
+.mobile-menu-toggle{display:none}
+.library-tabs{display:flex;flex-direction:row;gap:4px;background:#f0e7da;border-radius:10px;padding:4px;max-width:540px;margin:22px 0 18px}
+.library-tabs a{flex:1;min-width:0;width:auto;text-align:center;min-height:42px;padding:10px 15px;border-radius:7px;color:#6d5745;text-decoration:none;font-size:14px}
+.library-tabs a.active{background:#fffdf9;box-shadow:0 1px 4px #52371910;color:#68472e;font-weight:600}
+.workshop-page-tree{list-style:none;padding:0;margin:0;display:grid;gap:15px;max-width:850px}
+.workshop-page-card{border:1px solid #e7dccd;background:#fffdf9;border-radius:13px;overflow:hidden}
+.workshop-page-row{display:flex;align-items:center;gap:8px;padding:8px 12px}
+.workshop-page-link{flex:1;min-width:0;display:flex;align-items:center;gap:13px;min-height:74px;padding:8px 4px;text-decoration:none;color:#493629}
+.workshop-page-link>span:not(:first-child):not(:last-child){min-width:0;overflow-wrap:anywhere}
+.workshop-page-link strong{display:block;font-size:16px;font-weight:600}
+.workshop-page-link small{display:block;color:#706052;font-size:12px;margin-top:5px}
+.workshop-page-icon{display:grid;place-items:center;background:#f2e8d9;border-radius:10px;width:40px;height:40px;flex:none;color:#a2734e}
+.workshop-page-icon svg,.workshop-admin-icon svg{width:21px;height:21px}
+.workshop-page-chevron{margin-left:auto;font-size:22px;color:#ad9884}
+.workshop-admin-icon{display:grid;place-items:center;min-width:44px;min-height:44px;border-radius:9px;color:#706052}
+.workshop-admin-icon:hover{background:#f5eee3}
+.workshop-subgroups{padding:0 15px 15px}
+.workshop-subgroups>summary{display:flex;align-items:center;justify-content:space-between;min-height:44px;color:#706052;font-size:12px;cursor:pointer}
+.workshop-page-children{padding-left:13px;border-left:1px solid #decdb9;margin-left:15px;gap:10px}
+.workshop-page-children .workshop-page-card{border:0;border-radius:0;background:transparent}
+.workshop-page-children .workshop-page-row{padding:0}
+.workshop-page-children .workshop-page-link{min-height:66px}
+.workshop-page-children .workshop-page-icon{display:none}
+.workshops-secondary{margin-top:28px;padding-top:20px;border-top:1px solid #e7dccd;max-width:850px}
+.workshops-secondary p{color:#706052;font-size:13px;margin-top:16px}
+.gallery-live-materials{padding-top:13px;border-top:1px solid #e6d8c6;margin-top:15px;display:grid;gap:8px}
+.gallery-live-materials h3{font-size:13px;margin:0}
+.gallery-live-materials ul{list-style:none;padding:0;margin:0;display:grid;gap:5px;font-size:12px;color:#706052}
+.piece-gallery-choice{display:flex;align-items:center;gap:10px;border:1px solid #e6d8c6;border-radius:9px;padding:12px;margin:8px 0}
+.piece-gallery-choice input{width:18px;height:18px;accent-color:#a5683e}
+.gallery-workshop-location{padding:12px;border-radius:8px;background:#f6efe5;margin:12px 0}
+@media(max-width:850px){
+ .mobile-nav.mobile-four-nav{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;padding-left:8px;padding-right:8px}
+ .mobile-four-nav>a{font-size:11px;min-height:50px;gap:5px}
+ .mobile-four-nav>a.active{background:transparent;color:#89552f}
+ .mobile-four-nav .mobile-tab-icon{display:grid;place-items:center;width:51px;min-height:29px;border-radius:16px}
+ .mobile-four-nav>a.active .mobile-tab-icon{background:#f1e5d5}
+ .library-tabs{max-width:none;margin-top:18px}
+ .workshop-page-row{padding:8px 11px}
+ .workshop-page-link{gap:10px}
+ .workshop-page-link strong{font-size:15px}
+ .workshop-page-children{margin-left:8px;padding-left:12px}
+ .mobile-workspace-context{display:block;padding:12px 20px;background:#fbf7f0;border-bottom:1px solid #e8ddce}
+ .mobile-workspace-context>div{display:flex;gap:10px;align-items:center;justify-content:space-between}
+ .mobile-workspace-context strong{font-size:14px;font-weight:600}
+ .mobile-workspace-context small{display:block;color:#706052;font-size:11px}
+ .mobile-workspace-context a{min-height:44px;display:inline-flex;align-items:center}
+ .mobile-workspace-context form{margin-top:8px}
+ .mobile-workspace-context select{width:100%}
+ .mobile-nav.workshop-mobile-nav{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .mobile-nav.personal-mobile-nav{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding-left:14px;padding-right:14px}
+ .mobile-nav.personal-mobile-nav>a{font-size:12px;gap:4px;font-weight:500}
+ .topbar:has(.mobile-menu-toggle){display:grid;grid-template-columns:72px minmax(0,1fr) 44px;gap:8px;padding-left:14px;padding-right:14px}
+ .topbar>.mobile-menu-toggle{display:flex;align-items:center;justify-content:center;gap:5px;padding:0;border:0;background:transparent;color:#68503d;border-radius:8px;min-height:44px;font:inherit;font-size:12px}
+ .mobile-menu-toggle svg{width:21px;height:21px}
+ .topbar:has(.mobile-menu-toggle)>.mobile-brand{justify-self:center;min-width:0}
+ .topbar:has(.mobile-menu-toggle)>.mobile-account{margin-left:0}
+ .mobile-navigation-drawer{inset:0 auto 0 0;width:min(360px,calc(100vw - 32px));height:100dvh;max-height:100dvh;margin:0;padding:14px 14px calc(24px + env(safe-area-inset-bottom,0px));border:0;border-right:1px solid #e6d9c8;border-radius:0 18px 18px 0;box-shadow:12px 0 60px #35251b20}
+ .mobile-navigation-drawer>header{position:sticky;top:-14px;background:#fffdf9;padding-top:10px;padding-bottom:10px;margin-bottom:6px;z-index:1}
+ .mobile-navigation-drawer nav>a,.mobile-navigation-drawer .mobile-workshop-node>a{min-height:52px;padding:10px;font-size:14px;gap:11px}
+ .mobile-navigation-drawer .mobile-workshop-admin{min-height:44px;font-size:12px}
+ .mobile-navigation-drawer nav a.active{background:#f4e9da;color:#8b542e}
+ .preview-banner{font-size:11px;padding:7px 18px}
+ .workshop-material{align-items:flex-start;flex-wrap:wrap}
+ .workshop-search label{flex-basis:100%}
+}
+
+@media(max-width:600px){.library-tabs a{padding:10px 6px;font-size:13px;white-space:nowrap}}

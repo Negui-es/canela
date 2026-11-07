@@ -1,0 +1,22 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading editor-heading"><div><a class="back-link" href="{{ back_url }}">{% translate "← Volver a la ficha" %}</a><h1>{% translate "Gestionar fotos" %}</h1><p class="subtitle">{{ resource.name }}{% if kind == 'sample' %} {% blocktranslate with value0=parent.date|date:'SHORT_DATE_FORMAT' %}· Prueba del {{ value0 }}{% endblocktranslate %}{% endif %}</p></div></section>
+<details class="photo-upload-panel panel" {% if uploading or not photos %}open{% endif %}><summary>{% translate "Añadir fotos" %}</summary><form method="post" enctype="multipart/form-data">{% csrf_token %}{% include 'partials/form_errors.html' %}{% include 'partials/upload.html' with field=form.photos hide_label=True %}<button class="primary" name="upload" value="1">{% translate "Añadir fotografías" %}</button></form></details>
+{% if photos %}
+<form method="post" class="photo-order-form" data-photo-order>{% csrf_token %}
+<div class="photo-order-heading"><p>{% translate "La primera foto es la portada. Usa las flechas para ordenar o arrastra las fotos en el ordenador." %}</p><span role="status" data-order-status></span></div>
+<div class="photo-order-grid" data-photo-order-list data-lightbox-group>
+{% for photo in photos %}<article class="photo-order-card" data-photo-card draggable="true">
+  <input type="hidden" name="order" value="{{ photo.pk }}">
+  <a class="photo-order-preview" data-lightbox href="{% url 'photo' photo.pk %}"><img src="{% url 'photo' photo.pk %}?thumb=1" data-photo-base="{{ photo.caption|default:resource.name }}" alt="{% blocktranslate with value0=photo.caption|default:resource.name value1=forloop.counter %}{{ value0 }} · Foto {{ value1 }}{% endblocktranslate %}" loading="lazy" draggable="false"></a>
+  <span class="photo-cover-badge">{% translate "Portada" %}</span>
+  <div class="photo-order-content"><span class="photo-order-number" data-photo-number>{% blocktranslate with value0=forloop.counter %}Foto {{ value0 }}{% endblocktranslate %}</span>{% if photo.progress %}<small class="photo-stage-label">{{ photo.progress.get_stage_display }} · {{ photo.progress.date|date:'SHORT_DATE_FORMAT' }}</small>{% endif %}<div class="photo-order-buttons">
+    <button type="submit" name="up" value="{{ photo.pk }}" data-photo-action="up" aria-label="{% blocktranslate with value0=forloop.counter %}Mover foto {{ value0 }} antes{% endblocktranslate %}" {% if forloop.first %}disabled{% endif %}>↑</button>
+    <button type="submit" name="down" value="{{ photo.pk }}" data-photo-action="down" aria-label="{% blocktranslate with value0=forloop.counter %}Mover foto {{ value0 }} después{% endblocktranslate %}" {% if forloop.last %}disabled{% endif %}>↓</button>
+    <button type="submit" name="cover" value="{{ photo.pk }}" data-photo-action="cover" {% if forloop.first %}disabled{% endif %}>{% translate "Portada" %}</button>
+  </div><a class="delete-link" href="{% url 'photo_delete' photo.pk %}">{% translate "Eliminar foto" %}</a></div>
+</article>{% endfor %}
+</div>
+<div class="editor-actions"><div><a class="editor-cancel" href="{{ back_url }}">{% translate "Volver a la ficha" %}</a><button class="primary" name="save_order" value="1">{% translate "Guardar orden y portada" %}</button></div></div>
+</form>
+{% endif %}
+{% endblock %}

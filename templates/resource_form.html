@@ -1,0 +1,101 @@
+{% extends 'base.html' %}{% load i18n %}
+{% block content %}
+<section class="page-heading editor-heading">
+  <div><a class="back-link" href="{{ back_url }}">← {% if editing %}{{ form.instance.name }}{% elif kind == 'mold' %}{% translate "Mis moldes" %}{% else %}{% translate "Mis materiales" %}{% endif %}</a><h1>{{ title }}</h1>{% if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}</div>
+  <span class="editor-private"><span data-personal-privacy {% if form.group.value %}hidden{% endif %}>{% translate "Privado por defecto" %}</span><span data-group-privacy {% if not form.group.value %}hidden{% endif %}>{% translate "Material del grupo" %}</span></span>
+</section>
+<form method="post" enctype="multipart/form-data" class="piece-editor resource-editor" data-resource-kind="{{ kind }}">
+  {% csrf_token %}
+  {% include 'partials/form_errors.html' %}
+  <div class="editor-layout">
+    <div class="editor-main">
+      <section class="editor-card">
+        <div class="editor-section-heading"><h2>{% if kind == 'mold' %}{% translate "Información del molde" %}{% else %}{% translate "Información del material" %}{% endif %}</h2></div>
+        <div class="editor-fields">
+          <div class="field-full">{% include 'partials/field.html' with field=form.group %}</div>
+          {% if kind == 'glaze' %}
+          <fieldset class="material-category field-full" id="id_material_type">
+            <legend>{% translate "¿Qué material vas a guardar?" %}</legend>
+            <div class="material-category-options">
+              {% for radio in form.material_type %}<label class="material-category-option">{{ radio.tag }}{% include 'partials/nav_icon.html' with icon=radio.data.value %}<span>{{ radio.choice_label }}</span></label>{% endfor %}
+              {% if not editing %}<a class="material-category-option" href="{% url 'mold_new' %}{% if form.group.value %}?group={{ form.group.value }}{% endif %}">{% include 'partials/nav_icon.html' with icon='molds' %}<span>{% translate 'Molde' %}</span></a>{% endif %}
+            </div>
+            {% for error in form.material_type.errors %}<div class="field-error" role="alert">{{ error }}</div>{% endfor %}
+            <noscript><button class="secondary" type="submit" name="preview_material" value="1">{% translate "Actualizar campos" %}</button></noscript>
+          </fieldset>
+          {% endif %}
+          {% if kind == 'mold' and not editing %}<nav class="material-category field-full" aria-label="{% translate '¿Qué material vas a guardar?' %}"><div class="material-category-options">{% url 'glaze_new' as material_new_url %}<a class="material-category-option" href="{{ material_new_url }}?material_type=glaze{% if form.group.value %}&amp;group={{ form.group.value }}{% endif %}">{% include 'partials/nav_icon.html' with icon='glaze' %}<span>{% translate 'Esmalte' %}</span></a><a class="material-category-option" href="{{ material_new_url }}?material_type=engobe{% if form.group.value %}&amp;group={{ form.group.value }}{% endif %}">{% include 'partials/nav_icon.html' with icon='engobe' %}<span>{% translate 'Engobe' %}</span></a><a class="material-category-option" href="{{ material_new_url }}?material_type=clay{% if form.group.value %}&amp;group={{ form.group.value }}{% endif %}">{% include 'partials/nav_icon.html' with icon='clay' %}<span>{% translate 'Barro' %}</span></a><a class="material-category-option active" aria-current="page" href="{% url 'mold_new' %}{% if form.group.value %}?group={{ form.group.value }}{% endif %}">{% include 'partials/nav_icon.html' with icon='molds' %}<span>{% translate 'Molde' %}</span></a></div></nav>{% endif %}
+          <div class="field-full">{% include 'partials/field.html' with field=form.name %}</div>
+          {% if kind == 'mold' %}
+            {% include 'partials/field.html' with field=form.kind %}
+            {% include 'partials/field.html' with field=form.material %}
+            <div class="field-full">{% include 'partials/field.html' with field=form.location %}</div>
+            <div class="field-full">{% include 'partials/field.html' with field=form.state %}</div>
+          {% else %}
+            <fieldset class="resource-type field-full" id="id_kind">
+              <legend>{% translate "Procedencia" %} <span class="required" aria-label="{% translate 'obligatorio' %}">*</span></legend>
+              <div class="resource-type-options">
+                {% for radio in form.kind %}
+                <label class="resource-type-option">{{ radio.tag }}<span class="type-radio" aria-hidden="true"></span><span><strong>{{ radio.choice_label }}</strong><small>{% if radio.data.value == 'recipe' %}{% translate "Tus ingredientes y proporciones" %}{% else %}{% translate "Un producto de fabricante" %}{% endif %}</small></span></label>
+                {% endfor %}
+              </div>
+              {% for error in form.kind.errors %}<div class="field-error" role="alert">{{ error }}</div>{% endfor %}
+            </fieldset>
+            <div class="field-full" data-commercial-field>{% include 'partials/field.html' with field=form.brand %}</div>
+            {% include 'partials/field.html' with field=form.color %}
+            {% include 'partials/field.html' with field=form.temperature %}
+            <div class="material-specific field-full" data-material-fields="glaze" {% if form.material_type.value != 'glaze' %}hidden{% endif %}>
+              <h3>{% include 'partials/nav_icon.html' with icon='glaze' %}{% translate "Superficie del esmalte" %}</h3>
+              <div class="editor-fields">{% include 'partials/field.html' with field=form.finish %}{% include 'partials/field.html' with field=form.transparency %}</div>
+            </div>
+            <div class="material-specific field-full" data-material-fields="engobe" {% if form.material_type.value != 'engobe' %}hidden{% endif %}>
+              <h3>{% include 'partials/nav_icon.html' with icon='engobe' %}{% translate "Aplicación del engobe" %}</h3>
+              <div class="editor-fields">{% include 'partials/field.html' with field=form.application_stage %}{% include 'partials/field.html' with field=form.compatible_clays %}</div>
+            </div>
+            <div class="field-full" data-material-fields="glaze engobe" {% if form.material_type.value == 'clay' %}hidden{% endif %}>{% include 'partials/field.html' with field=form.application %}</div>
+            <div class="material-specific field-full" data-material-fields="clay" {% if form.material_type.value != 'clay' %}hidden{% endif %}>
+              <h3>{% include 'partials/nav_icon.html' with icon='clay' %}{% translate "Características de la pasta" %}</h3>
+              <div class="editor-fields">
+                <div class="field-full">{% include 'partials/field.html' with field=form.clay_body %}</div>
+                {% include 'partials/field.html' with field=form.grog_percentage %}{% include 'partials/field.html' with field=form.grog_size %}
+                {% include 'partials/field.html' with field=form.shrinkage %}{% include 'partials/field.html' with field=form.absorption %}
+                <div class="field-full">{% include 'partials/field.html' with field=form.measurement_temperature %}</div>
+                <div class="field-full">{% include 'partials/field.html' with field=form.working_methods %}</div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+        {% if kind == 'mold' %}
+        <details class="editor-details" {% if form.dimensions.errors or form.parts.errors %}open{% endif %}>
+          <summary><span>{% translate "Medidas y construcción" %} <small>{% translate "Dimensiones y número de partes" %}</small></span><span class="details-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="editor-fields">{% include 'partials/field.html' with field=form.dimensions %}{% include 'partials/field.html' with field=form.parts %}</div>
+        </details>
+        {% endif %}
+        <div class="editor-notes">{% include 'partials/field.html' with field=form.notes %}</div>
+      </section>
+      {% if kind == 'glaze' %}
+      <div class="resource-next-step">
+        <span class="next-step-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 3h8M10 3v7L4 20h16l-6-10V3M7 15h10"/></svg></span>
+        <div><strong>{% translate "Recetas y pruebas en su ficha" %}</strong><p data-material-fields="glaze" {% if form.material_type.value != 'glaze' %}hidden{% endif %}>{% translate "Prueba el esmalte sobre una pasta y registra sus capas, cocción y resultado." %}</p><p data-material-fields="engobe" {% if form.material_type.value != 'engobe' %}hidden{% endif %}>{% translate "Prueba el engobe sobre distintas pastas y estados de secado." %}</p><p data-material-fields="clay" {% if form.material_type.value != 'clay' %}hidden{% endif %}>{% translate "Registra pruebas de cocción, contracción y absorción de esta pasta." %}</p></div>
+      </div>
+      {% endif %}
+    </div>
+    <div class="editor-side">
+      <section class="editor-card photo-card">
+        <div class="editor-section-heading"><h2>{% translate "Fotografías" %}</h2></div>
+        {% if editing and form.instance.photos.all %}
+          <div class="resource-existing-photos"><span>{% translate "Fotos guardadas" %}</span><div class="photo-strip">{% for photo in form.instance.photos.all %}<a data-lightbox href="{% url 'photo' photo.pk %}" target="_blank" rel="noopener"><img src="{% url 'photo' photo.pk %}?thumb=1" alt="{% blocktranslate with value0=form.instance.name %}Fotografía de {{ value0 }}{% endblocktranslate %}" loading="lazy"></a>{% endfor %}</div></div>
+        {% endif %}
+        {% if kind == 'mold' %}{% include 'partials/upload.html' with field=form.photos hide_label=True mobile_title=_("Fotografía tu molde") %}{% else %}{% include 'partials/upload.html' with field=form.photos hide_label=True mobile_title=_("Guarda una referencia visual") %}{% endif %}
+      </section>
+
+      <section class="editor-card" data-group-ownership {% if not form.group.value %}hidden{% endif %}><h2>{% translate "Material del grupo" %}</h2><p>{% translate "Disponible para sus miembros y subgrupos. Lo gestionan los administradores y se conserva aunque su creador deje el grupo." %}</p></section>
+    </div>
+  </div>
+  <div class="editor-actions"><div><a class="editor-cancel" href="{{ back_url }}">{% translate "Cancelar" %}</a><button class="primary" type="submit">{% if editing %}{% translate "Guardar cambios" %}{% elif kind == 'mold' %}{% translate "Crear molde" %}{% else %}{% translate "Crear material" %}{% endif %} <span aria-hidden="true">→</span></button></div></div>
+  <datalist id="mold-kinds"><option value="{% translate 'Presión' %}"><option value="{% translate 'Colada' %}"><option value="{% translate 'Estampación' %}"><option value="{% translate 'Molde abierto' %}"></datalist>
+  <datalist id="mold-materials"><option value="{% translate 'Escayola' %}"><option value="{% translate 'Silicona' %}"><option value="{% translate 'Madera' %}"><option value="{% translate 'Resina' %}"></datalist>
+  <datalist id="glaze-finishes"><option value="{% translate 'Mate' %}"><option value="{% translate 'Satinado' %}"><option value="{% translate 'Brillante' %}"><option value="{% translate 'Transparente' %}"><option value="{% translate 'Texturado' %}"></datalist>
+  <datalist id="clay-bodies"><option value="{% translate 'Gres' %}"><option value="{% translate 'Loza' %}"><option value="{% translate 'Porcelana' %}"><option value="{% translate 'Refractario' %}"></datalist>
+</form>
+{% endblock %}

@@ -1,0 +1,2 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}<section class="page-heading"><div><h1>{{ title }}</h1></div><a class="primary" href="{% url 'piece_new' %}">{% translate "＋ Nueva pieza" %}</a></section>
+{% url 'pieces' as search_url %}{% include 'partials/search_toolbar.html' with search_kind='piece' %}{% include 'partials/piece_results.html' %}{% endblock %}

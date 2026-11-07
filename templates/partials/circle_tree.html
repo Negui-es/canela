@@ -1,0 +1,10 @@
+{% load i18n %}
+<ul class="group-tree">
+{% for node in nodes %}<li>
+  <a class="panel group-tree-card" href="{% url 'circle' node.circle.pk %}">
+    <span class="group-tree-icon">{% include 'partials/nav_icon.html' with icon='groups' %}</span>
+    <span><strong>{{ node.circle.name }}</strong>{% if node.circle.description %}<small>{{ node.circle.description }}</small>{% endif %}</span><span class="accent">↗</span>
+  </a>
+  {% if node.children %}{% include 'partials/circle_tree.html' with nodes=node.children %}{% endif %}
+</li>{% endfor %}
+</ul>

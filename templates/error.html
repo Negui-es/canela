@@ -1,0 +1,34 @@
+{% load i18n %}
+<!doctype html>
+{% get_current_language as LANGUAGE_CODE %}<html lang="{{ LANGUAGE_CODE }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>{% blocktranslate with value0=title %}{{ value0 }} · Canela{% endblocktranslate %}</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#f9f5ef;color:#473b30;font-family:system-ui,-apple-system,sans-serif;min-height:100vh;display:flex;flex-direction:column}header{padding:32px 5vw}.brand{font-size:30px;font-weight:750;letter-spacing:-1.5px;color:#473b30;text-decoration:none}.brand span{color:#a06a45}main{flex:1;display:grid;place-items:center;padding:35px 24px 80px}.card{max-width:620px;text-align:center}.pot{width:110px;height:100px;margin:0 auto 36px;color:#a06a45}small{font-size:11px;letter-spacing:3px;color:#8e7562}h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(32px,5vw,48px);line-height:1.15;margin:20px 0}p{font-size:15px;line-height:1.8;color:#796c60;max-width:440px;margin:0 auto 30px}.button{display:inline-block;border-radius:9px;background:#8e5935;color:#fffaf5;text-decoration:none;padding:14px 23px;font-size:14px;font-weight:600}.button:hover{background:#76482a}.button:focus-visible,.brand:focus-visible{outline:3px solid #b58660;outline-offset:5px}footer{text-align:center;padding:24px;font-size:12px;color:#8e7562}
+  .brand{display:inline-flex;align-items:center;gap:7px}.brand .brand-mark{width:40px;height:40px}.brand .brand-name{font:700 35px/1.1 Georgia,serif;letter-spacing:-1.8px;color:#493428}.brand .brand-dot{color:#a5683e}
+  body{background:#fbf7f0;color:#493428}small,footer{color:#705b49}p{color:#706052}.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;line-height:1.45;border-radius:8px;background:#87502e;padding:12px 20px}.button:hover{background:#6b3c22}
+  </style>
+  {% block extra_style %}{% endblock %}
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%3E%0A%20%20%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2215%22%20fill%3D%22%23f2e9db%22%2F%3E%0A%20%20%3Cg%20stroke%3D%22%23a5683e%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M49%2018%20C40%207%2022%209%2014%2021%20C5%2034%2012%2051%2027%2054%20C38%2057%2049%2050%2053%2040%22%20stroke-width%3D%227%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M40%2025%20C34%2019%2025%2022%2022%2029%20C19%2036%2024%2044%2031%2044%20C38%2044%2043%2038%2042%2033%20C41%2029%2037%2028%2034%2030%22%20stroke-width%3D%223.5%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A">
+</head>
+<body>
+  <header><a class="brand" href="{{ home_url }}" aria-label="{% translate 'Canela, inicio' %}"><svg class="brand-mark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <g stroke="#a5683e" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M49 18 C40 7 22 9 14 21 C5 34 12 51 27 54 C38 57 49 50 53 40" stroke-width="7"/>
+    <path d="M40 25 C34 19 25 22 22 29 C19 36 24 44 31 44 C38 44 43 38 42 33 C41 29 37 28 34 30" stroke-width="3.5"/>
+  </g>
+</svg><span class="brand-name">canela<span class="brand-dot">.</span></span></a></header>
+  <main><section class="card" aria-labelledby="error-title">
+    {% block illustration %}<svg class="pot" viewBox="0 0 120 110" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><ellipse cx="60" cy="32" rx="43" ry="12"/><path d="M17 32c3 38 16 61 43 61s40-23 43-61"/><path d="M32 66c7 12 16 18 28 18" opacity=".5"/></svg>{% endblock %}
+    <small>{% blocktranslate with value0=status %}CANELA · {{ value0 }}{% endblocktranslate %}</small>
+    <h1 id="error-title">{{ title }}</h1>
+    <p>{{ message }}</p>
+    {% block note %}{% endblock %}
+    <a class="button" href="{{ home_url }}">{% translate "Volver al inicio →" %}</a>
+  </section></main>
+  <footer>{% translate "Tu taller, a tu ritmo." %}</footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{% load i18n %}
+<section class="workshop-overview" aria-label="{% translate 'Mi taller' %}">
+  <a class="overview-item overview-primary" href="{% url 'pieces' %}">
+    <div class="overview-heading"><span>{% translate 'Piezas' %}</span>{% include 'partials/nav_icon.html' with icon='pieces' %}</div>
+    <div class="overview-value"><strong>{{ total }}</strong><span class="overview-arrow" aria-hidden="true">↗</span></div>
+  </a>
+  <a class="overview-item overview-progress" href="{% url 'pieces' %}?stage=open">
+    <div class="overview-heading"><span>{% translate 'Procesos abiertos' %}</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-8-8"/><path d="M12 2v4m5-2 2 2m1 2 2 1M12 8v5l3 2"/></svg></div>
+    <div class="overview-value"><strong>{{ open_count }}</strong><span class="overview-arrow" aria-hidden="true">↗</span></div>
+  </a>
+  <a class="overview-item overview-glazes" href="{% url 'glazes' %}">
+    <div class="overview-heading"><span>{% translate 'Materiales' %}</span>{% include 'partials/nav_icon.html' with icon='glazes' %}</div>
+    <div class="overview-value"><strong>{{ glaze_count }}</strong><span class="overview-arrow" aria-hidden="true">↗</span></div>
+  </a>
+  <a class="overview-item overview-molds" href="{% url 'molds' %}">
+    <div class="overview-heading"><span>{% translate 'Moldes' %}</span>{% include 'partials/nav_icon.html' with icon='molds' %}</div>
+    <div class="overview-value"><strong>{{ mold_count }}</strong><span class="overview-arrow" aria-hidden="true">↗</span></div>
+  </a>
+</section>

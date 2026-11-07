@@ -1,0 +1,8 @@
+{% load assets %}<link rel="manifest" href="{% url 'pwa_manifest' %}">
+<meta name="theme-color" content="#f2e9db">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Canela">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="{% asset 'css/pwa.css' %}">
+<script defer src="{% asset 'js/pwa.js' %}" data-service-worker="{% url 'pwa_service_worker' %}"></script>

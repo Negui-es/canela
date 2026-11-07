@@ -1,0 +1,12 @@
+{% load i18n %}
+<article class="list-item" data-lightbox-group>
+  <strong>{{ sample.temperature }} °C{% if obj.material_type != 'clay' %} · {{ sample.clay }}{% endif %}</strong>
+  <p>{{ sample.date|date:'SHORT_DATE_FORMAT' }}{% if obj.material_type != 'clay' and sample.layers %} · {% blocktranslate count counter=sample.layers %}{{ counter }} capa{% plural %}{{ counter }} capas{% endblocktranslate %}{% endif %}{% if sample.recipe_version %} {% blocktranslate with value0=sample.recipe_version.number %}· Receta v{{ value0 }}{% endblocktranslate %}{% endif %}</p>
+  {% if obj.material_type == 'clay' %}<dl class="detail-meta">
+    {% if sample.shrinkage != None %}<div><dt>{% translate "Contracción total" %}</dt><dd>{{ sample.shrinkage }} %</dd></div>{% endif %}
+    {% if sample.absorption != None %}<div><dt>{% translate "Absorción de agua" %}</dt><dd>{{ sample.absorption }} %</dd></div>{% endif %}
+  </dl>{% elif obj.material_type == 'engobe' and sample.application_stage %}<p>{{ sample.application_stage }}</p>{% endif %}
+  <p>{{ sample.application }}</p><p class="whitespace-pre-wrap">{{ sample.notes }}</p>
+  <div class="photo-strip">{% for photo in sample.photos.all %}<a data-lightbox href="{% url 'photo' photo.pk %}"><img src="{% url 'photo' photo.pk %}?thumb=1" alt="{% blocktranslate with value0=sample.temperature %}Prueba a {{ value0 }} grados{% endblocktranslate %}" loading="lazy"></a>{% endfor %}</div>
+  {% if can_edit %}<a class="text-button" href="{% url 'photos_manage' 'sample' sample.pk %}">{% translate "Gestionar fotos de la prueba" %}</a>{% endif %}
+</article>

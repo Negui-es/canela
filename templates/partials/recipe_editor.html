@@ -1,0 +1,8 @@
+{% load i18n assets %}
+<div class="field recipe-editor {% if field.errors %}has-error{% endif %}" data-recipe-editor>
+  <label for="{{ field.id_for_label }}" data-recipe-raw-label>{{ field.label }} <span class="required" aria-label="{% translate 'obligatorio' %}">*</span></label>
+  <div data-recipe-raw>{{ field }}<div class="help" id="{{ field.auto_id }}_helptext">{{ field.help_text }}</div></div>
+  <div data-recipe-enhanced hidden><h2 class="recipe-ingredients-heading">{% translate 'Ingredientes y porcentajes' %}</h2><p class="help" id="recipe-editor-help">{% translate 'Añade los ingredientes de tu receta. Los porcentajes deben sumar 100 %.' %}</p><div data-recipe-rows></div><div class="recipe-editor-actions"><button type="button" class="secondary" data-recipe-add>{% translate 'Añadir ingrediente' %}</button><output class="recipe-total" data-recipe-total aria-live="polite"></output></div></div>
+  {% if field.errors %}<div id="{{ field.auto_id }}_error">{% for error in field.errors %}<div class="field-error">{{ error }}</div>{% endfor %}</div>{% endif %}
+  <template data-recipe-row><div class="recipe-ingredient-row"><label class="field">{% translate 'Ingrediente' %}<input type="text" data-ingredient-name maxlength="120" required aria-describedby="recipe-editor-help" autocomplete="off"></label><label class="field">{% translate 'Porcentaje' %}<input type="number" data-ingredient-percent min="0.001" max="100" step="0.001" inputmode="decimal" required aria-describedby="recipe-editor-help"></label><button type="button" class="recipe-remove" data-recipe-remove aria-label="{% translate 'Quitar ingrediente' %}">×</button></div></template>
+</div><script defer src="{% asset 'js/recipe-editor.js' %}"></script>

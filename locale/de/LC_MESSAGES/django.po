@@ -1,0 +1,3169 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Canela\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, python-format
+msgid "%(counter)s capa"
+msgid_plural "%(counter)s capas"
+msgstr[0] "%(counter)s Schicht"
+msgstr[1] "%(counter)s Schichten"
+
+#, python-format
+msgid "%(counter)s foto"
+msgid_plural "%(counter)s fotos"
+msgstr[0] "%(counter)s Foto"
+msgstr[1] "%(counter)s Fotos"
+
+#, python-format
+msgid "%(counter)s miembro"
+msgid_plural "%(counter)s miembros"
+msgstr[0] "%(counter)s Mitglied"
+msgstr[1] "%(counter)s Mitglieder"
+
+#, python-format
+msgid "%(counter)s pieza"
+msgid_plural "%(counter)s piezas"
+msgstr[0] "%(counter)s Stück"
+msgstr[1] "%(counter)s Stücke"
+
+#, python-format
+msgid "%(counter)s prueba"
+msgid_plural "%(counter)s pruebas"
+msgstr[0] "%(counter)s Probe"
+msgstr[1] "%(counter)s Proben"
+
+#, python-format
+msgid "%(person)s te invita a Canela."
+msgstr "%(person)s lädt dich zu Canela ein."
+
+#, python-format
+msgid "%(person)s te invita al grupo «%(group)s»."
+msgstr "%(person)s lädt dich in die Gruppe „%(group)s“ ein."
+
+#, python-format
+msgid "%(value0)s fotos disponibles"
+msgstr "%(value0)s Fotos verfügbar"
+
+#, python-format
+msgid "%(value0)s g"
+msgstr "%(value0)s g"
+
+#, python-format
+msgid "%(value0)s °C · %(value1)s"
+msgstr "%(value0)s °C · %(value1)s"
+
+#, python-format
+msgid "%(value0)s · %(value1)s · Canela"
+msgstr "%(value0)s · %(value1)s · Canela"
+
+#, python-format
+msgid "%(value0)s · Canela"
+msgstr "%(value0)s · Canela"
+
+#, python-format
+msgid "%(value0)s · Desde %(value1)s"
+msgstr "%(value0)s · Seit %(value1)s"
+
+#, python-format
+msgid "%(value0)s · Foto %(value1)s"
+msgstr "%(value0)s · Foto %(value1)s"
+
+msgid "AQUÍ EMPIEZA CANELA"
+msgstr "HIER BEGINNT CANELA"
+
+msgid "Abre tu propio taller."
+msgstr "Eröffne dein eigenes Atelier."
+
+msgid "Abrir colección ↗"
+msgstr "Sammlung öffnen ↗"
+
+msgid "Abrir ficha ↗"
+msgstr "Details öffnen ↗"
+
+msgid "Acabado"
+msgstr "Oberfläche"
+
+msgid "Acceso privado"
+msgstr "Privater Zugang"
+
+msgid "Aceptar invitación"
+msgstr "Einladung annehmen"
+
+msgid "Activa JavaScript para calcular"
+msgstr "Aktiviere JavaScript zum Berechnen"
+
+msgid "Ajustes de la galería"
+msgstr "Galerieeinstellungen"
+
+msgid "Antes de despedirnos de esta pieza, revisa lo que se eliminará."
+msgstr "Prüfe vor dem Löschen, welche Daten entfernt werden."
+
+msgid "Aplicación / atmósfera"
+msgstr "Auftrag / Atmosphäre"
+
+msgid "Aplicación de esmalte eliminada."
+msgstr "Glasurauftrag gelöscht."
+
+msgid "Aplicación de esmalte guardada."
+msgstr "Glasurauftrag gespeichert."
+
+msgid "Aplicación y orden"
+msgstr "Auftrag und Reihenfolge"
+
+msgid "Aquí aparecerán las piezas que hayas vinculado y que puedas consultar."
+msgstr "Hier erscheinen verknüpfte Stücke, auf die du Zugriff hast."
+
+msgid "Aquí todavía no hay piezas."
+msgstr "Hier gibt es noch keine Stücke."
+
+msgid "Arrastra tus fotos aquí"
+msgstr "Ziehe deine Fotos hierher"
+
+msgid "Avance actualizado."
+msgstr "Verlaufseintrag aktualisiert."
+
+msgid "Avance añadido."
+msgstr "Verlaufseintrag hinzugefügt."
+
+msgid "Avance eliminado."
+msgstr "Verlaufseintrag gelöscht."
+
+msgid ""
+"Añade los ingredientes de tu primera receta. El total se validará al "
+"guardar."
+msgstr ""
+"Füge die Zutaten deiner ersten Rezeptur hinzu. Die Summe wird beim Speichern"
+" geprüft."
+
+msgid "Añade uno a tu biblioteca ↗"
+msgstr "Zur Bibliothek hinzufügen ↗"
+
+msgid "Añadir a alguien"
+msgstr "Person hinzufügen"
+
+msgid "Añadir a la galería"
+msgstr "Zur Galerie hinzufügen"
+
+msgid "Añadir avance"
+msgstr "Verlaufseintrag hinzufügen"
+
+msgid "Añadir esmalte"
+msgstr "Glasur hinzufügen"
+
+msgid "Añadir fotografías"
+msgstr "Fotos hinzufügen"
+
+msgid "Añadir fotos"
+msgstr "Fotos hinzufügen"
+
+msgid "Añadir la primera pieza"
+msgstr "Erstes Stück hinzufügen"
+
+msgid "Añadir mi primer esmalte"
+msgstr "Meine erste Glasur hinzufügen"
+
+msgid "Añadir mi primer molde"
+msgstr "Meine erste Form hinzufügen"
+
+msgid "Añadir una pieza"
+msgstr "Stück hinzufügen"
+
+msgid "Añadir usuario existente"
+msgstr "Bestehenden Benutzer hinzufügen"
+
+msgid "Aún no has añadido notas."
+msgstr "Noch keine Notizen vorhanden."
+
+msgid ""
+"Aún no tienes grupos. Puedes crearlos en «Grupos» y compartir la pieza más "
+"adelante."
+msgstr ""
+"Du hast noch keine Gruppen. Erstelle eine unter „Gruppen“ und teile das "
+"Stück später."
+
+msgid "BIBLIOTECA DE ESMALTES"
+msgstr "GLASURBIBLIOTHEK"
+
+msgid "BIENVENIDO A TU TALLER"
+msgstr "WILLKOMMEN IN DEINEM ATELIER"
+
+msgid "Barro"
+msgstr "Ton"
+
+msgid "Barro / pasta"
+msgstr "Ton / Masse"
+
+msgid "Barro por elegir"
+msgstr "Ton noch nicht gewählt"
+
+msgid "Barro por registrar"
+msgstr "Ton noch nicht erfasst"
+
+msgid "Bizcochada"
+msgstr "Geschrüht"
+
+msgid "Brillante"
+msgstr "Glänzend"
+
+msgid "Buscando…"
+msgstr "Suche läuft…"
+
+msgid "Buscar"
+msgstr "Suchen"
+
+msgid "Buscar esmaltes disponibles"
+msgstr "Verfügbare Glasuren suchen"
+
+msgid "Buscar esmaltes…"
+msgstr "Glasuren suchen…"
+
+msgid "Buscar por nombre…"
+msgstr "Nach Name suchen…"
+
+#, python-format
+msgid "CANELA · %(value0)s"
+msgstr "CANELA · %(value0)s"
+
+msgid "COMPARTIDA CON GRUPOS"
+msgstr "MIT GRUPPEN GETEILT"
+
+msgid "COMPARTIR"
+msgstr "TEILEN"
+
+msgid "CREAR EN COMPAÑÍA"
+msgstr "GEMEINSAM GESTALTEN"
+
+msgid "Cada foto debe ocupar menos de 5 MB."
+msgstr "Jedes Foto muss kleiner als 5 MB sein."
+
+msgid ""
+"Cada persona tendrá su propio cuaderno privado. El enlace de invitación "
+"permite crear una cuenta, caduca en 7 días y se utiliza una sola vez."
+msgstr ""
+"Jede Person hat ein privates Werkstattbuch. Der Einladungslink erstellt ein "
+"Konto, gilt 7 Tage und kann einmal verwendet werden."
+
+msgid "Cambiar contraseña"
+msgstr "Passwort ändern"
+
+msgid "Cancelar"
+msgstr "Abbrechen"
+
+msgid "Canela · Administración"
+msgstr "Canela · Verwaltung"
+
+msgid "Canela · Mi taller"
+msgstr "Canela · Mein Atelier"
+
+msgid "Canela · Tu cuaderno de taller"
+msgstr "Canela · Dein Werkstattbuch"
+
+msgid "Canela, inicio"
+msgstr "Canela, Startseite"
+
+msgid "Cantidad"
+msgstr "Menge"
+
+msgid "Cantidad (g)"
+msgstr "Menge (g)"
+
+msgid "Capas"
+msgstr "Schichten"
+
+msgid "Cerrar notificación"
+msgstr "Benachrichtigung schließen"
+
+msgid "Cerrar sesión"
+msgstr "Abmelden"
+
+msgid "Cerámica en tonos canela"
+msgstr "Keramik in Zimttönen"
+
+msgid "Colada"
+msgstr "Schlickerguss"
+
+msgid "Color, textura, aplicación y observaciones…"
+msgstr "Farbe, Textur, Auftrag und Beobachtungen…"
+
+msgid "Comercial"
+msgstr "Fertigglasur"
+
+msgid "Compartida con:"
+msgstr "Geteilt mit:"
+
+msgid "Compartido con grupos"
+msgstr "Mit Gruppen geteilt"
+
+msgid "Compartir con grupos"
+msgstr "Mit Gruppen teilen"
+
+msgid "Composición de piezas de cerámica en tonos canela"
+msgstr "Keramikstücke in Zimttönen"
+
+msgid "Confirma la eliminación para continuar."
+msgstr "Bestätige das Löschen, um fortzufahren."
+
+msgid "Confirma que quieres eliminar esta pieza para continuar."
+msgstr "Bestätige, dass du dieses Stück löschen möchtest."
+
+msgid "Confirmar eliminación"
+msgstr "Löschen bestätigen"
+
+msgid "Consejos de uso"
+msgstr "Anwendungshinweise"
+
+msgid "Conservar pieza"
+msgstr "Stück behalten"
+
+msgid "Copiar enlace"
+msgstr "Link kopieren"
+
+msgid "Correo electrónico"
+msgstr "E-Mail-Adresse"
+
+msgid ""
+"Crea tu cuenta para empezar. Después podrás invitar a tu pareja desde «Mi "
+"cuenta»."
+msgstr ""
+"Erstelle zuerst dein Konto. Danach kannst du deinen Partner über „Mein "
+"Konto“ einladen."
+
+msgid "Crea un grupo para compartir piezas, moldes y esmaltes con tu pareja."
+msgstr ""
+"Erstelle eine Gruppe, um Stücke, Formen und Glasuren mit deinem Partner zu "
+"teilen."
+
+msgid "Crea una colección privada y prepara con calma tu escaparate."
+msgstr "Erstelle eine private Sammlung und gestalte deine Galerie in Ruhe."
+
+msgid "Crear enlace de invitación"
+msgstr "Einladungslink erstellen"
+
+msgid "Crear esmalte"
+msgstr "Glasur erstellen"
+
+msgid "Crear mi cuenta"
+msgstr "Mein Konto erstellen"
+
+msgid "Crear mi primera pieza"
+msgstr "Mein erstes Stück erstellen"
+
+msgid "Crear mi taller →"
+msgstr "Mein Atelier erstellen →"
+
+msgid "Crear molde"
+msgstr "Form erstellen"
+
+msgid "Crear pieza"
+msgstr "Stück erstellen"
+
+msgid "Crear un grupo no comparte automáticamente ninguna pieza."
+msgstr "Beim Erstellen einer Gruppe werden keine Stücke automatisch geteilt."
+
+msgid "Crear una invitación"
+msgstr "Einladung erstellen"
+
+msgid "Crear una pieza"
+msgstr "Stück erstellen"
+
+msgid "Cualquiera podrá verla sin iniciar sesión."
+msgstr "Jeder kann sie ohne Anmeldung ansehen."
+
+msgid "Cuenta algo sobre esta pieza, sin tus notas de trabajo."
+msgstr "Beschreibe dieses Stück ohne deine Werkstattnotizen."
+
+msgid "De un poco de barro,"
+msgstr "Aus etwas Ton"
+
+msgid "Dejará de estar disponible para los grupos con los que la compartes."
+msgstr ""
+"Es ist danach für die Gruppen, mit denen du es geteilt hast, nicht mehr "
+"verfügbar."
+
+msgid "Demasiados intentos. Espera 15 minutos antes de volver a entrar."
+msgstr "Zu viele Versuche. Warte 15 Minuten, bevor du es erneut versuchst."
+
+msgid "Descripción"
+msgstr "Beschreibung"
+
+msgid "Descripción pública"
+msgstr "Öffentliche Beschreibung"
+
+msgid "Desde galería"
+msgstr "Aus der Galerie"
+
+msgid ""
+"Desde la ficha podrás detallar cantidades, capas y zonas de aplicación."
+msgstr ""
+"Mengen, Schichten und Auftragsbereiche kannst du in der Stückübersicht "
+"ergänzen."
+
+msgid ""
+"Después podrás elegir sus fotos y preparar el texto que quieres mostrar."
+msgstr ""
+"Wähle anschließend die Fotos und erstelle den Text für die Präsentation."
+
+msgid "Destino"
+msgstr "Bestimmung"
+
+msgid "Detalles de aplicación"
+msgstr "Auftragsdetails"
+
+msgid "Deteriorado"
+msgstr "Beschädigt"
+
+msgid "Dimensiones"
+msgstr "Maße"
+
+msgid "Dimensiones que quieres mostrar"
+msgstr "Anzuzeigende Maße"
+
+msgid "Dimensiones y número de partes"
+msgstr "Maße und Anzahl der Teile"
+
+msgid "Disponibilidad"
+msgstr "Verfügbarkeit"
+
+msgid "Disponible"
+msgstr "Verfügbar"
+
+#, python-format
+msgid "EL TALLER DE %(value0)s"
+msgstr "DAS ATELIER VON %(value0)s"
+
+msgid "ELIMINACIÓN DEFINITIVA"
+msgstr "DAUERHAFT LÖSCHEN"
+
+msgid "Editar aplicación"
+msgstr "Auftrag bearbeiten"
+
+msgid "Editar avance"
+msgstr "Verlaufseintrag bearbeiten"
+
+msgid "Editar esmalte"
+msgstr "Glasur bearbeiten"
+
+msgid "Editar ficha"
+msgstr "Details bearbeiten"
+
+msgid "Editar molde"
+msgstr "Form bearbeiten"
+
+msgid "Editar pieza"
+msgstr "Stück bearbeiten"
+
+msgid "Editar presentación"
+msgstr "Präsentation bearbeiten"
+
+msgid "Editar presentación →"
+msgstr "Präsentation bearbeiten →"
+
+msgid "El acceso depende también de la visibilidad de la galería."
+msgstr "Der Zugriff hängt auch von der Sichtbarkeit der Galerie ab."
+
+msgid "El nombre que quieres mostrar"
+msgstr "Der anzuzeigende Name"
+
+msgid ""
+"El taller es privado. Las altas de nuevas cuentas están cerradas por el "
+"momento."
+msgstr ""
+"Das Atelier ist privat. Neue Registrierungen sind derzeit geschlossen."
+
+msgid "El taller es privado. Para crear una cuenta necesitas una invitación."
+msgstr ""
+"Das Atelier ist privat. Zum Erstellen eines Kontos brauchst du eine "
+"Einladung."
+
+msgid "Elegir fotos"
+msgstr "Fotos auswählen"
+
+msgid "Elige una pieza"
+msgstr "Stück auswählen"
+
+msgid ""
+"Elige una pieza y prepara su presentación, sin publicar su ficha privada."
+msgstr ""
+"Wähle ein Stück und bereite seine Präsentation vor, ohne die private "
+"Übersicht zu veröffentlichen."
+
+msgid "Eliminar aplicación"
+msgstr "Auftrag löschen"
+
+msgid "Eliminar aplicación de esmalte"
+msgstr "Glasurauftrag löschen"
+
+msgid "Eliminar avance"
+msgstr "Verlaufseintrag löschen"
+
+msgid "Eliminar definitivamente"
+msgstr "Endgültig löschen"
+
+msgid "Eliminar esta pieza"
+msgstr "Dieses Stück löschen"
+
+msgid "Eliminar foto"
+msgstr "Foto löschen"
+
+msgid "Eliminar fotografía"
+msgstr "Foto löschen"
+
+msgid "Eliminar pieza"
+msgstr "Stück löschen"
+
+msgid "Eliminar pieza →"
+msgstr "Stück löschen →"
+
+msgid "Empieza con esa pieza que tienes entre manos."
+msgstr "Beginne mit dem Stück, an dem du gerade arbeitest."
+
+msgid "En crudo"
+msgstr "Ungebrannt"
+
+msgid "En proceso"
+msgstr "In Arbeit"
+
+msgid "En uso"
+msgstr "In Gebrauch"
+
+msgid "Enlace de invitación"
+msgstr "Einladungslink"
+
+msgid "Enlace de la colección"
+msgstr "Link zur Sammlung"
+
+msgid "Entiendo que esta acción es definitiva y quiero eliminar esta pieza."
+msgstr "Ich weiß, dass dies endgültig ist, und möchte dieses Stück löschen."
+
+msgid "Entra y sigue dando forma a tus ideas."
+msgstr "Melde dich an und gestalte deine Ideen weiter."
+
+msgid "Entrar en mi taller →"
+msgstr "Mein Atelier öffnen →"
+
+msgid "Entrar ↗"
+msgstr "Öffnen ↗"
+
+#, python-format
+msgid "Entrarás como %(value0)s."
+msgstr "Du trittst als %(value0)s bei."
+
+msgid "Escayola"
+msgstr "Gips"
+
+msgid "Escayola, silicona…"
+msgstr "Gips, Silikon…"
+
+msgid "Esmaltada"
+msgstr "Glasiert"
+
+msgid "Esmalte"
+msgstr "Glasur"
+
+msgid "Esmalte no disponible"
+msgstr "Glasur nicht verfügbar"
+
+msgid "Esmaltes"
+msgstr "Glasuren"
+
+msgid "Esmaltes aplicados"
+msgstr "Aufgetragene Glasuren"
+
+msgid "Esmaltes compartidos"
+msgstr "Geteilte Glasuren"
+
+msgid "Esmaltes utilizados"
+msgstr "Verwendete Glasuren"
+
+msgid ""
+"Esta colección es pública. Las fichas privadas de sus piezas no lo son."
+msgstr ""
+"Diese Sammlung ist öffentlich. Die privaten Stückübersichten bleiben privat."
+
+msgid "Esta colección está tomando forma."
+msgstr "Diese Sammlung nimmt Gestalt an."
+
+msgid ""
+"Esta galería es pública. Puedes retirar su publicación en «Visibilidad»."
+msgstr ""
+"Diese Galerie ist öffentlich. Unter „Sichtbarkeit“ kannst du die "
+"Veröffentlichung zurücknehmen."
+
+msgid "Esta invitación ya no está disponible"
+msgstr "Diese Einladung ist nicht mehr verfügbar"
+
+msgid ""
+"Esta pieza aún no tiene fotografías. Puedes añadirlas desde su ficha y "
+"volver a preparar la presentación."
+msgstr ""
+"Dieses Stück hat noch keine Fotos. Füge sie in der Übersicht hinzu und "
+"bearbeite danach die Präsentation."
+
+msgid ""
+"Esta pieza ya está en la galería. Puedes editar su presentación desde la "
+"colección."
+msgstr ""
+"Dieses Stück ist bereits in der Galerie. Du kannst seine Präsentation in der"
+" Sammlung bearbeiten."
+
+msgid ""
+"Esta primera cuenta administrará la instalación. Tus piezas empezarán siendo"
+" privadas."
+msgstr ""
+"Dieses erste Konto verwaltet die Installation. Deine Stücke sind zunächst "
+"privat."
+
+msgid "Esta página no está aquí."
+msgstr "Diese Seite ist nicht hier."
+
+msgid ""
+"Esta vez, el problema está de nuestro lado. No hemos podido completar la "
+"acción. Vuelve a intentarlo en unos instantes."
+msgstr ""
+"Dieses Mal liegt das Problem bei uns. Wir konnten die Aktion nicht "
+"abschließen. Versuche es gleich noch einmal."
+
+msgid "Estado"
+msgstr "Zustand"
+
+msgid "Estampación"
+msgstr "Stempeln"
+
+msgid "Etapa"
+msgstr "Phase"
+
+msgid "Fabricante y código del producto"
+msgstr "Hersteller und Produktcode"
+
+msgid "Fecha"
+msgstr "Datum"
+
+msgid "Fecha de inicio"
+msgstr "Startdatum"
+
+msgid ""
+"Feldespato; 40\n"
+"Sílice; 25\n"
+"Caolín; 20\n"
+"Carbonato cálcico; 15"
+msgstr ""
+"Feldspat; 40\n"
+"Quarz; 25\n"
+"Kaolin; 20\n"
+"Calciumcarbonat; 15"
+
+#, python-format
+msgid "Foto %(value0)s"
+msgstr "Foto %(value0)s"
+
+#, python-format
+msgid "Foto anterior de %(value0)s"
+msgstr "Vorheriges Foto von %(value0)s"
+
+#, python-format
+msgid "Foto de %(value0)s"
+msgstr "Foto von %(value0)s"
+
+msgid "Foto de este avance"
+msgstr "Foto dieses Verlaufseintrags"
+
+#, python-format
+msgid "Foto del %(date)s · %(id)s"
+msgstr "Foto vom %(date)s · %(id)s"
+
+msgid "Foto que se eliminará"
+msgstr "Zu löschendes Foto"
+
+#, python-format
+msgid "Foto siguiente de %(value0)s"
+msgstr "Nächstes Foto von %(value0)s"
+
+#, python-format
+msgid "Fotografía %(value0)s de %(value1)s"
+msgstr "Foto %(value0)s von %(value1)s"
+
+#, python-format
+msgid "Fotografía de %(value0)s"
+msgstr "Foto von %(value0)s"
+
+msgid "Fotografía eliminada."
+msgstr "Foto gelöscht."
+
+msgid "Fotografía tu molde"
+msgstr "Fotografiere deine Form"
+
+msgid "Fotografías"
+msgstr "Fotos"
+
+msgid "Fotografías añadidas."
+msgstr "Fotos hinzugefügt."
+
+#, python-format
+msgid "Fotografías de %(value0)s"
+msgstr "Fotos von %(value0)s"
+
+msgid "Fotografías de referencia"
+msgstr "Referenzfotos"
+
+msgid "Fotografías del esmalte"
+msgstr "Fotos der Glasur"
+
+msgid "Fotos de esta etapa"
+msgstr "Fotos dieser Phase"
+
+msgid "Fotos de este avance"
+msgstr "Fotos dieses Verlaufseintrags"
+
+msgid "Fotos del molde"
+msgstr "Fotos der Form"
+
+msgid "Fotos del resultado"
+msgstr "Fotos des Ergebnisses"
+
+msgid "Fotos guardadas"
+msgstr "Gespeicherte Fotos"
+
+msgid "Fotos iniciales"
+msgstr "Erste Fotos"
+
+msgid "Fotos para recordar cada detalle"
+msgstr "Fotos, die jedes Detail festhalten"
+
+msgid "GRUPO PRIVADO"
+msgstr "PRIVATE GRUPPE"
+
+msgid "Galería guardada."
+msgstr "Galerie gespeichert."
+
+msgid "Galerías"
+msgstr "Galerien"
+
+msgid "Gestionar colección"
+msgstr "Sammlung verwalten"
+
+msgid "Gestionar fotos"
+msgstr "Fotos verwalten"
+
+msgid "Gestionar fotos de la pieza"
+msgstr "Fotos des Stücks verwalten"
+
+msgid "Gestionar fotos de la prueba"
+msgstr "Fotos der Probe verwalten"
+
+msgid "Grupos"
+msgstr "Gruppen"
+
+msgid "Grupos seleccionados"
+msgstr "Ausgewählte Gruppen"
+
+msgid "Guarda aquí las capas, cantidades y el orden de aplicación."
+msgstr "Erfasse hier Schichten, Mengen und die Auftragsreihenfolge."
+
+msgid "Guarda tus esmaltes y empieza a reunir tus pruebas y resultados."
+msgstr "Speichere deine Glasuren und sammle Proben und Ergebnisse."
+
+msgid "Guarda tus moldes para encontrarlos cuando los necesites."
+msgstr "Erfasse deine Formen, damit du sie bei Bedarf findest."
+
+msgid "Guarda una prueba con su barro, temperatura, capas y fotografías."
+msgstr "Speichere eine Probe mit Ton, Temperatur, Schichten und Fotos."
+
+msgid "Guarda una referencia visual"
+msgstr "Visuelle Referenz speichern"
+
+msgid "Guardado en tu cuaderno."
+msgstr "Im Werkstattbuch gespeichert."
+
+msgid "Guardar"
+msgstr "Speichern"
+
+msgid "Guardar cambios"
+msgstr "Änderungen speichern"
+
+msgid "Guardar galería →"
+msgstr "Galerie speichern →"
+
+msgid "Guardar orden y portada"
+msgstr "Reihenfolge und Titelbild speichern"
+
+msgid "Guardar perfil"
+msgstr "Profil speichern"
+
+msgid "Guardar presentación"
+msgstr "Präsentation speichern"
+
+msgid "Guardar una prueba"
+msgstr "Probe speichern"
+
+msgid "HECHO CON TIEMPO"
+msgstr "MIT ZEIT GESTALTET"
+
+msgid "Hasta en el taller hay imprevistos."
+msgstr "Auch im Atelier gibt es Überraschungen."
+
+msgid "Hecho con tiempo. Compartido con Canela."
+msgstr "Mit Zeit gestaltet. Mit Canela geteilt."
+
+msgid "Información de la pieza"
+msgstr "Angaben zum Stück"
+
+msgid "Información del esmalte"
+msgstr "Angaben zur Glasur"
+
+msgid "Información del molde"
+msgstr "Angaben zur Form"
+
+msgid "Ingrediente"
+msgstr "Zutat"
+
+msgid "Ingredientes y porcentajes"
+msgstr "Zutaten und Prozentanteile"
+
+msgid "Ingredientes y pruebas"
+msgstr "Zutaten und Proben"
+
+msgid "Invita a tu pareja"
+msgstr "Partner einladen"
+
+msgid "Invitación"
+msgstr "Einladung"
+
+msgid ""
+"Invitación creada. Copia el enlace y compártelo con la persona que quieras "
+"invitar. Caduca en 7 días y solo se puede usar una vez."
+msgstr ""
+"Einladung erstellt. Kopiere den Link und teile ihn mit der gewünschten "
+"Person. Er gilt 7 Tage und kann nur einmal verwendet werden."
+
+msgid "Invitación ya utilizada."
+msgstr "Einladung bereits verwendet."
+
+msgid "JPG, PNG o WebP · Máx. 5 MB por foto"
+msgstr "JPG, PNG oder WebP · Max. 5 MB pro Foto"
+
+msgid "La historia de esta pieza"
+msgstr "Der Verlauf dieses Stücks"
+
+msgid "La primera cuenta se crea desde el propio servidor."
+msgstr "Das erste Konto muss direkt auf dem Server erstellt werden."
+
+msgid ""
+"La primera foto es la portada. Usa las flechas para ordenar o arrastra las "
+"fotos en el ordenador."
+msgstr ""
+"Das erste Foto ist das Titelbild. Nutze die Pfeile oder ziehe die Fotos am "
+"Computer in die gewünschte Reihenfolge."
+
+msgid ""
+"La receta debe tener entre 1 y 50 ingredientes y sumar exactamente 100 %."
+msgstr "Die Rezeptur muss 1 bis 50 Zutaten enthalten und genau 100 % ergeben."
+
+msgid ""
+"La solicitud no se ha podido completar. Vuelve a intentarlo desde el inicio."
+msgstr ""
+"Die Anfrage konnte nicht abgeschlossen werden. Versuche es erneut über die "
+"Startseite."
+
+msgid ""
+"Las altas de nuevas cuentas están cerradas por el momento. Las cuentas "
+"existentes pueden seguir utilizando su taller."
+msgstr ""
+"Neue Registrierungen sind derzeit geschlossen. Bestehende Konten können ihr "
+"Atelier weiter nutzen."
+
+msgid "Las altas están cerradas"
+msgstr "Registrierung geschlossen"
+
+msgid "Las personas del taller"
+msgstr "Personen im Atelier"
+
+msgid "Las piezas que ya están en esta colección se editan desde la galería."
+msgstr "Bereits enthaltene Stücke kannst du in der Galerie bearbeiten."
+
+msgid ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"esmalte."
+msgstr ""
+"Proben mit Ton, Schichten und Temperatur fügst du in der Glasurübersicht "
+"hinzu."
+
+msgid "Las versiones anteriores conservan su composición."
+msgstr "Frühere Versionen behalten ihre Zusammensetzung."
+
+msgid "Limpiar filtros"
+msgstr "Filter zurücksetzen"
+
+msgid "Lo bonito también se comparte."
+msgstr "Schönes lässt sich teilen."
+
+msgid "Los detalles"
+msgstr "Die Details"
+
+msgid "Los esmaltes y el molde de tu inventario se conservan."
+msgstr "Glasuren und Form bleiben in deinem Inventar."
+
+msgid ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"esmalte."
+msgstr "Zutaten, Mischungen und Proben verwaltest du in der Glasurübersicht."
+
+msgid "Los miembros podrán consultar la ficha. Solo tú podrás editarla."
+msgstr ""
+"Mitglieder können die Übersicht ansehen. Nur du kannst sie bearbeiten."
+
+msgid "Madera"
+msgstr "Holz"
+
+msgid "Marca / referencia"
+msgstr "Marke / Referenz"
+
+msgid "Marca los esmaltes que hayas utilizado."
+msgstr "Wähle die verwendeten Glasuren."
+
+msgid "Mate"
+msgstr "Matt"
+
+msgid "Mate, satinado, brillante…"
+msgstr "Matt, seidenmatt, glänzend…"
+
+msgid "Material"
+msgstr "Material"
+
+msgid "Materiales que quieres mostrar"
+msgstr "Angezeigte Materialien"
+
+msgid "Materiales, medidas y disponibilidad"
+msgstr "Materialien, Maße und Verfügbarkeit"
+
+msgid "Medidas y construcción"
+msgstr "Maße und Aufbau"
+
+msgid "Mi biblioteca"
+msgstr "Meine Bibliothek"
+
+msgid "Mi biblioteca y compartidos"
+msgstr "Meine Bibliothek und geteilte Einträge"
+
+msgid "Mi cuenta"
+msgstr "Mein Konto"
+
+msgid "Mi espacio"
+msgstr "Mein Bereich"
+
+msgid "Mi taller"
+msgstr "Mein Atelier"
+
+msgid "Miembro añadido. Solo podrá consultar lo que compartas con este grupo."
+msgstr ""
+"Mitglied hinzugefügt. Es kann nur ansehen, was du mit dieser Gruppe teilst."
+
+msgid "Mis esmaltes"
+msgstr "Meine Glasuren"
+
+msgid "Mis galerías"
+msgstr "Meine Galerien"
+
+msgid "Mis grupos"
+msgstr "Meine Gruppen"
+
+msgid "Mis moldes"
+msgstr "Meine Formen"
+
+msgid "Mis piezas"
+msgstr "Meine Stücke"
+
+msgid "Mis piezas y compartidas"
+msgstr "Meine und geteilte Stücke"
+
+msgid "Molde"
+msgstr "Form"
+
+msgid "Molde abierto"
+msgstr "Offene Form"
+
+msgid "Moldes"
+msgstr "Formen"
+
+msgid "Moldes compartidos"
+msgstr "Geteilte Formen"
+
+#, python-format
+msgid "Mover foto %(value0)s antes"
+msgstr "Foto %(value0)s nach vorne verschieben"
+
+#, python-format
+msgid "Mover foto %(value0)s después"
+msgstr "Foto %(value0)s nach hinten verschieben"
+
+msgid "Más detalles"
+msgstr "Weitere Details"
+
+msgid "Más información"
+msgstr "Weitere Informationen"
+
+msgid "No existe ninguna cuenta con ese nombre de usuario."
+msgstr "Es gibt kein Konto mit diesem Benutzernamen."
+
+msgid "No hay coincidencias."
+msgstr "Keine Treffer."
+
+msgid "No hay esmaltes con ese nombre."
+msgstr "Keine Glasur mit diesem Namen gefunden."
+
+msgid "No hay más piezas para añadir."
+msgstr "Keine weiteren Stücke zum Hinzufügen."
+
+msgid "No hay piezas con esos filtros."
+msgstr "Keine Stücke entsprechen diesen Filtern."
+
+msgid "No hemos podido abrir esta página."
+msgstr "Wir konnten diese Seite nicht öffnen."
+
+msgid "No podemos continuar por aquí."
+msgstr "Hier kommen wir nicht weiter."
+
+msgid "No se ha podido leer una de las imágenes."
+msgstr "Eines der Bilder konnte nicht gelesen werden."
+
+msgid "No se pudo guardar el orden. Recarga la página e inténtalo de nuevo."
+msgstr ""
+"Die Reihenfolge konnte nicht gespeichert werden. Lade die Seite neu und "
+"versuche es erneut."
+
+msgid "No todo sale a la primera."
+msgstr "Nicht alles gelingt beim ersten Versuch."
+
+msgid "Nombre"
+msgstr "Name"
+
+msgid "Nombre, barro o técnica…"
+msgstr "Name, Ton oder Technik…"
+
+msgid "Notas de esta versión"
+msgstr "Notizen zu dieser Version"
+
+msgid "Notas de taller"
+msgstr "Ateliernotizen"
+
+msgid "Notificaciones"
+msgstr "Benachrichtigungen"
+
+msgid "Nueva galería"
+msgstr "Neue Galerie"
+
+msgid "Nueva pieza"
+msgstr "Neues Stück"
+
+msgid ""
+"Nueva versión guardada. Las piezas y muestras anteriores conservan la receta"
+" que usaron."
+msgstr ""
+"Neue Version gespeichert. Frühere Stücke und Proben behalten ihr verwendetes"
+" Rezept."
+
+msgid "Nuevo esmalte"
+msgstr "Neue Glasur"
+
+msgid "Nuevo grupo"
+msgstr "Neue Gruppe"
+
+msgid "Nuevo molde"
+msgstr "Neue Form"
+
+msgid "Número de partes"
+msgstr "Anzahl der Teile"
+
+msgid "Opcional"
+msgstr "Optional"
+
+msgid "Orden y portada guardados."
+msgstr "Reihenfolge und Titelbild gespeichert."
+
+msgid "PRIVADA"
+msgstr "PRIVAT"
+
+msgid "Paginación"
+msgstr "Seitennavigation"
+
+msgid ""
+"Para compartir una pieza, selecciónalo en «Editar ficha → Compartir con "
+"grupos»."
+msgstr ""
+"Zum Teilen eines Stücks wählst du diese Gruppe unter „Übersicht bearbeiten →"
+" Mit Gruppen teilen“."
+
+msgid "Partes"
+msgstr "Teile"
+
+msgid "Perfil actualizado."
+msgstr "Profil aktualisiert."
+
+msgid "Peso"
+msgstr "Gewicht"
+
+msgid "Peso (g)"
+msgstr "Gewicht (g)"
+
+msgid "Pieza añadida a la galería."
+msgstr "Stück zur Galerie hinzugefügt."
+
+msgid "Pieza eliminada."
+msgstr "Stück gelöscht."
+
+msgid "Pieza guardada."
+msgstr "Stück gespeichert."
+
+msgid "Pieza retirada de la galería. Su registro personal sigue intacto."
+msgstr ""
+"Stück aus der Galerie entfernt. Der persönliche Eintrag bleibt erhalten."
+
+msgid "Piezas"
+msgstr "Stücke"
+
+msgid "Piezas compartidas"
+msgstr "Geteilte Stücke"
+
+msgid "Piezas recientes"
+msgstr "Neueste Stücke"
+
+msgid "Piezas relacionadas"
+msgstr "Zugehörige Stücke"
+
+msgid "Por ahora no se pueden crear cuentas nuevas."
+msgstr "Zurzeit können keine neuen Konten erstellt werden."
+
+msgid ""
+"Por ahora no se pueden crear cuentas nuevas. Si ya tienes una cuenta, inicia"
+" sesión."
+msgstr ""
+"Zurzeit können keine neuen Konten erstellt werden. Melde dich an, wenn du "
+"bereits ein Konto hast."
+
+msgid "Por ejemplo, 1.220–1.260 °C"
+msgstr "Zum Beispiel 1.220–1.260 °C"
+
+msgid "Por ejemplo, blanco avena"
+msgstr "Zum Beispiel Haferweiß"
+
+msgid "Por ejemplo, cuenco de desayuno"
+msgstr "Zum Beispiel Frühstücksschale"
+
+msgid "Por ejemplo, cuenco mediano"
+msgstr "Zum Beispiel mittelgroße Schale"
+
+msgid "Por ejemplo, estantería A · balda 2"
+msgstr "Zum Beispiel Regal A · Fach 2"
+
+msgid "Por ejemplo, pequeños rituales"
+msgstr "Zum Beispiel kleine Rituale"
+
+msgid "Por ejemplo, Ø 18 × 7 cm"
+msgstr "Zum Beispiel Ø 18 × 7 cm"
+
+msgid "Por encargo"
+msgstr "Auf Bestellung"
+
+msgid "Porcentaje"
+msgstr "Prozentanteil"
+
+msgid "Portada"
+msgstr "Titelbild"
+
+msgid "Preparar"
+msgstr "Vorbereiten"
+
+msgid "Preparar presentación →"
+msgstr "Präsentation vorbereiten →"
+
+msgid "Presentación"
+msgstr "Präsentation"
+
+msgid "Presentación actualizada."
+msgstr "Präsentation aktualisiert."
+
+msgid "Presentación pública"
+msgstr "Öffentliche Präsentation"
+
+msgid "Presentación y visibilidad →"
+msgstr "Präsentation und Sichtbarkeit →"
+
+msgid "Presión"
+msgstr "Pressform"
+
+msgid "Presión, colada…"
+msgstr "Pressform, Schlickerguss…"
+
+msgid "Principal"
+msgstr "Allgemein"
+
+msgid "Privada"
+msgstr "Privat"
+
+msgid "Privada por defecto"
+msgstr "Standardmäßig privat"
+
+msgid "Privado"
+msgstr "Privat"
+
+msgid "Privado por defecto"
+msgstr "Standardmäßig privat"
+
+msgid "Procesos abiertos"
+msgstr "Laufende Arbeiten"
+
+#, python-format
+msgid "Prueba a %(value0)s grados"
+msgstr "Probe bei %(value0)s Grad"
+
+msgid "Prueba otra búsqueda o consulta toda tu biblioteca."
+msgstr "Versuche eine andere Suche oder öffne die gesamte Bibliothek."
+
+msgid "Prueba otra búsqueda o vuelve a ver tu cuaderno completo."
+msgstr "Versuche eine andere Suche oder öffne dein gesamtes Werkbuch."
+
+msgid "Pruebas de aplicación"
+msgstr "Auftragsproben"
+
+msgid "Pruebas y resultados"
+msgstr "Proben und Ergebnisse"
+
+msgid "Puede haber caducado o haberse utilizado. Pide una nueva invitación."
+msgstr ""
+"Sie ist möglicherweise abgelaufen oder wurde bereits verwendet. Bitte um "
+"eine neue Einladung."
+
+msgid ""
+"Puede que el enlace haya cambiado o que esta página ya no esté disponible."
+msgstr ""
+"Der Link hat sich vielleicht geändert oder diese Seite ist nicht mehr "
+"verfügbar."
+
+msgid ""
+"Puede que tu sesión haya caducado o que no tengas acceso. Vuelve al inicio "
+"para continuar."
+msgstr ""
+"Deine Sitzung ist möglicherweise abgelaufen oder du hast keinen Zugriff. "
+"Kehre zur Startseite zurück."
+
+msgid "Puedes invitar a alguien desde un grupo que administres."
+msgstr "Du kannst jemanden über eine von dir verwaltete Gruppe einladen."
+
+msgid "Puedes subir hasta 4 fotos cada vez."
+msgstr "Du kannst bis zu 4 Fotos auf einmal hochladen."
+
+msgid "Pública"
+msgstr "Öffentlich"
+
+msgid "Quiero eliminarlo. Esta acción no se puede deshacer."
+msgstr ""
+"Ich möchte den Eintrag löschen. Dies kann nicht rückgängig gemacht werden."
+
+msgid "Quitar selección"
+msgstr "Auswahl aufheben"
+
+msgid "Quién puede verla"
+msgstr "Wer kann sie sehen"
+
+msgid "Qué bien tenerte por aquí."
+msgstr "Schön, dass du da bist."
+
+msgid "Qué has hecho o descubierto"
+msgstr "Was du gemacht oder entdeckt hast"
+
+msgid "Qué tienes en mente, qué quieres probar…"
+msgstr "Deine Ideen, was du ausprobieren möchtest…"
+
+msgid "Qué une a las piezas de esta colección…"
+msgstr "Was die Stücke dieser Sammlung verbindet…"
+
+msgid "Rango de temperatura"
+msgstr "Temperaturbereich"
+
+msgid "Receta propia"
+msgstr "Eigenes Rezept"
+
+msgid "Receta y calculadora de mezcla"
+msgstr "Rezept und Mischungsrechner"
+
+msgid ""
+"Registra en las notas tus tiempos de colada, consejos de desmoldeo y pastas "
+"que mejor funcionan. Añade fotos desde «Editar ficha»."
+msgstr ""
+"Notiere Gießzeiten, Tipps zum Entformen und geeignete Tonmassen. Fotos "
+"kannst du über „Übersicht bearbeiten“ hinzufügen."
+
+msgid "Registra tus piezas, fotos y pruebas de esmaltes."
+msgstr "Dokumentiere deine Stücke, Fotos und Glasurproben."
+
+msgid "Resina"
+msgstr "Harz"
+
+msgid "Resultado y observaciones"
+msgstr "Ergebnis und Beobachtungen"
+
+msgid "Retira definitivamente su ficha y sus fotografías de tu taller."
+msgstr "Entferne den Eintrag und seine Fotos dauerhaft aus deinem Atelier."
+
+msgid "Retirado"
+msgstr "Ausgemustert"
+
+msgid "Retirar"
+msgstr "Entfernen"
+
+msgid "Retirar de esta galería"
+msgstr "Aus dieser Galerie entfernen"
+
+msgid "Retirar de la galería"
+msgstr "Aus Galerie entfernen"
+
+msgid "Retirar del grupo"
+msgstr "Aus Gruppe entfernen"
+
+msgid "Sacar foto"
+msgstr "Foto aufnehmen"
+
+msgid "Saltar al contenido"
+msgstr "Zum Inhalt springen"
+
+msgid "Satinado"
+msgstr "Seidenmatt"
+
+msgid ""
+"Se eliminará el avance, pero sus fotos se conservarán en la pieza. La etapa "
+"se actualizará según el último avance restante; sin avances volverá a «En "
+"proceso»."
+msgstr ""
+"Der Verlaufseintrag wird gelöscht, seine Fotos bleiben beim Stück. Die Phase"
+" entspricht dann dem letzten verbleibenden Eintrag oder „In Arbeit“, falls "
+"keiner übrig bleibt."
+
+msgid ""
+"Se eliminará esta foto de la ficha y de las galerías donde esté "
+"seleccionada. Esta acción es definitiva."
+msgstr ""
+"Dieses Foto wird aus dem Eintrag und allen Galerien entfernt, in denen es "
+"ausgewählt ist. Dies kann nicht rückgängig gemacht werden."
+
+msgid ""
+"Se eliminará únicamente este registro de aplicación. El esmalte y su receta "
+"se conservan en la biblioteca."
+msgstr ""
+"Nur dieser Glasurauftrag wird gelöscht. Glasur und Rezept bleiben in der "
+"Bibliothek."
+
+msgid ""
+"Se eliminarán su ficha, sus fotografías, sus avances y los registros de "
+"esmaltes aplicados. No podrás recuperarlos desde Canela."
+msgstr ""
+"Eintrag, Fotos, Verlauf und Glasuraufträge werden gelöscht. Du kannst sie in"
+" Canela nicht wiederherstellen."
+
+msgid "Se retirará de esta colección. Su ficha personal se conserva."
+msgstr ""
+"Das Stück wird aus dieser Sammlung entfernt. Der persönliche Eintrag bleibt "
+"erhalten."
+
+msgid "Secando"
+msgstr "Trocknet"
+
+msgid "Selecciona al menos un grupo."
+msgstr "Wähle mindestens eine Gruppe."
+
+msgid "Selecciona al menos una fotografía."
+msgstr "Wähle mindestens ein Foto."
+
+msgid "Selecciona primero una pieza."
+msgstr "Wähle zuerst ein Stück."
+
+msgid "Selecciona uno o varios de tu biblioteca o de tus grupos."
+msgstr ""
+"Wähle einen oder mehrere Einträge aus deiner Bibliothek oder deinen Gruppen."
+
+msgid "Seleccionar fotografías"
+msgstr "Fotos auswählen"
+
+msgid "Seleccionar todas"
+msgstr "Alle auswählen"
+
+msgid "Si habías seleccionado fotos, vuelve a añadirlas antes de guardar."
+msgstr ""
+"Wenn du Fotos ausgewählt hattest, füge sie vor dem Speichern erneut hinzu."
+
+msgid "Siguiente →"
+msgstr "Weiter →"
+
+msgid "Silicona"
+msgstr "Silikon"
+
+msgid "Sin cantidades registradas"
+msgstr "Keine Mengen erfasst"
+
+msgid "Sin descripción pública."
+msgstr "Keine öffentliche Beschreibung."
+
+msgid "Sin foto todavía"
+msgstr "Noch kein Foto"
+
+msgid "Sin fotografía seleccionada"
+msgstr "Kein Foto ausgewählt"
+
+msgid "Sin fotos seleccionadas"
+msgstr "Keine Fotos ausgewählt"
+
+msgid "Sin grupos seleccionados"
+msgstr "Keine Gruppen ausgewählt"
+
+msgid "Sin molde visible"
+msgstr "Keine sichtbare Form"
+
+msgid "Sin registrar"
+msgstr "Nicht erfasst"
+
+msgid "Sin seleccionar grupos, la ficha permanece privada."
+msgstr "Ohne ausgewählte Gruppen bleibt der Eintrag privat."
+
+msgid "Sin ubicación"
+msgstr "Kein Standort"
+
+msgid "Sobre mí"
+msgstr "Über mich"
+
+msgid "Solo el propietario puede ver esta ficha."
+msgstr "Nur der Eigentümer kann diesen Eintrag ansehen."
+
+msgid "Solo es visible en tu cuenta y para la administración."
+msgstr "Nur für dich und die Administration sichtbar."
+
+msgid ""
+"Solo estas fotos serán visibles en la galería. Las notas, etapas y recetas "
+"de la pieza permanecen privadas."
+msgstr ""
+"Nur diese Fotos sind in der Galerie sichtbar. Notizen, Phasen und Rezepte "
+"bleiben privat."
+
+msgid "Solo exposición"
+msgstr "Nur Ausstellung"
+
+msgid "Solo exposición, disponible, vendida…"
+msgstr "Nur Ausstellung, verfügbar, verkauft…"
+
+msgid "Solo las personas de los grupos que selecciones."
+msgstr "Nur Mitglieder der ausgewählten Gruppen."
+
+msgid "Solo los miembros de los grupos seleccionados pueden verla."
+msgstr "Nur Mitglieder der ausgewählten Gruppen können sie sehen."
+
+msgid "Solo para ti"
+msgstr "Nur für dich"
+
+msgid ""
+"Solo se publicarán las presentaciones y fotos que añadas a esta colección. "
+"Tus notas, recetas y avances no se publican."
+msgstr ""
+"Nur die hinzugefügten Präsentationen und Fotos werden veröffentlicht. "
+"Notizen, Rezepte und Verlauf bleiben privat."
+
+msgid "Solo se publicarán los textos y las fotos que selecciones."
+msgstr "Nur deine ausgewählten Texte und Fotos werden veröffentlicht."
+
+msgid "Solo tú puedes ver esta galería."
+msgstr "Nur du kannst diese Galerie sehen."
+
+msgid "Solo yo"
+msgstr "Nur ich"
+
+msgid "Su historia está por empezar."
+msgstr "Seine Geschichte beginnt gerade erst."
+
+msgid "Taller"
+msgstr "Atelier"
+
+#, python-format
+msgid ""
+"También se retirará de %(counter)s galería, incluidas sus fotografías y su "
+"presentación."
+msgid_plural ""
+"También se retirará de %(counter)s galerías, incluidas sus fotografías y su "
+"presentación."
+msgstr[0] ""
+"Es wird auch aus %(counter)s Galerie entfernt, einschließlich Fotos und "
+"Präsentation."
+msgstr[1] ""
+"Es wird auch aus %(counter)s Galerien entfernt, einschließlich Fotos und "
+"Präsentation."
+
+msgid "Temperatura"
+msgstr "Temperatur"
+
+msgid "Temperatura (°C)"
+msgstr "Temperatur (°C)"
+
+msgid "Temperatura por registrar"
+msgstr "Temperatur nicht erfasst"
+
+msgid "Terminada"
+msgstr "Fertig"
+
+msgid "Texturado"
+msgstr "Strukturiert"
+
+msgid "Tiempos de colada, desmoldeo, cuidados…"
+msgstr "Gießzeiten, Entformen, Pflege…"
+
+msgid "Tienes un sitio en Canela."
+msgstr "Du hast einen Platz in Canela."
+
+msgid "Tipo"
+msgstr "Art"
+
+msgid "Tipo de barro o pasta"
+msgstr "Ton oder Tonmasse"
+
+msgid "Tipo de esmalte"
+msgstr "Glasurart"
+
+msgid "Todas"
+msgstr "Alle"
+
+msgid "Todavía no hay esmaltes compartidos."
+msgstr "Noch keine geteilten Glasuren."
+
+msgid "Todavía no hay moldes compartidos."
+msgstr "Noch keine geteilten Formen."
+
+msgid "Todavía no tienes esmaltes disponibles."
+msgstr "Du hast noch keine verfügbaren Glasuren."
+
+msgid "Todo un mundo"
+msgstr "Eine ganze Welt"
+
+msgid "Todos"
+msgstr "Alle"
+
+msgid "Transparente"
+msgstr "Transparent"
+
+msgid "Tu biblioteca está por estrenar."
+msgstr "Deine Bibliothek wartet auf den ersten Eintrag."
+
+msgid "Tu colección empieza aquí."
+msgstr "Deine Sammlung beginnt hier."
+
+msgid "Tu cuaderno de taller, a tu ritmo."
+msgstr "Dein Werkbuch, in deinem Tempo."
+
+msgid "Tu nombre"
+msgstr "Dein Name"
+
+msgid "Tu perfil"
+msgstr "Dein Profil"
+
+msgid "Tu taller está listo. Empieza con tu primera pieza."
+msgstr "Dein Atelier ist bereit. Beginne mit deinem ersten Stück."
+
+msgid "Tu taller, a tu ritmo."
+msgstr "Dein Atelier, in deinem Tempo."
+
+msgid "Tus ingredientes y proporciones"
+msgstr "Deine Zutaten und Mengenverhältnisse"
+
+msgid "Técnica"
+msgstr "Technik"
+
+msgid "Técnica, medidas y molde"
+msgstr "Technik, Maße und Form"
+
+msgid "Título público"
+msgstr "Öffentlicher Titel"
+
+msgid "Ubicación"
+msgstr "Standort"
+
+msgid ""
+"Un ingrediente por línea: nombre; porcentaje. El total debe sumar 100. Se "
+"guardará una nueva versión."
+msgstr ""
+"Eine Zutat pro Zeile: Name; Prozentanteil. Die Summe muss 100 ergeben. Eine "
+"neue Version wird gespeichert."
+
+msgid "Un poco de barro."
+msgstr "Ein bisschen Ton."
+
+msgid "Un producto de fabricante"
+msgstr "Ein Herstellerprodukt"
+
+msgid "Un rincón para crear juntos."
+msgstr "Ein Ort zum gemeinsamen Gestalten."
+
+msgid "Una nueva versión de la receta"
+msgstr "Eine neue Rezeptversion"
+
+msgid "Usa fotos JPG, PNG o WebP de hasta 30 megapíxeles."
+msgstr "Verwende JPG-, PNG- oder WebP-Fotos mit höchstens 30 Megapixeln."
+
+msgid ""
+"Usa «Nombre; porcentaje», con hasta tres decimales y valores entre 0 y 100."
+msgstr ""
+"Verwende „Name; Prozentanteil“ mit bis zu drei Nachkommastellen und Werten "
+"von 0 bis 100."
+
+msgid "Usuario"
+msgstr "Benutzer"
+
+msgid "Usuario que quieres añadir"
+msgstr "Benutzer zum Hinzufügen"
+
+msgid "Vendida"
+msgstr "Verkauft"
+
+msgid "Ver"
+msgstr "Ansehen"
+
+msgid "Ver historia ↗"
+msgstr "Verlauf ansehen ↗"
+
+msgid "Ver todas las piezas ↗"
+msgstr "Alle Stücke ansehen ↗"
+
+#, python-format
+msgid "Versión %(value0)s · %(value1)s"
+msgstr "Version %(value0)s · %(value1)s"
+
+msgid "Visibilidad"
+msgstr "Sichtbarkeit"
+
+msgid "Visibilidad y presentación"
+msgstr "Sichtbarkeit und Präsentation"
+
+msgid "Vista previa · El acceso está restringido."
+msgstr "Vorschau · Zugriff eingeschränkt."
+
+msgid "Vista previa ↗"
+msgstr "Vorschau ↗"
+
+msgid "Volver a la colección"
+msgstr "Zurück zur Sammlung"
+
+msgid "Volver a la ficha"
+msgstr "Zurück zur Übersicht"
+
+msgid "Volver a mi taller"
+msgstr "Zurück zu meinem Atelier"
+
+msgid "Volver al inicio"
+msgstr "Zur Startseite"
+
+msgid "Volver al inicio →"
+msgstr "Zur Startseite →"
+
+#, python-format
+msgid "Válida hasta %(value0)s"
+msgstr "Gültig bis %(value0)s"
+
+msgid "Ya existe una cuenta con este correo electrónico."
+msgstr "Es gibt bereits ein Konto mit dieser E-Mail-Adresse."
+
+msgid "Ya hay una configuración en curso. Vuelve a intentarlo."
+msgstr "Die Einrichtung läuft bereits. Versuche es erneut."
+
+msgid "Zona de la pieza"
+msgstr "Bereich des Stücks"
+
+msgid "algo muy tuyo."
+msgstr "etwas ganz Eigenes."
+
+msgid "gramos"
+msgstr "Gramm"
+
+msgid "o asígnalos más adelante."
+msgstr "oder weise sie später zu."
+
+msgid "o selecciónalas desde tu ordenador"
+msgstr "oder wähle sie auf deinem Computer aus"
+
+msgid "obligatorio"
+msgstr "erforderlich"
+
+msgid "por descubrir."
+msgstr "zu entdecken."
+
+msgid "· Administrador"
+msgstr "· Administrator"
+
+#, python-format
+msgid "· Prueba del %(value0)s"
+msgstr "· Probe vom %(value0)s"
+
+#, python-format
+msgid "· Receta v%(value0)s"
+msgstr "· Rezept v%(value0)s"
+
+#, python-format
+msgid "¿Eliminar «%(value0)s»?"
+msgstr "„%(value0)s“ löschen?"
+
+msgid "¿Quieres continuar?"
+msgstr "Möchtest du fortfahren?"
+
+msgid "← Anterior"
+msgstr "← Zurück"
+
+msgid "← Mis galerías"
+msgstr "← Meine Galerien"
+
+msgid "← Mis piezas"
+msgstr "← Meine Stücke"
+
+msgid "← Volver"
+msgstr "← Zurück"
+
+msgid "← Volver a la ficha"
+msgstr "← Zurück zur Übersicht"
+
+msgid "← Volver a la pieza"
+msgstr "← Zurück zum Stück"
+
+msgid "♧ Compartida"
+msgstr "♧ Geteilt"
+
+msgid "＋ Añadir"
+msgstr "＋ Hinzufügen"
+
+msgid "＋ Añadir avance"
+msgstr "＋ Fortschritt hinzufügen"
+
+msgid "＋ Añadir pieza"
+msgstr "＋ Stück hinzufügen"
+
+msgid "＋ Nueva galería"
+msgstr "＋ Neue Galerie"
+
+msgid "＋ Nueva pieza"
+msgstr "＋ Neues Stück"
+
+msgid "＋ Nueva prueba"
+msgstr "＋ Neue Probe"
+
+msgid "＋ Nueva versión"
+msgstr "＋ Neue Version"
+
+msgid "＋ Nuevo grupo"
+msgstr "＋ Neue Gruppe"
+
+msgctxt "URL"
+msgid "setup/"
+msgstr "einrichtung/"
+
+msgctxt "URL"
+msgid "login/"
+msgstr "anmelden/"
+
+msgctxt "URL"
+msgid "logout/"
+msgstr "abmelden/"
+
+msgctxt "URL"
+msgid "cuenta/"
+msgstr "konto/"
+
+msgctxt "URL"
+msgid "cuenta/password/"
+msgstr "konto/passwort/"
+
+msgctxt "URL"
+msgid "invitaciones/nueva/"
+msgstr "einladungen/neu/"
+
+msgctxt "URL"
+msgid "invitacion/<uuid:token>/"
+msgstr "einladung/<uuid:token>/"
+
+msgctxt "URL"
+msgid "piezas/"
+msgstr "stuecke/"
+
+msgctxt "URL"
+msgid "piezas/nueva/"
+msgstr "stuecke/neu/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/"
+msgstr "stuecke/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/editar/"
+msgstr "stuecke/<uuid:pk>/bearbeiten/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/eliminar/"
+msgstr "stuecke/<uuid:pk>/loeschen/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/avance/"
+msgstr "stuecke/<uuid:pk>/fortschritt/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/avance/<int:event_id>/editar/"
+msgstr "stuecke/<uuid:pk>/fortschritt/<int:event_id>/bearbeiten/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/avance/<int:record_id>/eliminar/"
+msgstr "stuecke/<uuid:pk>/fortschritt/<int:record_id>/loeschen/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/esmalte/"
+msgstr "stuecke/<uuid:pk>/glasur/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/esmalte/<int:use_id>/"
+msgstr "stuecke/<uuid:pk>/glasur/<int:use_id>/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/esmalte/<int:record_id>/eliminar/"
+msgstr "stuecke/<uuid:pk>/glasur/<int:record_id>/loeschen/"
+
+msgctxt "URL"
+msgid "fotos/<uuid:pk>/eliminar/"
+msgstr "fotos/<uuid:pk>/loeschen/"
+
+msgctxt "URL"
+msgid "fotos/coleccion/<str:kind>/<uuid:pk>/"
+msgstr "fotos/sammlung/<str:kind>/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "moldes/"
+msgstr "formen/"
+
+msgctxt "URL"
+msgid "esmaltes/"
+msgstr "glasuren/"
+
+msgctxt "URL"
+msgid "moldes/nuevo/"
+msgstr "formen/neu/"
+
+msgctxt "URL"
+msgid "esmaltes/nuevo/"
+msgstr "glasuren/neu/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/"
+msgstr "formen/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/"
+msgstr "glasuren/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/editar/"
+msgstr "formen/<uuid:pk>/bearbeiten/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/editar/"
+msgstr "glasuren/<uuid:pk>/bearbeiten/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/receta/"
+msgstr "glasuren/<uuid:pk>/rezept/"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/muestra/"
+msgstr "glasuren/<uuid:pk>/probe/"
+
+msgctxt "URL"
+msgid "galerias/"
+msgstr "galerien/"
+
+msgctxt "URL"
+msgid "galerias/nueva/"
+msgstr "galerien/neu/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/editar/"
+msgstr "galerien/<uuid:pk>/bearbeiten/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/"
+msgstr "galerien/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/añadir/"
+msgstr "galerien/<uuid:pk>/hinzufuegen/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/pieza/<uuid:entry_id>/editar/"
+msgstr "galerien/<uuid:pk>/stueck/<uuid:entry_id>/bearbeiten/"
+
+msgctxt "URL"
+msgid "galerias/<uuid:pk>/retirar/<uuid:entry_id>/"
+msgstr "galerien/<uuid:pk>/entfernen/<uuid:entry_id>/"
+
+msgctxt "URL"
+msgid "g/<uuid:pk>/"
+msgstr "g/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "grupos/"
+msgstr "gruppen/"
+
+msgctxt "URL"
+msgid "grupos/nuevo/"
+msgstr "gruppen/neu/"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/"
+msgstr "gruppen/<uuid:pk>/"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/miembros/<int:user_id>/retirar/"
+msgstr "gruppen/<uuid:pk>/mitglieder/<int:user_id>/entfernen/"
+
+msgid "Sin conexión · Canela"
+msgstr "Offline · Canela"
+
+msgid "El taller necesita conexión."
+msgstr "Das Atelier braucht eine Verbindung."
+
+msgid ""
+"No podemos conectar con Canela. Comprueba tu conexión o vuelve a intentarlo "
+"más tarde."
+msgstr ""
+"Wir können Canela nicht erreichen. Prüfe deine Verbindung oder versuche es "
+"später erneut."
+
+msgid "Volver a intentar"
+msgstr "Erneut versuchen"
+
+msgid "Instalar Canela"
+msgstr "Canela installieren"
+
+msgid "Ten tu taller a mano desde la pantalla de inicio."
+msgstr "Dein Atelier direkt auf deinem Startbildschirm."
+
+msgid "Instalar aplicación"
+msgstr "App installieren"
+
+msgid ""
+"En Safari, abre Compartir y elige «Añadir a pantalla de inicio». Activa "
+"«Abrir como app» si aparece y pulsa «Añadir»."
+msgstr ""
+"Öffne in Safari „Teilen“ und wähle „Zum Home-Bildschirm“. Aktiviere „Als "
+"Web-App öffnen“, falls angezeigt, und tippe auf „Hinzufügen“."
+
+msgid ""
+"Abre el menú del navegador y elige «Instalar aplicación» o «Añadir a "
+"pantalla de inicio»."
+msgstr ""
+"Öffne das Browsermenü und wähle „App installieren“ oder „Zum Startbildschirm"
+" hinzufügen“."
+
+msgid "Necesitas conexión para consultar y guardar tus piezas."
+msgstr ""
+"Du brauchst eine Verbindung, um deine Stücke anzusehen und zu speichern."
+
+msgid "Más"
+msgstr "Mehr"
+
+msgid "Cerrar menú"
+msgstr "Menü schließen"
+
+msgid "Filtros"
+msgstr "Filter"
+
+msgid "Filtros activos"
+msgstr "Aktive Filter"
+
+msgid "Aplicar filtros"
+msgstr "Filter anwenden"
+
+msgid "Resultados"
+msgstr "Ergebnisse"
+
+msgid "Materiales"
+msgstr "Materialien"
+
+msgid "Tipo de material"
+msgstr "Materialart"
+
+msgid "Engobe"
+msgstr "Engobe"
+
+msgid "Mis materiales"
+msgstr "Meine Materialien"
+
+msgid "Nuevo material"
+msgstr "Neues Material"
+
+msgid "Crear material"
+msgstr "Material erstellen"
+
+msgid "Editar material"
+msgstr "Material bearbeiten"
+
+msgid "Información del material"
+msgstr "Materialinformationen"
+
+msgid "Procedencia"
+msgstr "Herkunft"
+
+msgid "BIBLIOTECA DE MATERIALES"
+msgstr "MATERIALBIBLIOTHEK"
+
+msgid "Materiales utilizados"
+msgstr "Verwendete Materialien"
+
+msgid "Buscar materiales…"
+msgstr "Materialien suchen…"
+
+msgid "Buscar materiales disponibles"
+msgstr "Verfügbare Materialien suchen"
+
+msgid "No hay materiales con ese nombre."
+msgstr "Keine Materialien mit diesem Namen."
+
+msgid "Marca los materiales que hayas utilizado."
+msgstr "Wähle die verwendeten Materialien aus."
+
+msgid "Todavía no tienes materiales disponibles."
+msgstr "Du hast noch keine Materialien zur Verfügung."
+
+msgid "Material no disponible"
+msgstr "Material nicht verfügbar"
+
+msgid "Materiales compartidos"
+msgstr "Geteilte Materialien"
+
+msgid "Todavía no hay materiales compartidos."
+msgstr "Es wurden noch keine Materialien geteilt."
+
+msgid "Reúne tus esmaltes, engobes y barros con sus pruebas y resultados."
+msgstr "Sammle Glasuren, Engoben und Tone mit ihren Proben und Ergebnissen."
+
+msgid "Añadir mi primer material"
+msgstr "Mein erstes Material hinzufügen"
+
+msgid "Registra tus piezas, fotos y pruebas de materiales."
+msgstr "Erfasse deine Stücke, Fotos und Materialproben."
+
+msgid ""
+"Selecciona los esmaltes, engobes y barros de tu biblioteca o de tus grupos."
+msgstr ""
+"Wähle Glasuren, Engoben und Tone aus deiner Bibliothek oder deinen Gruppen."
+
+msgid ""
+"Las pruebas con barro, capas y temperatura se añaden desde la ficha del "
+"material."
+msgstr ""
+"Füge Proben mit Ton, Schichten und Temperatur auf der Materialseite hinzu."
+
+msgid ""
+"Los ingredientes, las mezclas y las pruebas se gestionan desde la ficha del "
+"material."
+msgstr "Verwalte Zutaten, Mischungen und Proben auf der Materialseite."
+
+msgid "Fotografías del material"
+msgstr "Materialfotos"
+
+msgid "Uso de material guardado."
+msgstr "Materialverwendung gespeichert."
+
+msgid "Detalles de uso"
+msgstr "Verwendungsdetails"
+
+msgid "Añadir material"
+msgstr "Material hinzufügen"
+
+msgid "Uso de material eliminado."
+msgstr "Materialverwendung gelöscht."
+
+msgid ""
+"Se eliminará únicamente este registro de aplicación. El material y su receta"
+" se conservan en la biblioteca."
+msgstr ""
+"Nur dieser Verwendungseintrag wird gelöscht. Das Material und sein Rezept "
+"bleiben in der Bibliothek."
+
+msgid "Eliminar uso de material"
+msgstr "Materialverwendung löschen"
+
+msgid "Los materiales y el molde de tu inventario se conservan."
+msgstr "Die Materialien und die Form in deinem Bestand bleiben erhalten."
+
+msgid ""
+"Se eliminarán su ficha, sus fotografías, sus avances y los registros de "
+"materiales utilizados. No podrás recuperarlos desde Canela."
+msgstr ""
+"Die Seite, Fotos, Fortschritte und Materialeinträge werden gelöscht. Sie "
+"können in Canela nicht wiederhergestellt werden."
+
+msgid ""
+"Crea un grupo para compartir piezas, moldes y materiales con tu pareja."
+msgstr ""
+"Erstelle eine Gruppe, um Stücke, Formen und Materialien mit deinem Partner "
+"zu teilen."
+
+msgid "Absorción de agua"
+msgstr "Wasseraufnahme"
+
+msgid "Absorción de agua (%)"
+msgstr "Wasseraufnahme (%)"
+
+msgid "Actualizar campos"
+msgstr "Felder aktualisieren"
+
+msgid "Aplicación del engobe"
+msgstr "Engobenauftrag"
+
+msgid "Características de la pasta"
+msgstr "Eigenschaften der Tonmasse"
+
+msgid "Chamota"
+msgstr "Schamotte"
+
+msgid "Chamota (%)"
+msgstr "Schamotte (%)"
+
+msgid "Color tras cocción"
+msgstr "Brennfarbe"
+
+msgid "Comportamiento en el taller y observaciones…"
+msgstr "Verhalten in der Werkstatt und Beobachtungen…"
+
+msgid "Conformado / atmósfera de cocción"
+msgstr "Formgebung / Brennatmosphäre"
+
+msgid "Contracción total"
+msgstr "Gesamtschwindung"
+
+msgid "Contracción total (%)"
+msgstr "Gesamtschwindung (%)"
+
+msgid "Estado de la pieza al aplicar"
+msgstr "Zustand des Stücks beim Auftrag"
+
+msgid "Grano de la chamota (mm)"
+msgstr "Schamottkörnung (mm)"
+
+msgid "Gres"
+msgstr "Steinzeug"
+
+msgid "Gres, loza, porcelana, refractario…"
+msgstr "Steinzeug, Steingut, Porzellan, feuerfest…"
+
+msgid "Húmedo, dureza de cuero, seco o bizcochado"
+msgstr "Feucht, lederhart, trocken oder geschrüht"
+
+msgid "Indica la temperatura de referencia de estas mediciones."
+msgstr "Gib die Bezugstemperatur dieser Messungen an."
+
+msgid "Loza"
+msgstr "Steingut"
+
+msgid "Método de aplicación"
+msgstr "Auftragsmethode"
+
+msgid "Opaco"
+msgstr "Deckend"
+
+msgid "Pastas compatibles"
+msgstr "Verträgliche Tonmassen"
+
+msgid "Pastas con las que has comprobado que funciona"
+msgstr "Tonmassen, mit denen du es erfolgreich getestet hast"
+
+msgid "Pincel, inmersión, vertido o pulverización"
+msgstr "Pinseln, Tauchen, Gießen oder Sprühen"
+
+msgid "Por ejemplo, 0–0,5 mm"
+msgstr "Zum Beispiel 0–0,5 mm"
+
+msgid "Por ejemplo, blanco, terracota o azul cobalto"
+msgstr "Zum Beispiel Weiß, Terrakotta oder Kobaltblau"
+
+msgid "Por ejemplo, engobe azul"
+msgstr "Zum Beispiel blaue Engobe"
+
+msgid "Por ejemplo, gres blanco con chamota"
+msgstr "Zum Beispiel weißes Steinzeug mit Schamotte"
+
+msgid "Porcelana"
+msgstr "Porzellan"
+
+msgid "Prueba el engobe sobre distintas pastas y estados de secado."
+msgstr ""
+"Teste die Engobe auf verschiedenen Tonmassen und in verschiedenen "
+"Trocknungsstadien."
+
+msgid ""
+"Prueba el esmalte sobre una pasta y registra sus capas, cocción y resultado."
+msgstr ""
+"Teste die Glasur auf einer Tonmasse und erfasse Schichten, Brand und "
+"Ergebnis."
+
+msgid "Recetas y pruebas en su ficha"
+msgstr "Rezepte und Proben auf der Detailseite"
+
+msgid "Refractario"
+msgstr "Feuerfest"
+
+msgid "Registra pruebas de cocción, contracción y absorción de esta pasta."
+msgstr "Erfasse Brennproben, Schwindung und Wasseraufnahme dieser Tonmasse."
+
+msgid "Superficie del esmalte"
+msgstr "Glasuroberfläche"
+
+msgid ""
+"Temperatura a la que corresponden la contracción y la absorción indicadas."
+msgstr ""
+"Temperatur, auf die sich die angegebene Schwindung und Wasseraufnahme "
+"beziehen."
+
+msgid "Temperatura de referencia"
+msgstr "Bezugstemperatur"
+
+msgid "Temperatura de referencia (°C)"
+msgstr "Bezugstemperatur (°C)"
+
+msgid "Tipo de pasta"
+msgstr "Art der Tonmasse"
+
+msgid "Torno, modelado, placas o colada"
+msgstr "Drehen, Modellieren, Plattentechnik oder Gießen"
+
+msgid "Translúcido"
+msgstr "Durchscheinend"
+
+msgid "Transparencia"
+msgstr "Transparenz"
+
+msgid "Técnicas de conformado"
+msgstr "Formgebungstechniken"
+
+msgid "Uso / técnica / orden"
+msgstr "Verwendung / Technik / Reihenfolge"
+
+msgid "¿Qué material vas a guardar?"
+msgstr "Welches Material möchtest du speichern?"
+
+msgid "Administrador"
+msgstr "Administrator"
+
+msgid "Añadir a este grupo"
+msgstr "Zu dieser Gruppe hinzufügen"
+
+msgid "Compartido por"
+msgstr "Geteilt von"
+
+msgid "Crea un taller y organiza sus clases en subgrupos."
+msgstr "Erstelle eine Werkstatt und organisiere ihre Kurse in Untergruppen."
+
+msgid "Dentro de"
+msgstr "Innerhalb von"
+
+msgid ""
+"Disponible para sus miembros y subgrupos. Lo gestionan los administradores y"
+" se conserva aunque su creador deje el grupo."
+msgstr ""
+"Für Mitglieder und Untergruppen verfügbar. Administratoren verwalten es; es "
+"bleibt erhalten, wenn sein Ersteller die Gruppe verlässt."
+
+msgid "Editar grupo"
+msgstr "Gruppe bearbeiten"
+
+msgid "El grupo necesita un administrador"
+msgstr "Die Gruppe braucht einen Administrator"
+
+msgid ""
+"Esta persona verá este grupo y los contenidos generales de sus grupos "
+"superiores, sin acceder a otras clases."
+msgstr ""
+"Diese Person sieht diese Gruppe und allgemeine Inhalte übergeordneter "
+"Gruppen, ohne Zugriff auf andere Kurse."
+
+msgid "Grupo actualizado."
+msgstr "Gruppe aktualisiert."
+
+msgid "Grupo independiente"
+msgstr "Eigenständige Gruppe"
+
+msgid "Guardar en"
+msgstr "Speichern in"
+
+msgid "Hacer administrador"
+msgstr "Zum Administrator machen"
+
+msgid ""
+"Las piezas personales solo aparecen cuando se comparten con este grupo o con"
+" uno de sus grupos superiores."
+msgstr ""
+"Persönliche Stücke erscheinen nur, wenn sie mit dieser Gruppe oder einer "
+"übergeordneten Gruppe geteilt werden."
+
+msgid ""
+"Los administradores de los grupos superiores también pueden gestionar este "
+"grupo."
+msgstr ""
+"Administratoren übergeordneter Gruppen können auch diese Gruppe verwalten."
+
+msgid ""
+"Los materiales del grupo estarán disponibles en todos sus subgrupos. Sus "
+"administradores podrán gestionarlos."
+msgstr ""
+"Gruppenmaterialien stehen in allen Untergruppen zur Verfügung. Die "
+"Administratoren können sie verwalten."
+
+msgid "Material del grupo"
+msgstr "Gruppenmaterial"
+
+msgid "Materiales de este grupo y de sus grupos superiores."
+msgstr "Materialien dieser Gruppe und übergeordneter Gruppen."
+
+msgid "Materiales disponibles"
+msgstr "Verfügbare Materialien"
+
+msgid "Mi biblioteca personal"
+msgstr "Meine persönliche Bibliothek"
+
+msgid "Miembro"
+msgstr "Mitglied"
+
+msgid ""
+"Miembro añadido a este grupo. Puede consultar también lo publicado en sus "
+"grupos superiores."
+msgstr ""
+"Mitglied zu dieser Gruppe hinzugefügt. Es kann auch Veröffentlichungen "
+"übergeordneter Gruppen sehen."
+
+msgid "Miembros de este grupo"
+msgstr "Mitglieder dieser Gruppe"
+
+msgid ""
+"Nombra a otro administrador antes de retirar al último o cambiar su rol."
+msgstr ""
+"Ernenne einen weiteren Administrator, bevor du den letzten entfernst oder "
+"seine Rolle änderst."
+
+msgid "Nuevo subgrupo"
+msgstr "Neue Untergruppe"
+
+msgid "Puedes consultar lo publicado en los grupos superiores:"
+msgstr "Du kannst Veröffentlichungen der übergeordneten Gruppen sehen:"
+
+msgid "Quitar administración"
+msgstr "Administratorrolle entfernen"
+
+msgid "Rol actualizado."
+msgstr "Rolle aktualisiert."
+
+msgid "Rol no válido"
+msgstr "Ungültige Rolle"
+
+msgid "Subgrupos"
+msgstr "Untergruppen"
+
+msgid "También disponible para este grupo"
+msgstr "Auch für diese Gruppe verfügbar"
+
+msgid "Todavía no hay materiales disponibles."
+msgstr "Noch keine Materialien verfügbar."
+
+msgid "Todavía no hay miembros directos."
+msgstr "Noch keine direkten Mitglieder."
+
+msgid "Tus grupos y los contenidos generales de sus grupos superiores."
+msgstr "Deine Gruppen und allgemeine Inhalte ihrer übergeordneten Gruppen."
+
+msgid "Un grupo no puede estar dentro de sí mismo ni de uno de sus subgrupos."
+msgstr ""
+"Eine Gruppe kann nicht in sich selbst oder einer ihrer Untergruppen liegen."
+
+msgid "← Grupos"
+msgstr "← Gruppen"
+
+msgid "＋ Crear material del grupo"
+msgstr "＋ Gruppenmaterial erstellen"
+
+msgid "＋ Nuevo subgrupo"
+msgstr "＋ Neue Untergruppe"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/editar/"
+msgstr "gruppen/<uuid:pk>/bearbeiten/"
+
+msgctxt "URL"
+msgid "grupos/<uuid:pk>/miembros/<int:user_id>/rol/"
+msgstr "gruppen/<uuid:pk>/mitglieder/<int:user_id>/rolle/"
+
+msgid "Solo la administración del grupo superior puede cambiar su ubicación."
+msgstr ""
+"Nur Administratoren der übergeordneten Gruppe können ihre Zuordnung ändern."
+
+msgid ""
+"Al cambiar el grupo superior, cambiará quién puede consultar y administrar "
+"sus contenidos."
+msgstr ""
+"Wenn du die übergeordnete Gruppe änderst, ändert sich, wer Inhalte sehen und"
+" verwalten kann."
+
+msgid "Etiqueta"
+msgstr "Schlagwort"
+
+msgid "Etiquetas"
+msgstr "Schlagwörter"
+
+msgid "Etiquetas disponibles"
+msgstr "Verfügbare Schlagwörter"
+
+msgid "Todas las etiquetas"
+msgstr "Alle Schlagwörter"
+
+msgid "Separa las etiquetas con comas. Por ejemplo: plato, vajilla, regalo."
+msgstr ""
+"Trenne Schlagwörter durch Kommas. Zum Beispiel: Teller, Geschirr, Geschenk."
+
+msgid "plato, vajilla, regalo"
+msgstr "Teller, Geschirr, Geschenk"
+
+msgid "Puedes añadir hasta 20 etiquetas por pieza."
+msgstr "Du kannst bis zu 20 Schlagwörter pro Stück hinzufügen."
+
+msgid "Cada etiqueta puede tener hasta 40 caracteres."
+msgstr "Jedes Schlagwort darf bis zu 40 Zeichen lang sein."
+
+msgid "Nombre, barro, técnica o etiqueta…"
+msgstr "Name, Ton, Technik oder Schlagwort…"
+
+msgctxt "URL"
+msgid "talleres/<uuid:workshop_id>/"
+msgstr "werkstaetten/<uuid:workshop_id>/"
+
+msgctxt "URL"
+msgid "talleres/<uuid:workshop_id>/galerias/"
+msgstr "werkstaetten/<uuid:workshop_id>/galerien/"
+
+msgctxt "URL"
+msgid "talleres/<uuid:workshop_id>/materiales/"
+msgstr "werkstaetten/<uuid:workshop_id>/materialien/"
+
+msgid "Abrir galería →"
+msgstr "Galerie öffnen →"
+
+msgid "Abrir taller"
+msgstr "Werkstatt öffnen"
+
+msgid "Añadir a galerías"
+msgstr "Zu Galerien hinzufügen"
+
+msgid "Buscar materiales"
+msgstr "Materialien suchen"
+
+msgid "Cambiar de taller"
+msgstr "Werkstatt wechseln"
+
+msgid ""
+"Compartes el nombre y las fotografías actuales. Los materiales vinculados "
+"conservan sus permisos."
+msgstr ""
+"Du teilst den Namen und die aktuellen Fotos. Verknüpfte Materialien behalten"
+" ihre eigenen Berechtigungen."
+
+msgid "Compartir también con talleres"
+msgstr "Auch mit Werkstätten teilen"
+
+msgid "Crea primero una galería personal o en uno de tus talleres."
+msgstr ""
+"Erstelle zuerst eine persönliche Galerie oder eine in einer deiner "
+"Werkstätten."
+
+msgid "Crea una colección para reunir las piezas de sus miembros."
+msgstr "Erstelle eine Sammlung für die Stücke der Mitglieder."
+
+msgid "Crear un taller"
+msgstr "Werkstatt erstellen"
+
+msgid "Elige un taller"
+msgstr "Werkstatt auswählen"
+
+msgid "En un taller, sus miembros pueden añadir sus propias piezas."
+msgstr "Werkstattmitglieder können ihre eigenen Stücke hinzufügen."
+
+msgid "Este taller aún no tiene galerías."
+msgstr "Diese Werkstatt hat noch keine Galerien."
+
+msgid "Galería compartida"
+msgstr "Geteilte Galerie"
+
+msgid "Galerías del taller"
+msgstr "Werkstattgalerien"
+
+msgid "Gestionar taller"
+msgstr "Werkstatt verwalten"
+
+msgid "Gestionar talleres"
+msgstr "Werkstätten verwalten"
+
+msgid "Inicio"
+msgstr "Startseite"
+
+msgid ""
+"Las galerías de un taller son visibles para sus miembros. Publicarla en "
+"Internet es una decisión aparte."
+msgstr ""
+"Werkstattgalerien sind für Mitglieder sichtbar. Die Veröffentlichung im "
+"Internet ist eine separate Entscheidung."
+
+msgid "Los miembros del taller o de los talleres seleccionados."
+msgstr "Mitglieder der Werkstatt oder der ausgewählten Werkstätten."
+
+msgid ""
+"Los miembros del taller pueden ver la galería y añadir sus propias piezas."
+msgstr ""
+"Werkstattmitglieder können die Galerie ansehen und ihre eigenen Stücke "
+"hinzufügen."
+
+msgid "MI ESPACIO"
+msgstr "MEIN BEREICH"
+
+msgid "Material privado"
+msgstr "Privates Material"
+
+msgid "Materiales del taller"
+msgstr "Werkstattmaterialien"
+
+msgid "Mis galerías personales"
+msgstr "Meine persönlichen Galerien"
+
+msgid "Mis piezas, materiales y galerías"
+msgstr "Meine Stücke, Materialien und Galerien"
+
+msgid "Personal"
+msgstr "Persönlich"
+
+msgid ""
+"Selecciona los esmaltes, engobes y barros de tu biblioteca o de tus "
+"talleres."
+msgstr ""
+"Wähle Glasuren, Engoben und Tone aus deiner Bibliothek oder deinen "
+"Werkstätten."
+
+msgid "Sin materiales registrados"
+msgstr "Keine Materialien erfasst"
+
+msgid "TALLER"
+msgstr "WERKSTATT"
+
+msgid "TALLER ACTIVO"
+msgstr "AKTIVE WERKSTATT"
+
+msgid "TALLERES"
+msgstr "WERKSTÄTTEN"
+
+msgid "Taller activo"
+msgstr "Aktive Werkstatt"
+
+msgid "Talleres"
+msgstr "Werkstätten"
+
+msgid "Todavía no hay materiales compartidos en este taller."
+msgstr "In dieser Werkstatt wurden noch keine Materialien geteilt."
+
+msgid "Ver material →"
+msgstr "Material ansehen →"
+
+msgid "Ver todas →"
+msgstr "Alle ansehen →"
+
+msgid "Versión de desarrollo · Datos de prueba independientes"
+msgstr "Entwicklungsversion · Separate Testdaten"
+
+msgid "＋ Nuevo material"
+msgstr "＋ Neues Material"
+
+msgid "En galerías"
+msgstr "In Galerien"
+
+msgid "Compartir material"
+msgstr "Material teilen"
+
+msgid "Una galería de taller debe ser visible para sus miembros o pública."
+msgstr ""
+"Eine Werkstattgalerie muss für ihre Mitglieder sichtbar oder öffentlich "
+"sein."
+
+msgid "Administrar taller"
+msgstr "Werkstatt verwalten"
+
+msgid "Origen"
+msgstr "Herkunft"
+
+msgid "Todos mis materiales"
+msgstr "Alle meine Materialien"
+
+msgid "Menú"
+msgstr "Menü"
+
+msgid "Biblioteca"
+msgstr "Bibliothek"
+
+msgid "Materiales y moldes, en una misma biblioteca."
+msgstr "Materialien und Formen in einer Bibliothek."
+
+msgid "Contenido de la biblioteca"
+msgstr "Bibliotheksinhalte"
+
+msgid "Las galerías de los talleres donde creas y compartes."
+msgstr "Galerien der Werkstätten, in denen du arbeitest und teilst."
+
+msgid "Todavía no perteneces a ningún taller."
+msgstr "Du gehörst noch keiner Werkstatt an."
+
+msgid "Los materiales de tus talleres están disponibles en Materiales."
+msgstr "Die Materialien deiner Werkstätten findest du unter Materialien."
+
+msgctxt "URL"
+msgid "talleres/"
+msgstr "werkstaetten/"
+
+msgid "Sin barro seleccionado"
+msgstr "Kein Ton ausgewählt"
+
+msgid ""
+"Selecciona un material de tipo barro de tu biblioteca o de tus talleres."
+msgstr "Wähle einen Ton aus deiner Bibliothek oder deinen Werkstätten."
+
+msgid "Barro anotado anteriormente:"
+msgstr "Bisher eingetragener Ton:"
+
+msgid "Crear un material de tipo barro"
+msgstr "Tonmaterial erstellen"
+
+msgid "Otros barros utilizados"
+msgstr "Weitere verwendete Tone"
+
+msgid "Todavía no tienes materiales disponibles de este tipo."
+msgstr "Du hast noch keine Materialien dieses Typs."
+
+msgid "Añadir galería"
+msgstr "Galerie hinzufügen"
+
+msgid "Buscar galerías…"
+msgstr "Galerien suchen…"
+
+msgid "No hay galerías con ese nombre o ya están añadidas."
+msgstr "Keine passenden Galerien, oder sie wurden bereits hinzugefügt."
+
+msgid "Quitar"
+msgstr "Entfernen"
+
+msgid "Sin galerías seleccionadas"
+msgstr "Keine Galerien ausgewählt"
+
+msgid "Galerías seleccionadas"
+msgstr "Ausgewählte Galerien"
+
+msgid "Seleccionar galerías"
+msgstr "Galerien auswählen"
+
+msgid "Nuevo barro"
+msgstr "Neuer Ton"
+
+msgid "Nuevo engobe"
+msgstr "Neue Engobe"
+
+msgid "Engobes"
+msgstr "Engoben"
+
+msgid "Barro, esmaltes, engobes y moldes."
+msgstr "Tone, Glasuren, Engoben und Formen."
+
+msgid "Todavía no tienes moldes."
+msgstr "Du hast noch keine Formen."
+
+msgid "Todavía no hay materiales de este tipo."
+msgstr "Es gibt noch keine Materialien dieses Typs."
+
+msgid "Eliminar material"
+msgstr "Material löschen"
+
+msgid "Material eliminado."
+msgstr "Material gelöscht."
+
+msgid "← Volver al material"
+msgstr "← Zurück zum Material"
+
+msgid "Volver al material"
+msgstr "Zurück zum Material"
+
+msgid ""
+"Este material está vinculado a piezas u otros registros que deben "
+"conservarse. No se puede eliminar mientras existan esos vínculos."
+msgstr ""
+"Dieses Material ist mit Stücken oder anderen zu erhaltenden Einträgen "
+"verknüpft. Es kann erst gelöscht werden, wenn diese Verknüpfungen nicht mehr"
+" bestehen."
+
+msgid ""
+"Se eliminarán la ficha del material, sus recetas, sus pruebas y sus "
+"fotografías. No podrás recuperarlos desde Canela."
+msgstr ""
+"Der Materialeintrag, seine Rezepte, Tests und Fotos werden gelöscht. Sie "
+"können in Canela nicht wiederhergestellt werden."
+
+msgid "También dejará de estar disponible en los talleres donde se comparte."
+msgstr ""
+"Es ist auch in den Werkstätten, mit denen es geteilt wird, nicht mehr "
+"verfügbar."
+
+msgid "Confirma que quieres eliminar este material para continuar."
+msgstr "Bestätige, dass du dieses Material löschen möchtest."
+
+msgid ""
+"Entiendo que esta acción es definitiva y quiero eliminar este material."
+msgstr ""
+"Ich verstehe, dass diese Aktion endgültig ist, und möchte dieses Material "
+"löschen."
+
+msgid "Conservar material"
+msgstr "Material behalten"
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/eliminar/"
+msgstr "glasuren/<uuid:pk>/loeschen/"
+
+msgid ""
+"Los materiales no se comparten con grupos. Guárdalos como personales o en un"
+" taller que administres."
+msgstr ""
+"Materialien können nicht mit Gruppen geteilt werden. Speichere sie als "
+"persönliche Materialien oder in einer Werkstatt, die du verwaltest."
+
+msgid "También dejará de estar disponible para los miembros del taller."
+msgstr "Es ist auch für die Mitglieder der Werkstatt nicht mehr verfügbar."
+
+msgid "Eliminar molde"
+msgstr "Form löschen"
+
+msgid "Molde eliminado."
+msgstr "Form gelöscht."
+
+msgid ""
+"Se eliminarán la ficha del molde y sus fotografías. No podrás recuperarlos "
+"desde Canela."
+msgstr ""
+"Der Formeintrag und seine Fotos werden gelöscht. Sie können in Canela nicht "
+"wiederhergestellt werden."
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/eliminar/"
+msgstr "formen/<uuid:pk>/loeschen/"
+
+msgid "Reactivar"
+msgstr "Reaktivieren"
+
+msgid "Material retirado."
+msgstr "Material stillgelegt."
+
+msgid "Material reactivado."
+msgstr "Material reaktiviert."
+
+msgid "Ver disponibles"
+msgstr "Verfügbare anzeigen"
+
+msgid "Ver retirados"
+msgstr "Stillgelegte anzeigen"
+
+msgid ""
+"Retirado: se conserva en las piezas anteriores y no está disponible para "
+"piezas nuevas."
+msgstr ""
+"Stillgelegt: bleibt in bisherigen Stücken erhalten und steht für neue Stücke"
+" nicht zur Verfügung."
+
+msgid "Retirados: solo tus materiales y los de los talleres que administras."
+msgstr ""
+"Stillgelegt: nur deine Materialien und die der Werkstätten, die du "
+"verwaltest."
+
+msgid "No hay materiales retirados."
+msgstr "Keine stillgelegten Materialien."
+
+msgid "Acción no válida."
+msgstr "Ungültige Aktion."
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/retirar/"
+msgstr "glasuren/<uuid:pk>/stilllegen/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/retirar/"
+msgstr "formen/<uuid:pk>/stilllegen/"
+
+msgid "Agotado"
+msgstr "Aufgebraucht"
+
+msgid "No disponible"
+msgstr "Nicht verfügbar"
+
+msgid "Cambiar disponibilidad"
+msgstr "Verfügbarkeit ändern"
+
+msgid "Disponibilidad actualizada."
+msgstr "Verfügbarkeit aktualisiert."
+
+msgid ""
+"No disponible para piezas nuevas. Se conserva en las piezas anteriores."
+msgstr ""
+"Für neue Stücke nicht verfügbar. Bleibt in bisherigen Stücken erhalten."
+
+msgid "Ver no disponibles"
+msgstr "Nicht verfügbare anzeigen"
+
+msgid "No hay materiales no disponibles."
+msgstr "Keine nicht verfügbaren Materialien."
+
+msgid ""
+"No disponibles: solo tus materiales y los de los talleres que administras."
+msgstr ""
+"Nicht verfügbar: nur deine Materialien und die der Werkstätten, die du "
+"verwaltest."
+
+msgctxt "URL"
+msgid "esmaltes/<uuid:pk>/disponibilidad/"
+msgstr "glasuren/<uuid:pk>/verfuegbarkeit/"
+
+msgctxt "URL"
+msgid "moldes/<uuid:pk>/disponibilidad/"
+msgstr "formen/<uuid:pk>/verfuegbarkeit/"
+
+msgid "Estado del molde"
+msgstr "Zustand der Form"
+
+msgid "Buen estado"
+msgstr "Guter Zustand"
+
+msgid "Tus galerías personales y las de tus talleres, en un mismo lugar."
+msgstr "Deine persönlichen Galerien und Werkstattgalerien an einem Ort."
+
+msgid "Personales"
+msgstr "Persönlich"
+
+msgid "De tus talleres"
+msgstr "Aus deinen Werkstätten"
+
+msgid "Compartidas contigo"
+msgstr "Mit dir geteilt"
+
+msgid "Tus talleres, sus miembros y su organización."
+msgstr "Deine Werkstätten, ihre Mitglieder und ihre Organisation."
+
+msgid "Miembros del taller"
+msgstr "Mitglieder der Werkstatt"
+
+msgid "Abrir galería"
+msgstr "Galerie öffnen"
+
+msgid "Inspiración"
+msgstr "Inspiration"
+
+msgid "Publicar en Inspiración"
+msgstr "In Inspiration veröffentlichen"
+
+msgid "Retirar de Inspiración"
+msgstr "Aus Inspiration entfernen"
+
+msgid "Publicada en Inspiración"
+msgstr "In Inspiration veröffentlicht"
+
+msgid "Sin publicar en Inspiración"
+msgstr "Nicht in Inspiration veröffentlicht"
+
+msgid "Guardar y añadir a la galería"
+msgstr "Speichern und zur Galerie hinzufügen"
+
+msgid "Lo que quieres contar"
+msgstr "Was du erzählen möchtest"
+
+msgid "Dónde aparece"
+msgstr "Wo sie erscheint"
+
+msgid "Vista previa"
+msgstr "Vorschau"
+
+msgid "Volver"
+msgstr "Zurück"
+
+msgid "Entrar"
+msgstr "Anmelden"
+
+msgid "Fotografías y portada"
+msgstr "Fotos und Titelbild"
+
+msgid "Portada de la presentación"
+msgstr "Titelbild der Präsentation"
+
+msgid "Primera foto seleccionada"
+msgstr "Erstes ausgewähltes Foto"
+
+msgid "Selecciona también la foto elegida como portada."
+msgstr "Wähle auch das als Titelbild gewählte Foto aus."
+
+msgid "Selecciona una foto para ver la portada."
+msgstr "Wähle ein Foto für die Titelbildvorschau."
+
+msgid "Selecciona al menos una foto para publicar en Inspiración."
+msgstr "Wähle mindestens ein Foto, um in Inspiration zu veröffentlichen."
+
+msgid "Una pieza publicada en Inspiración necesita al menos una foto."
+msgstr ""
+"Ein in Inspiration veröffentlichtes Stück benötigt mindestens ein Foto."
+
+msgid "Retira la publicación antes de quitar todas las fotos."
+msgstr "Entferne die Veröffentlichung, bevor du alle Fotos entfernst."
+
+msgid ""
+"Revisa la presentación y selecciona al menos una foto antes de publicar."
+msgstr ""
+"Prüfe die Präsentation und wähle vor der Veröffentlichung mindestens ein "
+"Foto."
+
+msgid "Pieza publicada en Inspiración."
+msgstr "Stück in Inspiration veröffentlicht."
+
+msgid "Pieza retirada de Inspiración. Sus galerías se conservan."
+msgstr "Stück aus Inspiration entfernt. Seine Galerien bleiben erhalten."
+
+msgid "Presentación guardada."
+msgstr "Präsentation gespeichert."
+
+msgid "Revisa tu presentación"
+msgstr "Prüfe deine Präsentation"
+
+msgid "UNA PRESENTACIÓN, TODOS LOS ESPACIOS"
+msgstr "EINE PRÄSENTATION, ALLE BEREICHE"
+
+msgid "Elige cómo mostrar tu pieza en las galerías y en Inspiración."
+msgstr "Wähle, wie dein Stück in Galerien und Inspiration erscheint."
+
+msgid ""
+"Tus notas, historial y recetas privadas quedan fuera de esta presentación."
+msgstr ""
+"Deine privaten Notizen, der Verlauf und Rezepte bleiben außerhalb dieser "
+"Präsentation."
+
+msgid ""
+"Solo estos textos y las fotos seleccionadas se mostrarán en las galerías y "
+"en Inspiración."
+msgstr ""
+"Nur diese Texte und ausgewählten Fotos erscheinen in Galerien und "
+"Inspiration."
+
+msgid "Solo se mostrarán las fotos seleccionadas."
+msgstr "Nur ausgewählte Fotos werden angezeigt."
+
+msgid "Añade fotos a tu pieza para poder publicarla en Inspiración."
+msgstr ""
+"Füge deinem Stück Fotos hinzu, um es in Inspiration zu veröffentlichen."
+
+msgid ""
+"Guardar actualiza todas sus galerías y, si está publicada, Inspiración. Cada"
+" galería mantiene su propia visibilidad."
+msgstr ""
+"Speichern aktualisiert alle Galerien und bei Veröffentlichung auch "
+"Inspiration. Jede Galerie behält ihre Sichtbarkeit."
+
+msgid "La ficha original sigue siendo privada."
+msgstr "Der ursprüngliche Eintrag bleibt privat."
+
+msgid "Puedes retirarla de Inspiración sin quitarla de sus galerías."
+msgstr ""
+"Du kannst es aus Inspiration entfernen und in seinen Galerien behalten."
+
+msgid ""
+"Las galerías muestran la presentación pública de esta pieza. Prepara sus "
+"textos y selecciona sus fotos desde «Presentación pública»."
+msgstr ""
+"Galerien zeigen die öffentliche Präsentation dieses Stücks. Bereite Texte "
+"und Fotos unter „Öffentliche Präsentation“ vor."
+
+msgid ""
+"Esta pieza tenía presentaciones diferentes en varias galerías. Hemos "
+"conservado únicamente los textos y fotos comunes para no ampliar su "
+"visibilidad. Aquí puedes consultar los originales antes de guardar la "
+"presentación unificada."
+msgstr ""
+"Dieses Stück hatte unterschiedliche Präsentationen in mehreren Galerien. Nur"
+" gemeinsame Texte und Fotos wurden übernommen, damit ihre Sichtbarkeit nicht"
+" erweitert wird. Prüfe hier die Originale vor dem Speichern der gemeinsamen "
+"Präsentation."
+
+msgid "HECHO CON TIEMPO. COMPARTIDO PARA INSPIRAR."
+msgstr "MIT ZEIT GESCHAFFEN. ZUR INSPIRATION GETEILT."
+
+msgid ""
+"Descubre las piezas de la comunidad, de la más reciente a la más antigua."
+msgstr "Entdecke die Stücke der Community, von neu nach alt."
+
+msgid "Publicar una de mis piezas"
+msgstr "Eines meiner Stücke veröffentlichen"
+
+msgid "Un espacio para lo que inspira"
+msgstr "Ein Ort für Inspiration"
+
+msgid "Las primeras piezas aparecerán aquí cuando sus autores las publiquen."
+msgstr ""
+"Die ersten Stücke erscheinen hier, sobald ihre Urheber sie veröffentlichen."
+
+msgid "Ver pieza"
+msgstr "Stück ansehen"
+
+msgid "Ver más piezas"
+msgstr "Weitere Stücke ansehen"
+
+msgid "Ya has visto todas las piezas."
+msgstr "Du hast alle Stücke gesehen."
+
+msgid ""
+"No se han podido cargar más piezas. Pulsa «Ver más piezas» para intentarlo "
+"de nuevo."
+msgstr ""
+"Weitere Stücke konnten nicht geladen werden. Wähle „Weitere Stücke ansehen“,"
+" um es erneut zu versuchen."
+
+msgid "No se pudo cargar esta página. Vuelve a abrir Inspiración."
+msgstr "Diese Seite konnte nicht geladen werden. Öffne Inspiration erneut."
+
+msgid "Foto %(number)s"
+msgstr "Foto %(number)s"
+
+msgid ""
+"Se eliminará esta foto de la ficha, de su presentación y de las galerías. Si"
+" era la última foto publicada, la pieza se retirará de Inspiración. Esta "
+"acción es definitiva."
+msgstr ""
+"Dieses Foto wird aus dem Eintrag, der Präsentation und den Galerien "
+"gelöscht. War es das letzte veröffentlichte Foto, wird das Stück aus "
+"Inspiration entfernt. Diese Aktion ist endgültig."
+
+msgctxt "URL"
+msgid "inspiracion/"
+msgstr "inspiration/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/presentacion/"
+msgstr "stuecke/<uuid:pk>/praesentation/"
+
+msgctxt "URL"
+msgid "piezas/<uuid:pk>/publicacion/"
+msgstr "stuecke/<uuid:pk>/veroeffentlichung/"
+
+msgid "En %(count)s galería"
+msgid_plural "En %(count)s galerías"
+msgstr[0] "In %(count)s Galerie"
+msgstr[1] "In %(count)s Galerien"
+
+msgid "Cerrar"
+msgstr "Schließen"
+
+msgid "Foto anterior"
+msgstr "Vorheriges Foto"
+
+msgid "Foto siguiente"
+msgstr "Nächstes Foto"
+
+msgid "Revisa estos campos antes de guardar"
+msgstr "Prüfe diese Felder vor dem Speichern"
+
+msgid "Las fotos nuevas se añaden a las guardadas."
+msgstr "Neue Fotos werden zu den gespeicherten Fotos hinzugefügt."
+
+msgid ""
+"Añade los ingredientes de tu receta. Los porcentajes deben sumar 100 %."
+msgstr ""
+"Füge die Zutaten deiner Rezeptur hinzu. Die Anteile müssen zusammen 100 % "
+"ergeben."
+
+msgid "Añadir ingrediente"
+msgstr "Zutat hinzufügen"
+
+msgid "Quitar ingrediente"
+msgstr "Zutat entfernen"
+
+msgid "Se retirará a %(name)s de este grupo. Sus piezas se conservan."
+msgstr ""
+"%(name)s wird aus dieser Gruppe entfernt. Die eigenen Stücke bleiben "
+"erhalten."
+
+msgid "Confirmar retirada"
+msgstr "Entfernen bestätigen"
+
+msgid ""
+"Este nombre acompaña a tus piezas compartidas. Si lo dejas vacío, se muestra"
+" tu usuario."
+msgstr ""
+"Dieser Name erscheint bei deinen geteilten Stücken. Ohne Angabe wird dein "
+"Benutzername angezeigt."
+
+msgid "Mostrar"
+msgstr "Anzeigen"
+
+msgid "Ocultar"
+msgstr "Ausblenden"
+
+msgid "Mostrar contraseña"
+msgstr "Passwort anzeigen"
+
+msgid "Ocultar contraseña"
+msgstr "Passwort ausblenden"
+
+msgid "Cambios sin guardar"
+msgstr "Ungespeicherte Änderungen"
+
+msgid "Total"
+msgstr "Gesamt"
+
+msgid "Los porcentajes deben sumar 100 %."
+msgstr "Die Anteile müssen zusammen 100 % ergeben."
+
+msgid "No se pudo actualizar la búsqueda. Vuelve a intentarlo."
+msgstr "Die Suche konnte nicht aktualisiert werden. Versuche es erneut."
+
+msgid "Indica una cantidad entre 0 y 1.000.000 g."
+msgstr "Gib eine Menge zwischen 0 und 1.000.000 g ein."
+
+msgid "En Inspiración"
+msgstr "In Inspiration"
+
+msgid ""
+"Aún no tienes talleres. Puedes crearlos en «Talleres» y compartir más "
+"adelante."
+msgstr ""
+"Du hast noch keine Werkstätten. Erstelle eine unter „Werkstätten“ und teile "
+"später."
+
+msgid "Invitar a otra persona"
+msgstr "Eine weitere Person einladen"
+
+msgid "Nuevo taller"
+msgstr "Neue Werkstatt"
+
+msgid "＋ Nuevo taller"
+msgstr "＋ Neue Werkstatt"
+
+msgid "Taller independiente"
+msgstr "Eigenständige Werkstatt"
+
+msgid "Organiza tus talleres y sus subgrupos."
+msgstr "Organisiere deine Werkstätten und ihre Untergruppen."
+
+msgid ""
+"Crea tu cuenta para empezar. Después podrás invitar a otras personas desde "
+"«Mi cuenta»."
+msgstr ""
+"Erstelle dein Konto, um loszulegen. Anschließend kannst du unter „Mein "
+"Konto“ weitere Personen einladen."

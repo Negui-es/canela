@@ -1,0 +1,12 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading"><div><h1>{% translate 'Materiales' %}</h1><p class="subtitle">{% translate 'Barro, esmaltes, engobes y moldes.' %}</p></div><div class="action-row">{% if show_unavailable %}<a class="secondary" href="{{ active_url }}">{% translate 'Ver disponibles' %}</a>{% elif can_manage_catalog %}<a class="secondary" href="{{ unavailable_url }}">{% translate 'Ver no disponibles' %}</a>{% endif %}<a class="primary" href="{{ create_url }}">＋ {{ create_label }}</a></div></section>
+<nav class="library-tabs" aria-label="{% translate 'Contenido de la biblioteca' %}">
+<a href="{% url 'glazes' %}?material_type=clay{% if show_unavailable %}&amp;unavailable=1{% endif %}" {% if active_material_type == 'clay' %}class="active" aria-current="page"{% endif %}>{% translate 'Barro' %}</a>
+<a href="{% url 'glazes' %}?material_type=glaze{% if show_unavailable %}&amp;unavailable=1{% endif %}" {% if active_material_type == 'glaze' %}class="active" aria-current="page"{% endif %}>{% translate 'Esmaltes' %}</a>
+<a href="{% url 'glazes' %}?material_type=engobe{% if show_unavailable %}&amp;unavailable=1{% endif %}" {% if active_material_type == 'engobe' %}class="active" aria-current="page"{% endif %}>{% translate 'Engobes' %}</a>
+<a href="{% url 'molds' %}{% if show_unavailable %}?unavailable=1{% endif %}" {% if kind == 'mold' %}class="active" aria-current="page"{% endif %}>{% translate 'Moldes' %}</a></nav>
+{% if show_unavailable %}<p class="sharing-footnote">{% translate 'No disponibles: solo tus materiales y los de los talleres que administras.' %}</p>{% endif %}
+{% if kind == 'mold' %}{% url 'molds' as search_url %}{% else %}{% url 'glazes' as search_url %}{% endif %}
+{% include 'partials/search_toolbar.html' with search_kind=kind %}
+{% include 'partials/resource_results.html' %}
+{% endblock %}

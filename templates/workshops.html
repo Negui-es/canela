@@ -1,0 +1,5 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading"><div><h1>{% translate 'Talleres' %}</h1><p class="subtitle">{% translate 'Tus talleres, sus miembros y su organización.' %}</p></div></section>
+{% if nav_workshop_tree %}<ul class="workshop-page-tree">{% for node in nav_workshop_tree %}{% include 'partials/workshop_page_node.html' %}{% endfor %}</ul>{% else %}<div class="empty"><h3>{% translate 'Un rincón para crear juntos.' %}</h3><p>{% translate 'Todavía no perteneces a ningún taller.' %}</p></div>{% endif %}
+<div class="workshops-secondary"><a class="text-button" href="{% url 'circle_new' %}">{% translate 'Crear un taller' %} →</a><p>{% translate 'Los materiales de tus talleres están disponibles en Materiales.' %}</p></div>
+{% endblock %}

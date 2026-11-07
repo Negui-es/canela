@@ -1,0 +1,32 @@
+{% load i18n %}
+<nav aria-label="{% translate 'Principal' %}" class="space-navigation">
+  <div class="nav-label">{% translate 'MI ESPACIO' %}</div>
+  <a href="{% url 'dashboard' %}" class="{% if section == 'dashboard' and not workshop %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='home' %}<span class="nav-text">{% translate 'Inicio' %}</span></a>
+  <a href="{% url 'pieces' %}" class="{% if section == 'pieces' and not workshop %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='pieces' %}<span class="nav-text">{% translate 'Mis piezas' %}</span><b>{{ piece_count }}</b></a>
+  <a href="{% url 'glazes' %}" class="{% if section == 'glazes' and not workshop %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='materials' %}<span class="nav-text">{% translate 'Mis materiales' %}</span></a>
+  <a href="{% url 'galleries' %}" class="{% if section == 'galleries' and not workshop %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='galleries' %}<span class="nav-text">{% translate 'Mis galerías' %}</span></a>
+  <a href="{% url 'molds' %}" class="{% if section == 'molds' %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='molds' %}<span class="nav-text">{% translate 'Mis moldes' %}</span></a>
+  <section class="workshop-navigation">
+  {% if nav_workshops|length > 1 %}
+    <label class="nav-label" for="desktop-workshop-picker">{% translate 'TALLER ACTIVO' %}</label>
+    <form method="get" action="{% url 'circles' %}" data-workshop-picker>
+      <select id="desktop-workshop-picker" aria-label="{% translate 'Cambiar de taller' %}" data-workshop-select>
+        <option value="">{% translate 'Elige un taller' %}</option>
+        {% for item in nav_workshops %}<option value="{% url 'workshop' item.pk %}" {% if workshop.pk == item.pk %}selected{% endif %}>{{ item.path }}</option>{% endfor %}
+      </select>
+      <button type="button" class="secondary" data-workshop-go>{% translate 'Abrir taller' %}</button>
+    </form>
+  {% elif nav_workshops %}<div class="nav-label workshop-name">{{ nav_workshops.0.name }}</div>
+  {% else %}<div class="nav-label">{% translate 'TALLERES' %}</div>{% endif %}
+  {% if workshop %}
+    <a href="{% url 'workshop' workshop.pk %}" class="{% if section == 'workshop_home' %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='home' %}<span class="nav-text">{% translate 'Inicio' %}</span></a>
+    <a href="{% url 'workshop_galleries' workshop.pk %}" class="{% if section == 'workshop_galleries' or section == 'galleries' %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='galleries' %}<span class="nav-text">{% translate 'Galerías' %}</span></a>
+    <a href="{% url 'workshop_materials' workshop.pk %}" class="{% if section == 'workshop_materials' or section == 'glazes' %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='materials' %}<span class="nav-text">{% translate 'Materiales' %}</span></a>
+  {% elif nav_workshops|length == 1 %}
+    {% with item=nav_workshops.0 %}<a href="{% url 'workshop' item.pk %}">{% include 'partials/nav_icon.html' with icon='home' %}<span class="nav-text">{% translate 'Inicio' %}</span></a>
+    <a href="{% url 'workshop_galleries' item.pk %}">{% include 'partials/nav_icon.html' with icon='galleries' %}<span class="nav-text">{% translate 'Galerías' %}</span></a>
+    <a href="{% url 'workshop_materials' item.pk %}">{% include 'partials/nav_icon.html' with icon='materials' %}<span class="nav-text">{% translate 'Materiales' %}</span></a>{% endwith %}
+  {% endif %}
+  <a href="{% url 'circles' %}" class="workshop-settings {% if section == 'circles' %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='groups' %}<span class="nav-text">{% if nav_workshops %}{% translate 'Gestionar talleres' %}{% else %}{% translate 'Crear un taller' %}{% endif %}</span></a>
+  </section>
+</nav>

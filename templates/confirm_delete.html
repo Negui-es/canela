@@ -1,0 +1,8 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading editor-heading"><div><a class="back-link" href="{{ back_url }}">{% translate "← Volver" %}</a><h1>{{ title }}</h1><p class="subtitle">{{ item_name }}</p></div></section>
+<section class="panel deletion-card"><h2>{% translate "¿Quieres continuar?" %}</h2>
+{% if record_label %}<div class="delete-record-summary"><strong>{{ record_label }}</strong>{% if record_note %}<p>{{ record_note|truncatechars:200 }}</p>{% endif %}</div>{% endif %}
+{% if photo %}<a data-lightbox href="{% url 'photo' photo.pk %}" class="delete-photo-preview"><img src="{% url 'photo' photo.pk %}?thumb=1" alt="{% translate 'Foto que se eliminará' %}"></a>{% endif %}
+<p class="detail-text">{{ message }}</p>
+<form method="post">{% csrf_token %}{% if confirmation_error %}<p class="field-error" role="alert">{% translate "Confirma la eliminación para continuar." %}</p>{% endif %}<label class="delete-confirm"><input type="checkbox" name="confirm_delete" value="yes" required><span>{% translate "Quiero eliminarlo. Esta acción no se puede deshacer." %}</span></label><div class="action-row deletion-actions"><a class="secondary" href="{{ back_url }}">{% translate "Cancelar" %}</a><button class="danger-button">{% translate "Confirmar eliminación" %}</button></div></form>
+</section>{% endblock %}

@@ -1,0 +1,2 @@
+{% load i18n %}
+{% if form.errors %}<section class="form-error-summary" data-form-errors tabindex="-1" role="alert" aria-labelledby="form-errors-title"><h2 id="form-errors-title">{% translate 'Revisa estos campos antes de guardar' %}</h2><ul>{% for field in form %}{% for error in field.errors %}<li><a href="#{{ field.auto_id }}" data-error-target="{{ field.auto_id }}">{{ field.label }}: {{ error }}</a></li>{% endfor %}{% endfor %}{% for error in form.non_field_errors %}<li>{{ error }}</li>{% endfor %}</ul></section>{% endif %}

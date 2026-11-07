@@ -1,0 +1,6 @@
+{% load i18n %}
+<li class="workshop-tree-node" data-workshop-node="{{ node.workshop.pk }}">
+  <div class="nav-label workshop-name">{{ node.workshop.name }}</div>
+  {% if node.workshop.can_manage %}<a href="{% url 'circle' node.workshop.pk %}" class="workshop-settings {% if circle.pk == node.workshop.pk %}active{% endif %}">{% include 'partials/nav_icon.html' with icon='groups' %}<span class="nav-text">{% translate 'Administrar taller' %}</span></a>{% endif %}
+  {% if node.children %}<ul class="workshop-tree workshop-tree-children">{% for child in node.children %}{% include 'partials/workshop_navigation_node.html' with node=child %}{% endfor %}</ul>{% endif %}
+</li>

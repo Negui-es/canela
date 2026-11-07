@@ -1,0 +1,77 @@
+{% extends 'base.html' %}{% load i18n assets %}
+{% block content %}
+<link rel="stylesheet" href="{% asset 'css/piece-materials.css' %}">
+<section class="page-heading editor-heading">
+  <div><a class="back-link" href="{% if editing %}{% url 'piece' form.instance.pk %}{% else %}{% url 'pieces' %}{% endif %}">← {% if editing %}{{ form.instance.name }}{% else %}{% translate 'Mis piezas' %}{% endif %}</a><h1>{{ title }}</h1>{% if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}</div>
+  <span class="editor-private"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg> {% translate "Privada por defecto" %}</span>
+</section>
+<form method="post" enctype="multipart/form-data" class="piece-editor" data-piece-editor>
+  {% csrf_token %}
+  {% include 'partials/form_errors.html' %}
+  <div class="editor-layout">
+    <div class="editor-main">
+      <section class="editor-card">
+        <div class="editor-section-heading"><h2>{% translate "Información de la pieza" %}</h2></div>
+        <div class="editor-fields">
+          <div class="field-full">{% include 'partials/field.html' with field=form.name %}</div>
+          {% include 'partials/field.html' with field=form.started_on %}
+          {% include 'partials/field.html' with field=form.stage %}
+          <div class="field-full"><input type="hidden" name="tags_present" value="1">{% include 'partials/field.html' with field=form.tag_names %}
+          {% if form.tag_suggestions %}<div class="tag-suggestions" aria-label="{% translate 'Etiquetas disponibles' %}">{% for tag in form.tag_suggestions %}<button type="button" class="tag-pill" data-add-tag="{{ tag.name }}" hidden>{{ tag.name }}</button>{% endfor %}</div>{% endif %}</div>
+        </div>
+        <details class="editor-details" {% if form.technique.errors or form.dimensions.errors or form.weight.errors or form.mold.errors %}open{% endif %}>
+          <summary><span>{% translate "Más detalles" %} <small>{% translate "Técnica, medidas y molde" %}</small></span><span class="details-chevron" aria-hidden="true">⌄</span></summary>
+          <div class="editor-fields">
+            {% include 'partials/field.html' with field=form.technique %}
+            {% include 'partials/field.html' with field=form.mold %}
+            {% include 'partials/field.html' with field=form.dimensions %}
+            {% include 'partials/field.html' with field=form.weight %}
+          </div>
+        </details>
+        <div class="editor-notes">{% include 'partials/field.html' with field=form.notes %}</div>
+      </section>
+      <input type="hidden" name="glazes_present" value="1">
+      <section class="editor-card material-section" data-material-section="clay">
+        <div class="editor-section-heading"><h2><span class="material-section-icon" aria-hidden="true">{% include 'partials/nav_icon.html' with icon='clay' %}</span>{% translate 'Barro' %}</h2></div>
+          <div class="field-full">{% include 'partials/field.html' with field=form.clay_material %}{% if form.instance.clay and not form.instance.clay_material_id %}<p class="sharing-footnote">{% translate 'Barro anotado anteriormente:' %} {{ form.instance.clay }}</p>{% endif %}<a class="text-button" href="{% url 'glaze_new' %}?material_type=clay" target="_blank" rel="noopener">{% translate 'Crear un material de tipo barro' %} ↗</a></div>
+        {% if form.additional_clay_choices %}<details class="editor-details"><summary>{% translate 'Otros barros utilizados' %}</summary><div class="glaze-choice-list">{% for checkbox in form.additional_clay_choices %}{% include 'partials/piece_material_choice.html' %}{% endfor %}</div></details>{% endif %}
+      </section>
+      {% for material_section in form.coating_sections %}
+      <details class="editor-card material-section material-disclosure" data-material-section="{{ material_section.type }}" {% if material_section.selected_count or form.glazes.errors %}open{% endif %}>
+        <summary class="editor-section-heading"><h2><span class="material-section-icon" aria-hidden="true">{% include 'partials/nav_icon.html' with icon=material_section.type %}</span>{{ material_section.title }} <span class="optional-label">{% if material_section.selected_count %}{{ material_section.selected_count }}{% else %}{% translate 'Opcional' %}{% endif %}</span></h2><span class="details-chevron" aria-hidden="true">⌄</span></summary>
+        {% if material_section.choices %}
+        <div class="glaze-assignment" data-glaze-picker>
+          <label class="glaze-search-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input type="search" placeholder="{% translate 'Buscar materiales…' %}" aria-label="{{ material_section.title }}" data-glaze-search></label>
+          <div class="glaze-choice-list">{% for checkbox in material_section.choices %}{% include 'partials/piece_material_choice.html' %}{% endfor %}</div>
+          <p class="glaze-no-results" data-glaze-empty hidden>{% translate 'No hay materiales con ese nombre.' %}</p>
+          <p class="glaze-selection-summary" data-glaze-count aria-live="polite"></p>
+        </div>
+        {% else %}<p class="sharing-footnote">{% translate 'Todavía no tienes materiales disponibles de este tipo.' %}</p>{% endif %}
+        <a class="text-button" href="{% url 'glaze_new' %}?material_type={{ material_section.type }}" target="_blank" rel="noopener">{% translate 'Crear material' %} ↗</a>
+      </details>
+      {% endfor %}
+      <div id="id_glazes_error">{% for error in form.glazes.errors %}<div class="field-error" role="alert">{{ error }}</div>{% endfor %}</div>
+      <p class="sharing-footnote">{% translate 'Desde la ficha podrás detallar cantidades, capas y zonas de aplicación.' %}</p>
+    </div>
+    <div class="editor-side">
+      <section class="editor-card photo-card">
+        <div class="editor-section-heading"><h2>{% translate "Fotografías" %}</h2></div>
+        {% if editing and form.instance.photos.exists %}<div class="resource-existing-photos"><span>{% translate 'Fotos guardadas' %}</span><div class="photo-strip">{% for photo in form.instance.photos.all|slice:':4' %}<a data-lightbox href="{% url 'photo' photo.pk %}"><img src="{% url 'photo' photo.pk %}?thumb=1" alt="{{ form.instance.name }}" loading="lazy"></a>{% endfor %}</div><a class="text-button" href="{% url 'photos_manage' 'piece' form.instance.pk %}">{% translate 'Gestionar fotos' %} →</a><p class="help">{% translate 'Las fotos nuevas se añaden a las guardadas.' %}</p></div>{% endif %}{% include 'partials/upload.html' with field=form.photos hide_label=True %}
+      </section>
+      <section class="editor-card sharing-card">
+        {{ form.shared_groups }}
+<input type="hidden" name="galleries_present" value="1"><fieldset id="piece-galleries"><legend>{% translate 'Añadir a galerías' %}</legend><p class="sharing-footnote" id="id_galleries_helptext">{{ form.galleries.help_text }}</p>
+{% if form.galleries.field.queryset.exists %}
+<div class="gallery-picker" data-gallery-control data-add-label="{% translate 'Añadir galería' %}" data-search-label="{% translate 'Buscar galerías…' %}" data-empty-label="{% translate 'No hay galerías con ese nombre o ya están añadidas.' %}" data-remove-label="{% translate 'Quitar' %}" data-none-label="{% translate 'Sin galerías seleccionadas' %}" data-selected-label="{% translate 'Galerías seleccionadas' %}">
+<label class="gallery-native-label" for="{{ form.galleries.id_for_label }}">{% translate 'Seleccionar galerías' %}</label>
+{{ form.galleries }}
+</div>
+{% else %}<p class="no-groups">{% translate 'Crea primero una galería personal o en uno de tus talleres.' %} <a href="{% url 'gallery_new' %}">{% translate 'Nueva galería' %}</a></p>{% endif %}
+{% for error in form.galleries.errors %}<div class="field-error" role="alert">{{ error }}</div>{% endfor %}</fieldset>
+      </section>
+    </div>
+  </div>
+  <div class="editor-actions"><div><a class="editor-cancel" href="{% if editing %}{% url 'piece' form.instance.pk %}{% else %}{% url 'pieces' %}{% endif %}">{% translate "Cancelar" %}</a><button class="primary" type="submit">{% if editing %}{% translate "Guardar cambios" %}{% else %}{% translate "Crear pieza" %}{% endif %} <span aria-hidden="true">→</span></button></div></div>
+</form>
+<script defer src="{% asset 'js/piece-galleries.js' %}"></script>
+{% endblock %}

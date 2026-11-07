@@ -1,0 +1,8 @@
+{% load i18n %}
+<nav class="mobile-nav mobile-four-nav" aria-label="{% translate 'Principal' %}">
+<a href="{% url 'pieces' %}" {% if section == 'pieces' or section == 'dashboard' %}class="active" aria-current="page"{% endif %}><span class="mobile-tab-icon" aria-hidden="true">{% include 'partials/nav_icon.html' with icon='pieces' %}</span><span>{% translate 'Piezas' %}</span></a>
+<a href="{% url 'glazes' %}" {% if section == 'glazes' or section == 'molds' %}class="active" aria-current="page"{% endif %}><span class="mobile-tab-icon" aria-hidden="true">{% include 'partials/nav_icon.html' with icon='materials' %}</span><span>{% translate 'Materiales' %}</span></a>
+<a href="{% url 'galleries' %}" {% if section == 'galleries' %}class="active" aria-current="page"{% endif %}><span class="mobile-tab-icon" aria-hidden="true">{% include 'partials/nav_icon.html' with icon='galleries' %}</span><span>{% translate 'Galerías' %}</span></a>
+<a href="{% url 'workshops' %}" {% if section == 'workshops' or section == 'circles' or section == 'workshop_materials' %}class="active" aria-current="page"{% endif %}><span class="mobile-tab-icon" aria-hidden="true">{% include 'partials/nav_icon.html' with icon='groups' %}</span><span>{% translate 'Talleres' %}</span></a>
+<a href="{% url 'inspiration' %}" {% if section == 'inspiration' %}class="active" aria-current="page"{% endif %}><span class="mobile-tab-icon" aria-hidden="true">{% include 'partials/nav_icon.html' with icon='inspiration' %}</span><span>{% translate 'Inspiración' %}</span></a>
+</nav>

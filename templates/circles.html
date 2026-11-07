@@ -1,0 +1,4 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading"><div><h1>{{ title }}</h1><p class="subtitle">{% translate "Organiza tus talleres y sus subgrupos." %}</p></div><a class="primary" href="{% url 'circle_new' %}">{% translate "＋ Nuevo taller" %}</a></section>
+{% if nodes %}{% include 'partials/circle_tree.html' %}{% else %}<div class="empty"><h3>{% translate "Un rincón para crear juntos." %}</h3><p>{% translate "Crea un taller y organiza sus clases en subgrupos." %}</p></div>{% endif %}
+{% endblock %}

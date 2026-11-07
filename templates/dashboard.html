@@ -1,0 +1,5 @@
+{% extends 'base.html' %}{% load i18n %}{% load static %}{% block content %}
+<section class="page-heading"><div><h1>{{ title }}</h1></div><a class="primary" href="{% url 'piece_new' %}">{% translate "＋ Nueva pieza" %}</a></section>
+{% if not total %}<section class="intro"><div class="intro-copy"><h2>{% translate "De un poco de barro," %}<br>{% translate "algo muy tuyo." %}</h2><p>{% translate "Registra tus piezas, fotos y pruebas de materiales." %}</p><a class="hero-link" href="{% url 'piece_new' %}">{% translate "Crear mi primera pieza" %} <span>→</span></a></div><div class="intro-art"><img src="{% static 'images/hero.svg' %}" alt="{% translate 'Cerámica en tonos canela' %}"></div></section>{% endif %}
+{% include 'partials/workshop_overview.html' %}
+{% if total %}<div class="section-heading"><div><h2>{% translate "Piezas recientes" %}</h2></div><a class="text-button" href="{% url 'pieces' %}">{% translate "Ver todas las piezas ↗" %}</a></div><div class="grid piece-grid mt-6">{% for piece in pieces %}{% include 'partials/piece_card.html' %}{% endfor %}</div>{% endif %}{% endblock %}

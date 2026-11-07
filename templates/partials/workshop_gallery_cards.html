@@ -1,0 +1,4 @@
+{% load i18n %}
+<div class="grid">{% for gallery in workshop_galleries %}
+<a class="panel collection-card" href="{% if gallery.workshop or gallery.owner_id == user.pk %}{% url 'gallery_manage' gallery.pk %}{% else %}{% url 'gallery' gallery.pk %}{% endif %}"><span class="eyebrow">{% if gallery.workshop %}{{ gallery.workshop.name }}{% else %}{% translate 'Galería compartida' %}{% endif %}</span><h2>{{ gallery.name }}</h2><p class="detail-text">{{ gallery.description|truncatewords:25 }}</p><div class="card-bottom"><span>{% blocktranslate count counter=gallery.entries.count %}{{ counter }} pieza{% plural %}{{ counter }} piezas{% endblocktranslate %}</span><span class="accent">{% translate 'Abrir galería →' %}</span></div></a>
+{% empty %}<div class="empty"><h3>{% translate 'Este taller aún no tiene galerías.' %}</h3><p>{% translate 'Crea una colección para reunir las piezas de sus miembros.' %}</p></div>{% endfor %}</div>

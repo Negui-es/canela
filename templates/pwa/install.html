@@ -1,0 +1,11 @@
+{% load i18n %}
+<details class="install-app" data-install-app>
+  <summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4M12 6v7m-3-3 3 3 3-3"/></svg><span>{% translate 'Instalar Canela' %}</span><span class="install-chevron" aria-hidden="true">⌄</span></summary>
+  <div class="install-app-content">
+    <p>{% translate 'Ten tu taller a mano desde la pantalla de inicio.' %}</p>
+    <button class="secondary" type="button" data-install-button hidden>{% translate 'Instalar aplicación' %}</button>
+    <p data-install-ios hidden>{% translate 'En Safari, abre Compartir y elige «Añadir a pantalla de inicio». Activa «Abrir como app» si aparece y pulsa «Añadir».' %}</p>
+    <p data-install-browser>{% translate 'Abre el menú del navegador y elige «Instalar aplicación» o «Añadir a pantalla de inicio».' %}</p>
+    <small>{% translate 'Necesitas conexión para consultar y guardar tus piezas.' %}</small>
+  </div>
+</details>

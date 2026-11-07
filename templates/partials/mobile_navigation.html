@@ -1,0 +1,17 @@
+{% load i18n %}
+<nav class="mobile-nav" aria-label="{% translate 'Principal' %}">
+  <a href="{% url 'dashboard' %}" {% if section == 'dashboard' %}class="active" aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='home' %}<span>{% translate 'Taller' %}</span></a>
+  <a href="{% url 'pieces' %}" {% if section == 'pieces' %}class="active" aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='pieces' %}<span>{% translate 'Piezas' %}</span></a>
+  <a href="{% url 'glazes' %}" {% if section == 'glazes' %}class="active" aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='glazes' %}<span>{% translate 'Materiales' %}</span></a>
+  <a href="{% url 'molds' %}" {% if section == 'molds' %}class="active" aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='molds' %}<span>{% translate 'Moldes' %}</span></a>
+  <button type="button" data-mobile-more aria-controls="mobile-menu" aria-expanded="false" {% if section == 'galleries' or section == 'circles' or section == 'account' %}class="active"{% endif %}>{% include 'partials/nav_icon.html' %}<span>{% translate 'Más' %}</span></button>
+</nav>
+<dialog class="mobile-menu" id="mobile-menu" aria-labelledby="mobile-menu-title">
+  <header><h2 id="mobile-menu-title">{% translate 'Más' %}</h2><button type="button" data-mobile-menu-close aria-label="{% translate 'Cerrar menú' %}" autofocus>{% include 'partials/nav_icon.html' with icon='close' %}</button></header>
+  <nav aria-label="{% translate 'Más' %}">
+    <a href="{% url 'galleries' %}" {% if section == 'galleries' %}class="active" aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='galleries' %}<span>{% translate 'Mis galerías' %}</span><span aria-hidden="true">›</span></a>
+    <a href="{% url 'circles' %}" {% if section == 'circles' %}class="active" aria-current="page"{% endif %}>{% include 'partials/nav_icon.html' with icon='groups' %}<span>{% translate 'Grupos' %}</span><span aria-hidden="true">›</span></a>
+    <a href="{% url 'account' %}" {% if section == 'account' %}class="active" aria-current="page"{% endif %}><span class="avatar" aria-hidden="true">{{ user.name|first|upper }}</span><span>{% translate 'Mi cuenta' %}<small>{{ user.name }}</small></span><span aria-hidden="true">›</span></a>
+  </nav>
+</dialog>
+<noscript><nav class="mobile-nav-fallback" aria-label="{% translate 'Más' %}"><a href="{% url 'galleries' %}">{% translate 'Galerías' %}</a><a href="{% url 'circles' %}">{% translate 'Grupos' %}</a><a href="{% url 'account' %}">{% translate 'Mi cuenta' %}</a></nav></noscript>

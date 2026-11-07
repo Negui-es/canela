@@ -1,0 +1,23 @@
+{% load i18n %}
+<div><dt>{% translate "Tipo" %}</dt><dd class="material-type-label">{% include 'partials/nav_icon.html' with icon=obj.material_type %}{{ obj.get_material_type_display }}</dd></div>
+<div><dt>{% translate "Procedencia" %}</dt><dd>{{ obj.get_kind_display }}</dd></div>
+<div><dt>{% translate "Color tras cocción" %}</dt><dd>{{ obj.color|default:_("Sin registrar") }}</dd></div>
+<div><dt>{% translate "Temperatura" %}</dt><dd>{{ obj.temperature|default:_("Sin registrar") }}</dd></div>
+{% if obj.kind == 'commercial' %}<div><dt>{% translate "Marca / referencia" %}</dt><dd>{{ obj.brand|default:_("Sin registrar") }}</dd></div>{% endif %}
+{% if obj.material_type == 'glaze' %}
+<div><dt>{% translate "Acabado" %}</dt><dd>{{ obj.finish|default:_("Sin registrar") }}</dd></div>
+<div><dt>{% translate "Transparencia" %}</dt><dd>{{ obj.get_transparency_display|default:_("Sin registrar") }}</dd></div>
+<div><dt>{% translate "Método de aplicación" %}</dt><dd>{{ obj.application|default:_("Sin registrar") }}</dd></div>
+{% elif obj.material_type == 'engobe' %}
+<div><dt>{% translate "Estado de la pieza al aplicar" %}</dt><dd>{{ obj.application_stage|default:_("Sin registrar") }}</dd></div>
+<div><dt>{% translate "Pastas compatibles" %}</dt><dd>{{ obj.compatible_clays|default:_("Sin registrar") }}</dd></div>
+<div><dt>{% translate "Método de aplicación" %}</dt><dd>{{ obj.application|default:_("Sin registrar") }}</dd></div>
+{% else %}
+<div><dt>{% translate "Tipo de pasta" %}</dt><dd>{{ obj.clay_body|default:_("Sin registrar") }}</dd></div>
+<div><dt>{% translate "Chamota" %}</dt><dd>{% if obj.grog_percentage != None %}{{ obj.grog_percentage }} %{% else %}{% translate "Sin registrar" %}{% endif %}</dd></div>
+<div><dt>{% translate "Grano de la chamota (mm)" %}</dt><dd>{{ obj.grog_size|default:_("Sin registrar") }}</dd></div>
+<div><dt>{% translate "Contracción total" %}</dt><dd>{% if obj.shrinkage != None %}{{ obj.shrinkage }} %{% else %}{% translate "Sin registrar" %}{% endif %}</dd></div>
+<div><dt>{% translate "Absorción de agua" %}</dt><dd>{% if obj.absorption != None %}{{ obj.absorption }} %{% else %}{% translate "Sin registrar" %}{% endif %}</dd></div>
+<div><dt>{% translate "Temperatura de referencia" %}</dt><dd>{% if obj.measurement_temperature %}{{ obj.measurement_temperature }} °C{% else %}{% translate "Sin registrar" %}{% endif %}</dd></div>
+<div><dt>{% translate "Técnicas de conformado" %}</dt><dd>{{ obj.working_methods|default:_("Sin registrar") }}</dd></div>
+{% endif %}

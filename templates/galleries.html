@@ -1,0 +1,4 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading"><div><h1>{% translate 'Galerías' %}</h1><p class="subtitle">{% translate 'Tus galerías personales y las de tus talleres, en un mismo lugar.' %}</p></div><a class="primary" href="{% url 'gallery_new' %}">{% translate '＋ Nueva galería' %}</a></section>
+<div class="grid gallery-catalog-grid">{% for gallery in galleries %}{% include 'partials/gallery_catalog_card.html' %}{% empty %}<div class="empty"><h3>{% translate 'Lo bonito también se comparte.' %}</h3><p>{% translate 'Crea una colección privada y prepara con calma tu escaparate.' %}</p></div>{% endfor %}</div>
+{% endblock %}

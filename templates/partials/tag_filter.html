@@ -1,0 +1,5 @@
+{% load i18n %}<select name="tag" id="piece-tag-filter" {% if tag_oob %}hx-swap-oob="outerHTML"{% endif %}>
+<option value="">{% translate "Todas las etiquetas" %}</option>
+{% if unknown_tag %}<option value="{{ selected_tag }}" selected>{{ selected_tag }}</option>{% endif %}
+{% for tag in tags %}<option value="{{ tag.name }}" {% if selected_tag == tag.name %}selected{% endif %}>{{ tag.name }}</option>{% endfor %}
+</select>

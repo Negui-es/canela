@@ -1,0 +1,22 @@
+{% extends 'error.html' %}{% load i18n %}
+{% block extra_style %}
+<style>
+  .pot-imperfect{width:164px;height:132px;margin-bottom:28px}
+  .kiln-note{font-family:Georgia,serif;font-size:17px;font-style:italic;color:#706052;margin:-10px auto 30px}
+  @media(max-width:480px){.pot-imperfect{width:140px;height:112px}.kiln-note{font-size:16px}}
+</style>
+{% endblock %}
+{% block illustration %}
+<svg class="pot pot-imperfect" viewBox="0 0 180 145" fill="none" aria-hidden="true">
+  <circle cx="90" cy="69" r="58" fill="#eee1d1" opacity=".65"/>
+  <ellipse cx="91" cy="131" rx="52" ry="4" fill="#dfcbb5" opacity=".4"/>
+  <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M43 56c2 39 17 66 47 66s47-24 48-60" fill="#f9f5ef"/>
+    <path d="M43 56c8-10 26-10 44-7 16 3 32-3 45 4 8 4 9 8 3 12-14 9-38 6-53 4-17-2-34-3-39-13Z" fill="#eee1d1"/>
+    <path d="M50 57c13-5 25-2 38-1 15 2 28-4 41 3" opacity=".45"/>
+    <path d="M58 83c5 15 15 26 29 29" opacity=".45"/>
+    <path d="m149 37 5-7m-1 19 8-1M37 33l-5-6" opacity=".6"/>
+  </g>
+</svg>
+{% endblock %}
+{% block note %}<p class="kiln-note">{% translate "Hasta en el taller hay imprevistos." %}</p>{% endblock %}

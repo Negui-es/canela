@@ -1,0 +1,1 @@
+{% extends 'auth_base.html' %}{% load i18n %}{% block content %}<h2>{{ title }}</h2><p class="detail-text">{{ text }}</p><a class="primary" href="{% url 'login' %}">{% translate "Volver al inicio" %}</a>{% endblock %}

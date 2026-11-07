@@ -1,0 +1,16 @@
+{% extends 'base.html' %}{% load i18n %}{% block content %}
+<section class="page-heading editor-heading"><div><a class="back-link" href="{% url 'piece' piece.pk %}">{% translate "← Volver a la pieza" %}</a><h1>{% translate "Eliminar pieza" %}</h1><p class="subtitle">{% translate "Antes de despedirnos de esta pieza, revisa lo que se eliminará." %}</p></div></section>
+<section class="panel deletion-card" aria-labelledby="delete-title">
+  <span class="eyebrow">{% translate "ELIMINACIÓN DEFINITIVA" %}</span>
+  <h2 id="delete-title">{% blocktranslate with value0=piece.name %}¿Eliminar «{{ value0 }}»?{% endblocktranslate %}</h2>
+  <p class="detail-text">{% translate "Se eliminarán su ficha, sus fotografías, sus avances y los registros de materiales utilizados. No podrás recuperarlos desde Canela." %}</p>
+  {% if gallery_count %}<p class="deletion-impact">{% blocktranslate count counter=gallery_count %}También se retirará de {{ counter }} galería, incluidas sus fotografías y su presentación.{% plural %}También se retirará de {{ counter }} galerías, incluidas sus fotografías y su presentación.{% endblocktranslate %}</p>{% endif %}
+  {% if piece.shared_groups.exists %}<p class="detail-text">{% translate "Dejará de estar disponible para los grupos con los que la compartes." %}</p>{% endif %}
+  <p class="detail-text">{% translate "Los materiales y el molde de tu inventario se conservan." %}</p>
+  <form method="post">{% csrf_token %}
+    {% if confirmation_error %}<p class="field-error" role="alert">{% translate "Confirma que quieres eliminar esta pieza para continuar." %}</p>{% endif %}
+    <label class="delete-confirm"><input type="checkbox" name="confirm_delete" value="yes" required> <span>{% translate "Entiendo que esta acción es definitiva y quiero eliminar esta pieza." %}</span></label>
+    <div class="action-row deletion-actions"><a class="secondary" href="{% url 'piece' piece.pk %}">{% translate "Conservar pieza" %}</a><button type="submit" class="danger-button">{% translate "Eliminar definitivamente" %}</button></div>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,87 @@
+/* Canela: marrón especiado, crema, arena y terracota suave. */
+:root {
+  --bg: #fbf7f0;
+  --ink: #493428;
+  --muted: #7e6b5f;
+  --line: #e8dcd0;
+  --orange: #a5683e;
+  --accent: #8c542f;
+  --accent-hover: #6e3e23;
+  --surface: #fffdf9;
+  --sand: #f2e9db;
+  --clay-soft: #edddc8;
+}
+.brand { font-size: 32px; letter-spacing: -1.7px; }
+.brand-mark { font-size: 40px; margin-right: 8px; }
+.sidebar { background: var(--sand); }
+.brand-caption, .nav-label { color: #8c7260; }
+.workspace { border-color: #dfcebd; background: #f8f0e7; }
+.workspace-icon { color: #a56545; }
+nav button { color: #7d6655; }
+nav button.active { background: #e9d7bf; color: #784723; }
+nav button:hover { background: #eee0ce; }
+nav b { background: #e5d6c7; color: #725744; }
+.little-note { color: #927967; }
+.little-note > span { color: #865e47; }
+.little-note svg { color: #b58b6b; }
+.profile { border-color: #dfcebd; }
+.avatar { background: #e3c8b3; color: #754b35; }
+.topbar { color: #857366; }
+.crumb { color: #bcaa98; }
+#breadcrumb { color: #6c4a37; }
+.demo-label { border-color: #e0cdbd; color: #8a6e58; }
+.eyebrow { color: #965a3c; }
+.primary { background: var(--accent); }
+.primary:hover { background: var(--accent-hover); }
+.intro { background: #ecdfcd; }
+.intro h2 { color: #603d25; }
+.tag-light { color: #8e5f43; }
+.intro p { color: #795e4b; }
+.intro button { color: #85502c; border-color: #bc9772; }
+.art-caption { color: #7c543c; }
+.clay { background: #ecd8c0; color: #9a6035; }
+.sage { background: #ecdfce; color: #946b44; }
+.sand { background: #f0e2c9; color: #92672b; }
+.lavender { background: #e7dcd4; color: #856149; }
+.stats div div > span { color: #836f60; }
+.text-button { color: #8c542f; }
+.tabs button { color: #806959; }
+.tabs button.active { background: #edddc8; color: #784723; }
+.tabs button:hover { border-color: #ddc1ad; }
+.search { color: #9b7c65; background: var(--surface); }
+.card { background: var(--surface); border-color: #e6d8ca; }
+.card:hover { box-shadow: 0 8px 25px #69422612; }
+.card-visual { background: #eee1d3; }
+.status { background: #fff5e8ed; color: #805f35; }
+.status.finished { background: #f0e1ccee; color: #79552e; }
+.status.raw { background: #f0d7c9ed; color: #8d4c32; }
+.card-number { color: #7e644f; }
+.private { color: #927a64; }
+.card p { color: #866e5b; }
+.card-bottom { border-color: #ede2d6; color: #8a7360; }
+.card-bottom .accent { color: #8c542f; }
+.empty { color: #8a6e57; border-color: #d7bda5; }
+footer { color: #927c68; }
+.footer-mark { color: #aa6643; }
+dialog { background: var(--bg); border-color: #dfcbb8; }
+dialog::backdrop { background: #49372e70; }
+.detail-text { color: #7c6451; }
+.detail-meta dt { color: #8d7561; }
+.event { border-color: #dec4ac; }
+.event::before { background: #b27c56; }
+.event small { color: #8b735e; }
+.secondary { border-color: #d9bda6; color: #a44f36; }
+form input, form select { background: var(--surface); border-color: #dfcbb8; }
+.privacy-note, .form-note { color: #806954; }
+.toast { background: #8c542f; }
+.gallery-banner { background: #ecdfcd; }
+.gallery-banner p { color: #7e624d; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline-color: #aa6643; }
+@media (min-width: 851px) and (max-width: 1150px) {
+  .brand { font-size: 28px; }
+  .brand-mark { font-size: 34px; margin-right: 6px; }
+}
+@media (max-width: 850px) {
+  .brand { font-size: 0; }
+  .brand-mark { font-size: 40px; margin-right: 0; }
+}

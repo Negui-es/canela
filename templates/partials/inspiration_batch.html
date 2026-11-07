@@ -1,0 +1,20 @@
+{% load i18n %}
+{% for presentation in presentations %}
+<details class="inspiration-piece" data-inspiration-id="{{ presentation.pk }}">
+  <summary>
+    {% with photos=presentation.display_photos %}{% with photo=photos.0 %}<img class="inspiration-cover" src="{% url 'photo' photo.pk %}?thumb=1" alt="{{ presentation.title }}" loading="lazy">{% endwith %}{% endwith %}
+    <div class="inspiration-caption"><div class="inspiration-title-row"><h2>{{ presentation.title }}</h2><svg class="inspiration-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H3v5M16 21h5v-5M3 3l6 6M21 21l-6-6"/></svg></div><p>{{ presentation.piece.owner.name }}<span class="inspiration-published-date"> · <time datetime="{{ presentation.published_at|date:'c' }}">{{ presentation.published_at|date:'SHORT_DATE_FORMAT' }}</time></span></p></div>
+  </summary>
+  <div class="inspiration-detail">
+    <div class="inspiration-modal-layout">
+      <section class="inspiration-media" aria-label="{% translate 'Fotografías' %}">
+        <div class="inspiration-stage">{% with photos=presentation.display_photos %}{% with photo=photos.0 %}<img data-inspiration-image src="{% url 'photo' photo.pk %}" alt="{{ presentation.title }}" loading="lazy">{% endwith %}{% endwith %}</div>
+        {% if presentation.photos.count > 1 %}<div class="inspiration-photo-navigation"><button type="button" data-inspiration-prev aria-label="{% translate 'Foto anterior' %}">←</button><span data-inspiration-photo-position aria-live="polite">1 / {{ presentation.photos.count }}</span><button type="button" data-inspiration-next-photo aria-label="{% translate 'Foto siguiente' %}">→</button></div>{% endif %}
+        <div class="inspiration-thumbnails" {% if presentation.photos.count == 1 %}hidden{% endif %}>{% for photo in presentation.display_photos %}<button type="button" data-inspiration-photo="{% url 'photo' photo.pk %}" aria-label="{% blocktranslate with number=forloop.counter %}Foto {{ number }}{% endblocktranslate %}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"><img src="{% url 'photo' photo.pk %}?thumb=1" alt="" loading="lazy"></button>{% endfor %}</div>
+      </section>
+      <section class="inspiration-public-info"><p class="eyebrow">{% translate 'Presentación pública' %}</p><h2 data-inspiration-title>{{ presentation.title }}</h2><p class="inspiration-author">{{ presentation.piece.owner.name }} · <time datetime="{{ presentation.published_at|date:'c' }}">{{ presentation.published_at|date:'SHORT_DATE_FORMAT' }}</time></p><p class="whitespace-pre-wrap">{{ presentation.description }}</p><dl>{% if presentation.technique %}<div><dt>{% translate 'Técnica' %}</dt><dd>{{ presentation.technique }}</dd></div>{% endif %}{% if presentation.materials %}<div><dt>{% translate 'Materiales' %}</dt><dd>{{ presentation.materials }}</dd></div>{% endif %}{% if presentation.dimensions %}<div><dt>{% translate 'Dimensiones' %}</dt><dd>{{ presentation.dimensions }}</dd></div>{% endif %}{% if presentation.availability %}<div><dt>{% translate 'Disponibilidad' %}</dt><dd>{{ presentation.availability }}</dd></div>{% endif %}</dl></section>
+    </div>
+  </div>
+</details>
+{% empty %}{% if not request.GET.cursor %}<div class="empty"><h2>{% translate 'Un espacio para lo que inspira' %}</h2><p>{% translate 'Las primeras piezas aparecerán aquí cuando sus autores las publiquen.' %}</p></div>{% endif %}{% endfor %}
+{% if next_url %}<div class="inspiration-pagination" data-inspiration-pagination><a class="secondary" href="{{ next_url }}" data-inspiration-next>{% translate 'Ver más piezas' %}</a></div>{% elif presentations %}<p class="inspiration-pagination">{% translate 'Ya has visto todas las piezas.' %}</p>{% endif %}

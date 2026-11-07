@@ -1,0 +1,1 @@
+{% load i18n %}{% if piece.presentation.published %}{% translate 'En Inspiración' %}{% elif piece.gallery_entries.exists %}{% translate 'En galerías' %}{% elif piece.shared_groups.exists %}{% translate '♧ Compartida' %}{% else %}{% translate 'Privada' %}{% endif %}

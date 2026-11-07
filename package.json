@@ -1,0 +1,17 @@
+{
+  "name": "canela",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "node scripts/build-frontend.cjs",
+    "css:watch": "tailwindcss -i frontend/tailwind.css -o static/css/utilities.css --watch"
+  },
+  "dependencies": {
+    "alpinejs": "3.15.8",
+    "htmx.org": "2.0.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
