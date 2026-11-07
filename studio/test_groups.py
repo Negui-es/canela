@@ -222,7 +222,7 @@ class GroupHierarchyTests(TestCase):
             self.client.force_login(self.student)
             response = self.client.get(reverse('photo', args=[photo.pk]))
             self.assertEqual(response.status_code, 200)
-            response.close()
+            b''.join(response.streaming_content)
             self.assertEqual(self.client.get(reverse('photos_manage', args=['glaze', self.general.pk])).status_code, 404)
             self.client.force_login(self.admin)
             self.assertEqual(self.client.get(reverse('photos_manage', args=['glaze', self.general.pk])).status_code, 200)

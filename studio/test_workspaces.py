@@ -123,7 +123,7 @@ class WorkspaceTests(TestCase):
         self.client.force_login(self.owner)
         response = self.client.get(reverse('photo', args=[selected.pk]))
         self.assertEqual(response.status_code, 200)
-        response.close()
+        b''.join(response.streaming_content)
         self.assertEqual(self.client.get(reverse('photo', args=[private.pk])).status_code, 404)
         self.client.force_login(self.outsider)
         self.assertEqual(self.client.get(reverse('gallery_manage', args=[self.gallery.pk])).status_code, 404)
@@ -131,7 +131,7 @@ class WorkspaceTests(TestCase):
         self.workshop.members.add(self.outsider)
         response = self.client.get(reverse('photo', args=[selected.pk]))
         self.assertEqual(response.status_code, 200)
-        response.close()
+        b''.join(response.streaming_content)
         self.workshop.members.remove(self.outsider)
         self.assertEqual(self.client.get(reverse('photo', args=[selected.pk])).status_code, 404)
 

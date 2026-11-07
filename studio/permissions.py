@@ -61,7 +61,7 @@ def editable_materials(user, model=None):
     model = model or Glaze
     if not user.is_authenticated:
         return model.objects.none()
-    return model.objects.filter(Q(group__isnull=True, owner=user) | Q(group_id__in=group_access(user)[1])).distinct()
+    return model.objects.filter(Q(group__isnull=True, owner=user) | Q(group_id__in=group_access(user)[1]))
 
 
 def available_materials(queryset, *, unavailable=False):

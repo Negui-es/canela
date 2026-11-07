@@ -44,7 +44,8 @@ class InspirationTests(TestCase):
     def photo_status(self, photo, client=None):
         response = (client or Client()).get(reverse('photo', args=[photo.pk]))
         status = response.status_code
-        response.close()
+        if response.streaming:
+            b''.join(response.streaming_content)
         return status
 
     def test_draft_and_publication_do_not_expose_private_fields_or_photos(self):
